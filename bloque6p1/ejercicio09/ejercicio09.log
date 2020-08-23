@@ -1,0 +1,14 @@
+var numero = 2;
+undefined
+numero += 1;
+3
+numero -= 1;
+2
+numero *= 2;
+4
+numero /= 2;
+2
+numero **= 3;
+8
+numero %= 3;
+2

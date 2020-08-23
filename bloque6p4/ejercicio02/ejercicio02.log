@@ -1,0 +1,28 @@
+let primeraTarjeta = document.querySelector(".tarjeta");
+undefined
+let terceraTarjeta = document.querySelector(".tarjeta:nth-of-type(3)");
+undefined
+terceraTarjeta.onclick = e => {
+    console.log("Desde el primer listener onclick de la tercera tarjeta");   
+};
+e => {
+    console.log("Desde el primer listener onclick de la tercera tarjeta");   
+}
+terceraTarjeta.addEventListener('click', e => {
+    console.log("Desde el segundo listener click de la tercera tarjeta");
+});
+undefined
+terceraTarjeta.onclick = e => {
+    console.log("Desde el tercer listener onclick de la tercera tarjeta");   
+};
+e => {
+    console.log("Desde el tercer listener onclick de la tercera tarjeta");   
+}
+primeraTarjeta.addEventListener('click', e => {
+    if (e.currentTarget.style.fontStyle) {
+        primeraTarjeta.removeAttribute("style");
+    } else {
+        primeraTarjeta.style.fontStyle = "oblique";
+    }
+});
+undefined

@@ -1,0 +1,12 @@
+let menor = (a, b) => {
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
+};
+undefined
+let menorTernario = (a, b) => {
+    return ((a < b) ? a : b);
+};
+undefined

@@ -1,0 +1,35 @@
+table.resumen {
+    border-style: hidden;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+/* En HTML, los navegadores añaden implícitamente un elemento tbody (no thead o tfoot) que contiene todos los elementos tr, por lo que en realidad, tr no puede ser nunca hijo de table, lo que significa que hay que SIEMPRE incluir tbody entre table y tr si se hace uso de selectores hijos en tablas que NO contengan elementos thead, tbody o tfoot (lógicamente si sí están contenidos, entonces hay que especificar el elemento correspondiente thead, tbody o tfoot) 
+https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element */
+
+table.resumen > thead > tr, table.resumen > tbody > tr {
+    height: 50px;
+}
+
+table.resumen > thead > tr > th, table.resumen > tfoot > tr > th {
+    padding-left: 5px;
+    background-color: darkorange;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+table.resumen > tbody > tr > td {
+    padding-left: 5px;
+    color: #3f3f3f;
+}
+
+table.resumen > tbody > tr:nth-child(odd) > td {
+    background-color: lightgoldenrodyellow;
+}
+
+table.resumen > tbody > tr > td:last-child {
+    width: 20px;
+    text-align: right;
+}

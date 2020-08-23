@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "ejerc05.dtd">
+
+<productos>
+    <producto>
+        <nombre>CocaCola</nombre>
+        <cantidad>100</cantidad>
+        <precio>2</precio>
+        <maxGan>200</maxGan>
+    </producto>
+    <producto>
+        <nombre>Pepsi</nombre>
+        <cantidad>50</cantidad>
+        <precio>1,5</precio>
+        <maxGan>75</maxGan>
+    </producto>
+    <producto>
+        <nombre>Fanta</nombre>
+        <cantidad>26</cantidad>
+        <precio>2</precio>
+        <maxGan>52</maxGan>
+    </producto>
+    <producto>
+        <nombre>Mirinda</nombre>
+        <cantidad>56</cantidad>
+        <precio>3</precio>
+        <maxGan>168</maxGan>
+    </producto>
+    <producto>
+        <nombre>Sprite</nombre>
+        <cantidad>203</cantidad>
+        <precio>2</precio>
+        <maxGan>406</maxGan>
+    </producto>
+    
+    <!-->
+    <producto nombre="" cantidad="" precio="" maxGan="" />
+    <-->
+    
+</productos>

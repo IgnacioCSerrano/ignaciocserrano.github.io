@@ -1,0 +1,27 @@
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    width: 25px;
+    background-color: #cc99ff;
+}
+
+td:hover {
+    background-color: #7300e6;
+}
+
+a {
+    display: block;
+    height: 100%;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+iframe {
+    margin-top: 20px;
+    width: 100%; 
+    height: calc(100vh - 156px);
+}

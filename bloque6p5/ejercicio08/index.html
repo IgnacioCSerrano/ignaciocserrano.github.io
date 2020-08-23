@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 8</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <h1 class="text-center m-4">Control de formularios</h1>
+        <div class="container">
+            <form action="https://httpbin.org/post" enctype="multipart/form-data" method="post">
+                <fieldset>
+                    <legend>Pruebas de controles de formulario:</legend>
+                    <fieldset>
+                        <legend>Ejemplos de input:
+                            <span>
+                                <input type="checkbox" id="inpLect">
+                                <label for="inpLect">Solo Lectura</label>
+                            </span>
+                            <span>
+                                <input type="checkbox" id="inpDesh">
+                                <label for="inpDesh">Deshabilitado</label>
+                            </span>
+                        </legend>
+                        <div class="form-group row">
+                            <label for="exampleInputText" class="col-sm-2 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="exampleInputText" name="exampleInputText" value="John" maxlength="10">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputTel" class="col-sm-2 col-form-label">Teléfono</label>
+                            <div class="col-sm-10">
+                                <input type="tel" class="form-control" id="exampleInputTel" name="exampleInputTel" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputUrl" class="col-sm-2 col-form-label">Página web</label>
+                            <div class="col-sm-10">
+                                <input type="url" class="form-control" id="exampleInputUrl" name="exampleInputUrl">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputEmail" class="col-sm-2 col-form-label">Correo electrónico</label>
+                            <div class="col-sm-10">
+                                <input type="email" 
+                                       class="form-control" 
+                                       id="exampleInputEmail" 
+                                       name="exampleInputEmail" 
+                                       placeholder="Escriba su correo electrónico..." 
+                                       required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputPass" class="col-sm-2 col-form-label">Contraseña</label>
+                            <div class="col-sm-10">
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="exampleInputPass"
+                                    name="exampleInputPass"
+                                    title="Contraseña debe tener al menos 8 caracteres y contener mayúscula, minúscula y dígito"
+                                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputDate" class="col-sm-2 col-form-label">Fecha</label>
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" id="exampleInputDate" name="exampleInputDate" max="2038-01-19" min="1970-01-01">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputMonth" class="col-sm-2 col-form-label">Mes</label>
+                            <div class="col-sm-10">
+                                <input type="month" class="form-control" id="exampleInputMonth" name="exampleInputMonth">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputWeek" class="col-sm-2 col-form-label">Semana</label>
+                            <div class="col-sm-10">
+                                <input type="week" class="form-control" id="exampleInputWeek" name="exampleInputWeek">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputTime" class="col-sm-2 col-form-label">Hora</label>
+                            <div class="col-sm-10">
+                                <input type="time" class="form-control" id="exampleInputTime" name="exampleInputTime">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputDatetime" class="col-sm-2 col-form-label">Fecha y hora</label>
+                            <div class="col-sm-10">
+                                <input type="datetime-local" class="form-control" id="exampleInputDatetime" name="exampleInputDatetime">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputNumber" class="col-sm-2 col-form-label">Edad</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="exampleInputNumber" name="exampleInputNumber" max="100" min="0">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputRange" class="col-sm-2 col-form-label">Rango</label>
+                            <div class="col-sm-10 d-flex align-items-center">
+                                <input type="range" class="form-control-range" id="exampleInputRange" name="exampleInputRange">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleInputColor" class="col-sm-2 col-form-label">Color</label>
+                            <div class="col-sm-10 d-flex align-items-center">
+                                <input type="color" id="exampleInputColor" name="exampleInputColor">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-form-label col-sm-2 pt-0">Radio</div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" id="exampleRadio1" name="exampleRadio1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadio1">Uno</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadio2" id="exampleRadio2" value="option2">
+                                    <label class="form-check-label" for="exampleRadio2">Dos</label>
+                                </div>
+                                <div class="form-check disabled">
+                                    <input class="form-check-input" type="radio" name="exampleRadio3" id="exampleRadio3" value="option3" disabled>
+                                    <label class="form-check-label" for="exampleRadio3">Tres</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-2">Checkbox</div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="exampleCheck" name="exampleCheck" value="casilla">
+                                    <label class="form-check-label" for="exampleCheck">Casilla</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-file mt-3 h-auto">
+                            <input type="file" class="custom-file-input" id="exampleFile" name="exampleFile" accept="image/*" multiple>
+                            <label class="custom-file-label" for="exampleFile" data-browse="Explorar">Subir imágenes</label>
+                            <div id="thumb-container"></div>
+                            <button type="button" id="resetSel" class="btn btn-danger float-right d-none"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <!--<input type="hidden" class="form-control" id="exampleInputHidden" name="exampleInputHidden">-->
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ejemplo de textarea:
+                            <span>
+                                <input type="checkbox" id="texLect">
+                                <label for="texLect">Solo Lectura</label>
+                            </span>
+                            <span>
+                                <input type="checkbox" id="texDesh">
+                                <label for="texDesh">Deshabilitado</label>
+                            </span>
+                        </legend>
+                        <div class="form-group row">
+                            <label for="exampleTextarea" class="col-sm-3 col-form-label">Escriba una descripción:</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" id="exampleTextarea" name="exampleTextarea" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Ejemplo de input con datalist:
+                            <span>
+                                <input type="checkbox" id="datLect">
+                                <label for="datLect">Solo Lectura</label>
+                            </span>
+                            <span>
+                                <input type="checkbox" id="datDesh">
+                                <label for="datDesh">Deshabilitado</label>
+                            </span>
+                        </legend>
+                        <div class="form-group row">
+                            <label for="exampleInputDatalist" class="col-sm-3 col-form-label">Escriba su navegador:</label>
+                            <div class="col-sm-9">
+                                <input list="browsers" class="form-control" id="exampleInputDatalist" name="exampleInputDatalist" value="Chrome">
+                                <datalist id="browsers">
+                                    <option value="Edge">
+                                    <option value="Firefox">
+                                    <option value="Chrome">
+                                    <option value="Opera">
+                                    <option value="Safari">
+                                </datalist>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Ejemplos de select:
+                            <span>
+                                <input type="checkbox" id="selLect">
+                                <label for="selLect">Solo Lectura</label>
+                            </span>
+                            <span>
+                                <input type="checkbox" id="selDesh">
+                                <label for="selDesh">Deshabilitado</label>
+                            </span>
+                        </legend>
+                        <div class="form-group row">
+                            <label for="exampleSelect" class="col-sm-3 col-form-label">Elija un dinosaurio:</label>
+                            <div class="col-sm-9">
+                                <select class="custom-select" id="exampleSelect" name="exampleSelect">
+                                    <optgroup label="Theropods">
+                                        <option value="Tyrannosaurus">Tyrannosaurus</option>
+                                        <option value="Velociraptor" selected>Velociraptor</option>
+                                        <option value="Deinonychus">Deinonychus</option>
+                                    </optgroup>
+                                    <optgroup label="Sauropods">
+                                        <option value="Diplodocus">Diplodocus</option>
+                                        <option value="Saltasaurus">Saltasaurus</option>
+                                        <option value="Apatosaurus">Apatosaurus</option>
+                                    </optgroup>
+                                </select>
+                                <input type="text" class="form-control d-none">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleSelectSimple" class="col-sm-3 col-form-label">Elija una opción:</label>
+                            <div class="col-sm-9">
+                                <select class="custom-select" id="exampleSelectSimple" name="exampleSelectSimple">
+                                    <option value="1">Uno</option>
+                                    <option value="2">Dos</option>
+                                    <option value="3">Tres</option>
+                                    <option value="4">Cuatro</option>
+                                </select>
+                                <input type="text" class="form-control d-none">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="exampleSelectMultiple" class="col-sm-3 col-form-label">Elija una o varias opciones:</label>
+                            <div class="col-sm-9">
+                                <!-- 
+                                    Algunos servidores (servidor PHP lmsgi) requieren que select múltiple incluya [] al final del atributo name para 
+                                    acceder a la información resultante en forma de array (de otra manera solo almacenan el primer valor seleccionado) 
+                                -->
+                                <select class="custom-select" id="exampleSelectMultiple" name="exampleSelectMultiple[]" multiple>
+                                    <option value="1">Uno</option>
+                                    <option value="2">Dos</option>
+                                    <option value="3">Tres</option>
+                                    <option value="4">Cuatro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ejemplo de progress:</legend>
+                        <div class="form-group row">
+                            <label for="file" class="col-sm-3 col-form-label">Progreso:</label>
+                            <div class="col-sm-9 d-flex align-items-center">
+                                <progress id="file" value="32" max="100">32%</progress>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ejemplo de meter:</legend>
+                        <div class="form-group row">
+                            <label for="disk_d" class="col-sm-3 col-form-label">Almacenamiento:</label>
+                            <div class="col-sm-9 d-flex align-items-center">
+                                <meter id="disk_d" value="0.6">60%</meter>
+                            </div>
+                        </div>
+                    </fieldset>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Enviar (servidor httpbin)</button>
+                <button type="submit" class="btn btn-secondary" formaction="http://lmsgi.iesvjp.es/datos_form.php">Enviar (servidor lmsgi)</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

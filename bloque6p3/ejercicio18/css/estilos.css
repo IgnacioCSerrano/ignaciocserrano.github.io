@@ -1,0 +1,29 @@
+form {
+    margin: 50px auto;
+    width: 50%;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+p:nth-of-type(2) {
+    text-align: right;
+}
+
+button {
+    width: 90px;
+}
+
+.oculto {
+    display: none;
+}
+
+.rojo {
+    color: red;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}

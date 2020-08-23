@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ejerc6.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE productos SYSTEM "ejerc6.dtd">
+
+    <productos>
+    ...
+    </productos>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT productos (fecha|hora|producto)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fecha (dia|mes|anno|timezone)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dia (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT mes (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT anno (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT timezone (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT hora (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT producto (sku|nombre|stock)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sku (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT stock (actual|maximo|minimo)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT actual (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT maximo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT minimo (#PCDATA)>

@@ -1,0 +1,16 @@
+let browser = 'Chrome';
+undefined
+switch (browser) {
+    case 'Edge':
+        alert('Tienes Edge!!!!!');
+        break;
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+        alert('Navegador compatible con esta página web.');
+        break;
+    default:
+        alert('Navegador desconocido!!!');
+};
+undefined

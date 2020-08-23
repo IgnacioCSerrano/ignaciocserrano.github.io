@@ -1,0 +1,7 @@
+document.addEventListener('click', e => {
+    let tarjeta = e.target.closest('.tarjeta');
+    if (tarjeta) {
+        console.log('Tarjeta pulsada: ' + tarjeta.querySelector("h4 > a").textContent);
+    }
+});
+undefined

@@ -1,0 +1,8 @@
+var x = 123e5;
+undefined
+x
+12300000
+var y = 123e-5;
+undefined
+y
+0.00123

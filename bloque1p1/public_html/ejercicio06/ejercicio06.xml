@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "ejerc06.dtd">
+
+<productos>
+    <fecha>
+        <dia>09</dia>
+        <mes>10</mes>
+        <anno>2019</anno>
+        <timezone>utc+2</timezone>
+    </fecha>
+    <hora>15:20</hora>
+    <producto>
+        <sku>H1001</sku>
+        <nombre>Nombre 1</nombre>
+        <stock>
+            <actual>100</actual>
+            <maximo>10</maximo>
+            <minimo>1000</minimo>
+        </stock>
+    </producto>
+    
+    <!--    
+    <producto sku="H1002">
+        <nombre>Nombre 2</nombre>
+        <stock actual="200" maximo="20" minimo="2000" />
+    </producto>
+    -->
+    
+</productos>
+
+

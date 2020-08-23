@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 12</title>
+        <script>
+            var a = prompt("Introduzca un primer número:");
+            var b = prompt("Introduzca un segundo número:");
+            var aInt = parseInt(a, 10);
+            var bInt = parseInt(b, 10);
+            var aFloat = parseFloat(a);
+            var bFloat = parseFloat(b);
+            var aNumber = Number(a);
+            var bNumber = Number(b);
+            console.log(`Resta (parseInt): ${aInt - bInt}`);
+            console.log(`Resta (parseFloat): ${aFloat - bFloat}`);
+            console.log(`Resta (Number): ${aNumber - bNumber}`);
+            console.log(`Producto (parseInt): ${aInt * bInt}`);
+            console.log(`Producto (parseFloat): ${aFloat * bFloat}`);
+            console.log(`Producto (Number): ${aNumber * bNumber}`);
+            console.log(`Suma (parseInt): ${aInt + bInt}`);
+            console.log(`Suma (parseFloat): ${aFloat + bFloat}`);
+            console.log(`Suma (Number): ${aNumber + bNumber}`);
+            var numero = parseInt("1a");
+            console.log(numero);
+            numero = parseFloat("1a");
+            console.log(numero);
+            numero = Number("1a");
+            console.log(numero);
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 12</h1>
+    </body>
+</html>

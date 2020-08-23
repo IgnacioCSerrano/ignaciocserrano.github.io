@@ -1,0 +1,52 @@
+let tablaMultiplicarUL = n => {
+    let lista = "";
+    if (Number.isInteger(Number(n))) {
+        lista = "<ul>\n";
+        for (let i = 0; i <= 10; i++) {
+            lista += `    <li>${n} x ${i} = ${n * i}</li>\n`;
+        }
+        lista += "</ul>";
+    } else {
+        console.error("Error: parámetro no es un número entero");
+    }
+    return lista;
+};
+undefined
+tablaMultiplicarUL(5)
+"<ul>
+    <li>5 x 0 = 0</li>
+    <li>5 x 1 = 5</li>
+    <li>5 x 2 = 10</li>
+    <li>5 x 3 = 15</li>
+    <li>5 x 4 = 20</li>
+    <li>5 x 5 = 25</li>
+    <li>5 x 6 = 30</li>
+    <li>5 x 7 = 35</li>
+    <li>5 x 8 = 40</li>
+    <li>5 x 9 = 45</li>
+    <li>5 x 10 = 50</li>
+</ul>"
+tablaMultiplicarUL(2.5)
+VM1457:10 Error: parámetro no es un número entero
+tablaMultiplicarUL @ VM1457:10
+(anonymous) @ VM1492:1
+""
+tablaMultiplicarUL("hola")
+VM1457:10 Error: parámetro no es un número entero
+tablaMultiplicarUL @ VM1457:10
+(anonymous) @ VM1521:1
+""
+tablaMultiplicarUL("2")
+"<ul>
+    <li>2 x 0 = 0</li>
+    <li>2 x 1 = 2</li>
+    <li>2 x 2 = 4</li>
+    <li>2 x 3 = 6</li>
+    <li>2 x 4 = 8</li>
+    <li>2 x 5 = 10</li>
+    <li>2 x 6 = 12</li>
+    <li>2 x 7 = 14</li>
+    <li>2 x 8 = 16</li>
+    <li>2 x 9 = 18</li>
+    <li>2 x 10 = 20</li>
+</ul>"

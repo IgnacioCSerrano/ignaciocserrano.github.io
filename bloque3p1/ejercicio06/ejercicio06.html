@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 6</title>
+    </head>
+    <body>
+        <h1>Ejercicio 6</h1>
+        <table border="1">
+            <caption>COMPARACIÓN ENTRE ELEMENTOS RSS Y ATOM EN PERIÓDICO <a href="https://hoy.es/rss/">HOY</a></caption>
+            <tr>
+                <th scope="col" width="15%">RSS</th>
+                <th scope="col" width="25%">ATOM</th>
+                <th scope="col" width="60%">Significado</th>
+            </tr>
+            <tr>    
+                <td><code>&lt;rss version="2.0"&gt;</code></td>
+                <td rowspan="2"><code>&lt;feed xmlns="http://www.w3.org/2005/Atom"&gt;</code></td>
+                <td rowspan="2">Elemento que encapsula todo el contenido del canal (<code>&lt;channel&gt;</code> de RSS está subordinado a <code>&lt;rss&gt;</code>).</td>
+            </tr>
+            <tr>    
+                <td><code>&lt;channel&gt;</code></td>
+            </tr>
+            <tr>
+                <td><code>&lt;title&gt;</code></td>
+                <td><code>&lt;title&gt;</code></td>
+                <td>Nombre del canal o de cada entrada individual.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;link rel="alternate"&gt;</code></td>
+                <td><code>&lt;link rel="alternate"&gt;</code></td>
+                <td>URL del documento XML del canal o al sitio web HTML correspondiente a cada sección o entrada del mismo.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;item&gt;</code></td>
+                <td><code>&lt;entry&gt;</code></td>
+                <td>Cada uno de los artículos individuales que componen el sitio web sindicado.</td>
+            </tr>
+
+            <tr>
+                <td><code>&lt;guid&gt;</code></td>
+                <td><code>&lt;id&gt;</code></td>
+                <td>Identificador único de cada artículo <code>&lt;item&gt;</code> o <code>&lt;entry&gt;</code>.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;pubDate&gt;</code></td>
+                <td><code>&lt;updated&gt;</code></td>
+                <td><code>&lt;pubDate&gt;</code> indica el momento en el que el artículo fue publicado (<code>&lt;published&gt;</code> en ATOM) mientras que <code>&lt;updated&gt;</code> indica el momento en que se realizó la última actualización al artículo (<code>&lt;lastBuildDate&gt;</code> en RSS).</td>
+            </tr>
+            <tr>
+                <td><code>&lt;description&gt;</code></td>
+                <td><code>&lt;summary&gt;</code></td>
+                <td>Texto descriptivo que resume el artículo correspondiente. Usa la sección <code>&lt;![CDATA[...]]&gt;</code> para evitar que el texto contenido sea interpretado como código HTML.</td>
+            </tr>
+        </table>
+    </body>
+</html>

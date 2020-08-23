@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+div#cabecera {
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    border-width: 0;
+    background-color: #3399FF;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+div#menu_izqu {
+    width: 20%;
+    height: 100%;
+    border-width: 0;
+    background-color: #3333CC;
+    position: fixed;
+    top: 40px;
+    left: 0;
+}
+
+aside#menu_dcha {
+    width: 20%;
+    height: 100%;
+    border-width: 0;
+    background-color: #0033FF;
+    position: fixed;
+    top: 40px;
+    left: 80%;
+}
+
+div#cuerpo {
+    padding-right: 50px;
+    padding-bottom: 100px;
+    width: 60%;
+    background-color: #FFFFFF;
+    text-align: justify;
+    position: absolute; 
+    top: 40px;
+    left: 20%;
+}

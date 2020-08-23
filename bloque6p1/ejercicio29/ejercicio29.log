@@ -1,0 +1,9 @@
+var edad;
+undefined
+if (edad < 14 || edad > 90) {
+    // Código 1
+} else {
+    // Código 2
+};
+
+undefined

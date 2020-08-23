@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HorarioEscolar SYSTEM "ejerc17_antonio.dtd">
+
+<HorarioEscolar curso="2019-2020" fechaCreacion="04-09-2019">
+    <IES>
+        <Nombre>IES Valle del Jerte</Nombre>
+        <Url>http://iesvjp.es</Url>
+    </IES>
+    <Grupo nombre="1º ASIR">
+        <Tutoria>
+            <Dia nombre="lunes">
+                <Periodo desde="15.20" hasta="16:15" />
+            </Dia>
+            <Profesor>Tomás Montero</Profesor>
+        </Tutoria> 
+        <Modulos>
+            <Modulo abbr="LMSGI" nombre="Lenguaje de Marcas y Sistemas de Gestión de la Información"  horas="128">
+                <Profesor>Antonio Berrocal Piris</Profesor>
+            </Modulo>
+            <Modulo abbr="ISO" nombre="Implantación de Sistemas Operativos" horas="224">
+                <Profesor>Antonio Berrocal Piris</Profesor>
+            </Modulo>
+            <Modulo abbr="PARE" nombre="Planificación y Administración de Redes" horas="224">
+                <Profesor>Montaña Morales</Profesor>
+            </Modulo>
+            <Modulo abbr="GBD" nombre="Gestión de Base de Datos" horas="192">
+                <Profesor>Montaña Morales</Profesor>
+            </Modulo>
+            <Modulo abbr="FOL" nombre="Formación y Orientación Laboral" horas="96">
+                <Profesor>Marta Pérez</Profesor>
+            </Modulo>
+            <Modulo abbr="FHW" nombre="Fundamentos Hardware" horas="96">
+                <Profesor>Tomás Montero</Profesor>
+            </Modulo>
+        </Modulos>
+        <Horario>
+            <Dia nombre="lunes">
+                <Periodo desde="15:20" hasta="16:15" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="ISO"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="FOL" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="GBD" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="PARE" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="PARE" tipo="módulo" />
+            </Dia>
+            <Dia nombre="martes">
+                <Periodo desde="15:20" hasta="16:15" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="ISO"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="ISO" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="GBD" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="PARE" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="PARE" tipo="módulo" />
+            </Dia>
+            <Dia nombre="miércoles">
+                <Periodo desde="15:20" hasta="16:15" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="ISO"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="PARE" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="FOL" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="GBD" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="GBD" tipo="módulo" />
+            </Dia>
+            <Dia nombre="jueves">
+                <Periodo desde="15:20" hasta="16:15" abbr="ISO" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="ISO"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="PARE" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="FOL" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="FHW" tipo="módulo" />
+            </Dia>
+            <Dia nombre="viernes">
+                <Periodo desde="15:20" hasta="16:15" abbr="GBD" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="GBD"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="PARE" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="ISO" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="FHW" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="FHW" tipo="módulo" />
+            </Dia>
+        </Horario>
+    </Grupo>
+    <Grupo nombre="1º DAM">
+        <Tutoria>
+            <Dia nombre="martes">
+                <Periodo desde="15.20" hasta="16:15" />
+            </Dia>
+            <Profesor>Puerto Cruz</Profesor>
+        </Tutoria> 
+        <Modulos>
+            <Modulo abbr="LMSGI" nombre="Lenguaje de Marcas y Sistemas de Gestión de la Información"  horas="128">
+                <Profesor>Antonio Berrocal Piris</Profesor>
+            </Modulo>
+            <Modulo abbr="SSII" nombre="Sistemas Informáticos" horas="192">
+                <Profesor>Julio Barbero</Profesor>
+            </Modulo>
+            <Modulo abbr="BD" nombre="Base de Datos" horas="192">
+                <Profesor>Puerto Cruz</Profesor>
+            </Modulo>
+            <Modulo abbr="PGRMC" nombre="Programación" horas="224">
+                <Profesor>Enrique Pineda</Profesor>
+            </Modulo>
+            <Modulo abbr="FOL" nombre="Formación y Orientación Laboral" horas="96">
+                <Profesor>Marta Pérez</Profesor>
+            </Modulo>
+            <Modulo abbr="ED" nombre="Entornos de Desarrollo" horas="128">
+                <Profesor>M. Cristina Iglesias</Profesor>
+            </Modulo>
+        </Modulos>
+        <Horario>
+            <Dia nombre="lunes">
+                <Periodo desde="15:20" hasta="16:15" abbr="BD" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="FOL"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="PGRMC" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="SI" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="SI" tipo="módulo" />
+            </Dia>
+            <Dia nombre="martes">
+                <Periodo desde="15:20" hasta="16:15" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="PGRMC"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="ED" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="BD" tipo="módulo" />
+            </Dia>
+            <Dia nombre="miércoles">
+                <Periodo desde="15:20" hasta="16:15" abbr="FOL" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="PGRMC"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="ED" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="SI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="SI" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="BD" tipo="módulo" />
+            </Dia>
+            <Dia nombre="jueves">
+                <Periodo desde="15:20" hasta="16:15" abbr="FOL" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="BD"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="BD" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="BD" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="ED" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="ED" tipo="módulo" />
+            </Dia>
+            <Dia nombre="viernes">
+                <Periodo desde="15:20" hasta="16:15" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="PGRMC"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="SI" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="SI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="LMSGI" tipo="módulo" />
+            </Dia>
+        </Horario>
+    </Grupo>
+    <Grupo nombre="1º DAW">
+        <Tutoria>
+            <Dia nombre="miércoloes">
+                <Periodo desde="15.20" hasta="16:15" />
+            </Dia>
+            <Profesor>Enrique Pineda</Profesor>
+        </Tutoria> 
+        <Modulos>
+            <Modulo abbr="LMSGI" nombre="Lenguaje de Marcas y Sistemas de Gestión de la Información"  horas="128">
+                <Profesor>Antonio Berrocal Piris</Profesor>
+            </Modulo>
+            <Modulo abbr="SSII" nombre="Sistemas Informáticos" horas="192">
+                <Profesor>Julio Barbero</Profesor>
+            </Modulo>
+            <Modulo abbr="BD" nombre="Base de Datos" horas="192">
+                <Profesor>Puerto Cruz</Profesor>
+            </Modulo>
+            <Modulo abbr="PGRMC" nombre="Programación" horas="224">
+                <Profesor>Enrique Pineda</Profesor>
+            </Modulo>
+            <Modulo abbr="FOL" nombre="Formación y Orientación Laboral" horas="96">
+                <Profesor>Marta Pérez</Profesor>
+            </Modulo>
+            <Modulo abbr="ED" nombre="Entornos de Desarrollo" horas="128">
+                <Profesor>M. Cristina Iglesias</Profesor>
+            </Modulo>
+        </Modulos>
+        <Horario>
+            <Dia nombre="lunes">
+                <Periodo desde="15:20" hasta="16:15" abbr="FOL" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="BD"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="SI" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="SI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="PGRMC" tipo="módulo" />
+            </Dia>
+            <Dia nombre="martes">
+                <Periodo desde="15:20" hasta="16:15" abbr="BD" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="BD"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="PGRMC" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="SI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="ED" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="ED" tipo="módulo" />
+            </Dia>
+            <Dia nombre="miércoles">
+                <Periodo desde="15:20" hasta="16:15" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="FOL"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="LMSGI" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="LMSGI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="BD" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="BD" tipo="módulo" />
+            </Dia>
+            <Dia nombre="jueves">
+                <Periodo desde="15:20" hasta="16:15" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="PGRMC"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="LMSGI" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="SI" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="SI" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="FOL" tipo="módulo" />
+            </Dia>
+            <Dia nombre="viernes">
+                <Periodo desde="15:20" hasta="16:15" abbr="BD" tipo="módulo" />
+                <Periodo desde="16:15" hasta="17:10" abbr="BD"  tipo="módulo" />
+                <Periodo desde="17:10" hasta="18:05" abbr="LMSGI" tipo="modulo" />
+                <Periodo desde="18:05" hasta="18:25" abbr="Recreo" descripcion="Periodo de descanso" />
+                <Periodo desde="18:25" hasta="19:20" abbr="PGRMC" tipo="módulo" />
+                <Periodo desde="19:20" hasta="20:15" abbr="SI" tipo="módulo" />
+                <Periodo desde="20:15" hasta="21:10" abbr="ED" tipo="módulo" />
+            </Dia>
+        </Horario>
+    </Grupo>
+</HorarioEscolar>

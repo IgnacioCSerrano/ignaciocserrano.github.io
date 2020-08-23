@@ -1,0 +1,100 @@
+@keyframes animacion {
+    0%   {background-color:red; left:25%; top:0px;}
+    25%  {background-color:green; left:75%; top:0px;}
+    50%  {background-color:orange; left:75%; top:200px;}
+    75%  {background-color:blue; left:25%; top:200px;}
+    100% {background-color:red; left:25%; top:0px;}
+}
+
+@keyframes rotacion3d {
+    0%   {transform: rotateY(0);}
+    50%  {transform: rotateY(180deg);}
+    100% {transform: rotateY(0);}
+}
+
+@keyframes traslado {
+    0%   {transform: translate(0, 0);}
+    25%  {transform: translate(150%, 50%);}
+    50%  {transform: translate(100%, 0);}
+    75%  {transform: translate(150%, -50%);}
+    100% {transform: translate(0, 0);}
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+div.animacion {
+    margin-bottom: 220px;
+    position: relative;
+    background-color: red;
+    animation-name: animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+div > p {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+div.transformacion {
+    margin: 50px;
+    background-color: crimson;
+}
+
+div.rotacion {
+    transform: rotate(45deg);
+}
+
+div.rotacion3d {
+    animation-name: rotacion3d;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+div.traslado {
+    animation-name: traslado;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+div.escalado {
+    transform: scaleX(1.5);
+}
+
+div.distorsion {
+    transform: skew(-20deg);
+}
+
+div.transicion {
+    margin-bottom: 50px;
+    width: 400px;
+    background-color: orange;
+    transition: all 2s;
+    position: relative;
+}
+
+div.transicion > p {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.transicion:hover {
+    width: 800px;
+    height: 200px;
+    background-color: blue;
+}
+
+div.forma {
+    float: left;
+    shape-outside: circle(50%);
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 50</title>
+        <script>
+            let vta = window.open("/Ejercicios/imagen.html", "ventana", "width=800,height=800");
+//            let t = setInterval(() => {vta.location.reload();}, 3000);
+//            setTimeout(() => {clearInterval(t);}, 60000);
+            let t = setTimeout(function run() {
+                vta.location.reload();
+                console.log("Ventana pop-up refrescada.");
+                t = setTimeout(run, 3000);
+            }, 3000);
+            setTimeout(() => {
+                clearTimeout(t);
+                console.log("Fin de la recarga de la ventana pop-up.");
+                vta.close();
+                self.close(); // Scripts may close only the windows that were opened by it.
+            }, 60000);
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 50</h1>
+    </body>
+</html>

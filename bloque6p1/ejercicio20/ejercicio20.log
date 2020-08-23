@@ -1,0 +1,18 @@
+function metrosAPulgadas(m) {
+    return m * 39.3701;
+}
+undefined
+metrosAPulgadas(1);
+39.3701
+metrosAPulgadas(5);
+196.8505
+metrosAPulgadas(7);
+275.5907
+let metrosAPulgadasArrow = m => m * 39.3701;
+undefined
+metrosAPulgadasArrow(1);
+39.3701
+metrosAPulgadasArrow(5);
+196.8505
+metrosAPulgadasArrow(7);
+275.5907

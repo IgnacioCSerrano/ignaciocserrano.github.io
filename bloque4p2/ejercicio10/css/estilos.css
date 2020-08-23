@@ -1,0 +1,9 @@
+div {
+    border: thick double #cccc00;
+    width: 200px;
+    /*white-space: pre-wrap;*/
+}
+
+div:hover {
+    white-space: pre;
+}

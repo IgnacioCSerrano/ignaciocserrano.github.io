@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE centro SYSTEM "ejerc17.dtd">
+
+<centro nombre="IES Valle del Jerte" direccionWeb="http://informatica.iesvalledeljerteplasencia.es/" cursoEscolar="2019/2020">
+    <grupo nivelEducativo="Ciclo Grado Superior" familia="Administración de Sistemas Informáticos en Red" abreviatura="ASIR" curso="1" tutor="Tomás Montero">
+        <modulos>
+            <modulo abreviatura="ISO">
+                <nombreModulo>Implantación de Sistemas Operativos</nombreModulo>
+                <profesor>Antonio Berrocal</profesor>
+                <horasTotales>224</horasTotales>
+            </modulo>
+            <modulo abreviatura="PARE">
+                <nombreModulo>Planificación y Administración de Redes</nombreModulo>
+                <profesor>Montaña Morales</profesor>
+                <horasTotales>224</horasTotales>
+            </modulo>
+            <modulo abreviatura="FHW">
+                <nombreModulo>Fundamentos de Hardware</nombreModulo>
+                <profesor>Tomás Montero</profesor>
+                <horasTotales>96</horasTotales>
+            </modulo>
+            <modulo abreviatura="GBD">
+                <nombreModulo>Gestión de Bases de Datos</nombreModulo>
+                <profesor>Montaña Morales</profesor>
+                <horasTotales>192</horasTotales>
+            </modulo>
+            <modulo abreviatura="LMSGI">
+                <nombreModulo>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombreModulo>
+                <profesor>Antonio Berrocal</profesor>
+                <horasTotales>128</horasTotales>
+            </modulo>
+            <modulo abreviatura="FOL">
+                <nombreModulo>Formación y Orientación Laboral</nombreModulo>
+                <profesor>Marta Pérez</profesor>
+                <horasTotales>96</horasTotales>
+            </modulo>
+        </modulos>
+        <horario recreo="18:05-18:25">
+            <primeraHora duracion="15:20-16:15">
+                <lunes>LMSGI</lunes>
+                <martes>LMSGI</martes>
+                <miercoles>LMSGI</miercoles>
+                <jueves>ISO</jueves>
+                <viernes>GBD</viernes>
+            </primeraHora>
+            <segundaHora duracion="16:15-17:10">
+                <lunes>ISO</lunes>
+                <martes>ISO</martes>
+                <miercoles>ISO</miercoles>
+                <jueves>ISO</jueves>
+                <viernes>GBD</viernes>
+            </segundaHora>
+            <terceraHora duracion="17:10-18:05">
+                <lunes>FOL</lunes>
+                <martes>ISO</martes>
+                <miercoles>PARE</miercoles>
+                <jueves>PARE</jueves>
+                <viernes>PARE</viernes>
+            </terceraHora>
+            <cuartaHora duracion="18:25-19:20">
+                <lunes>GDB</lunes>
+                <martes>GDB</martes>
+                <miercoles>FOL</miercoles>
+                <jueves>LMSGI</jueves>
+                <viernes>ISO</viernes>
+            </cuartaHora>
+            <quintaHora duracion="19:20-20:15">
+                <lunes>PARE</lunes>
+                <martes>PARE</martes>
+                <miercoles>GDB</miercoles>
+                <jueves>FOL</jueves>
+                <viernes>FHW</viernes>
+            </quintaHora>
+            <sextaHora duracion="20:15-21:10">
+                <lunes>PARE</lunes>
+                <martes>PARE</martes>
+                <miercoles>GDB</miercoles>
+                <jueves>FHW</jueves>
+                <viernes>FHW</viernes>
+            </sextaHora>
+        </horario>
+    </grupo>
+    <grupo nivelEducativo="Ciclo Grado Superior" familia="Desarrollo de Aplicaciones Multiplataforma" abreviatura="DAM" curso="1" tutor="Puerto Cruz">
+        <modulos>
+            <modulo abreviatura="SI">
+                <nombreModulo>Sistemas Informáticos</nombreModulo>
+                <profesor>Julio Barbero</profesor>
+                <horasTotales>192</horasTotales>
+            </modulo>
+            <modulo abreviatura="BD">
+                <nombreModulo>Bases de Datos</nombreModulo>
+                <profesor>Puerto Cruz</profesor>
+                <horasTotales>192</horasTotales>
+            </modulo>
+            <modulo abreviatura="PGRMC">
+                <nombreModulo>Programación</nombreModulo>
+                <profesor>Enrique Pineda</profesor>
+                <horasTotales>224</horasTotales>
+            </modulo>
+            <modulo abreviatura="ED">
+                <nombreModulo>Entornos de Desarrollo</nombreModulo>
+                <profesor>M. Cristina Iglesias</profesor>
+                <horasTotales>128</horasTotales>
+            </modulo>
+            <modulo abreviatura="LMSGI">
+                <nombreModulo>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombreModulo>
+                <profesor>Antonio Berrocal</profesor>
+                <horasTotales>128</horasTotales>
+            </modulo>
+            <modulo abreviatura="FOL">
+                <nombreModulo>Formación y Orientación Laboral</nombreModulo>
+                <profesor>Marta Pérez</profesor>
+                <horasTotales>96</horasTotales>
+            </modulo>
+        </modulos>
+        <horario recreo="18:05-18:25">
+            <primeraHora duracion="15:20-16:15">
+                <lunes>BD</lunes>
+                <martes>PGRMC</martes>
+                <miercoles>FOL</miercoles>
+                <jueves>FOL</jueves>
+                <viernes>PGRMC</viernes>
+            </primeraHora>
+            <segundaHora duracion="16:15-17:10">
+                <lunes>FOL</lunes>
+                <martes>PGRMC</martes>
+                <miercoles>PGRMC</miercoles>
+                <jueves>BD</jueves>
+                <viernes>PGRMC</viernes>
+            </segundaHora>
+            <terceraHora duracion="17:10-18:05">
+                <lunes>PGRMC</lunes>
+                <martes>ED</martes>
+                <miercoles>ED</miercoles>
+                <jueves>BD</jueves>
+                <viernes>SI</viernes>
+            </terceraHora>
+            <cuartaHora duracion="18:25-19:20">
+                <lunes>PGRMC</lunes>
+                <martes>LMSGI</martes>
+                <miercoles>SI</miercoles>
+                <jueves>BD</jueves>
+                <viernes>SI</viernes>
+            </cuartaHora>
+            <quintaHora duracion="19:20-20:15">
+                <lunes>SI</lunes>
+                <martes>LMSGI</martes>
+                <miercoles>SI</miercoles>
+                <jueves>ED</jueves>
+                <viernes>LMSGI</viernes>
+            </quintaHora>
+            <sextaHora duracion="20:15-21:10">
+                <lunes>SI</lunes>
+                <martes>BD</martes>
+                <miercoles>BD</miercoles>
+                <jueves>ED</jueves>
+                <viernes>LMSGI</viernes>
+            </sextaHora>
+        </horario>
+    </grupo>
+    <grupo nivelEducativo="Ciclo Grado Superior" familia="Desarrollo de Aplicaciones Web" abreviatura="DAW" curso="1" tutor="Enrique Pineda">
+        <modulos>
+            <modulo abreviatura="SI">
+                <nombreModulo>Sistemas Informáticos</nombreModulo>
+                <profesor>Julio Barbero</profesor>
+                <horasTotales>192</horasTotales>
+            </modulo>
+            <modulo abreviatura="BD">
+                <nombreModulo>Bases de Datos</nombreModulo>
+                <profesor>Puerto Cruz</profesor>
+                <horasTotales>192</horasTotales>
+            </modulo>
+            <modulo abreviatura="PGRMC">
+                <nombreModulo>Programación</nombreModulo>
+                <profesor>Enrique Pineda</profesor>
+                <horasTotales>224</horasTotales>
+            </modulo>
+            <modulo abreviatura="ED">
+                <nombreModulo>Entornos de Desarrollo</nombreModulo>
+                <profesor>M. Cristina Iglesias</profesor>
+                <horasTotales>128</horasTotales>
+            </modulo>
+            <modulo abreviatura="LMSGI">
+                <nombreModulo>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombreModulo>
+                <profesor>Antonio Berrocal</profesor>
+                <horasTotales>128</horasTotales>
+            </modulo>
+            <modulo abreviatura="FOL">
+                <nombreModulo>Formación y Orientación Laboral</nombreModulo>
+                <profesor>Marta Pérez</profesor>
+                <horasTotales>96</horasTotales>
+            </modulo>
+        </modulos>            
+        <horario recreo="18:05-18:25">
+            <primeraHora duracion="15:20-16:15">
+                <lunes>FOL</lunes>
+                <martes>BD</martes>
+                <miercoles>PGRMC</miercoles>
+                <jueves>PGRMC</jueves>
+                <viernes>BD</viernes>
+            </primeraHora>
+            <segundaHora duracion="16:15-17:10">
+                <lunes>BD</lunes>
+                <martes>BD</martes>
+                <miercoles>FOL</miercoles>
+                <jueves>PGRMC</jueves>
+                <viernes>BD</viernes>
+            </segundaHora>
+            <terceraHora duracion="17:10-18:05">
+                <lunes>SI</lunes>
+                <martes>PGRMC</martes>
+                <miercoles>LMSGI</miercoles>
+                <jueves>LMSGI</jueves>
+                <viernes>LMSGI</viernes>
+            </terceraHora>
+            <cuartaHora duracion="18:25-19:20">
+                <lunes>SI</lunes>
+                <martes>SI</martes>
+                <miercoles>LMSGI</miercoles>
+                <jueves>SI</jueves>
+                <viernes>PGRMC</viernes>
+            </cuartaHora>
+            <quintaHora duracion="19:20-20:15">
+                <lunes>PGRMC</lunes>
+                <martes>ED</martes>
+                <miercoles>BD</miercoles>
+                <jueves>SI</jueves>
+                <viernes>SI</viernes>
+            </quintaHora>
+            <sextaHora duracion="20:15-21:10">
+                <lunes>PGRMC</lunes>
+                <martes>ED</martes>
+                <miercoles>ED</miercoles>
+                <jueves>FOL</jueves>
+                <viernes>ED</viernes>
+            </sextaHora>
+        </horario>                                      
+    </grupo>
+</centro>
+

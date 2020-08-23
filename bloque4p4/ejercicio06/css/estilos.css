@@ -1,0 +1,12 @@
+ul {
+    padding: 0;
+}
+
+ul > li {
+    padding: 0 0.75rem;
+    display: inline;
+}
+
+ul > li:not(:last-child) {
+    border-right: 1px solid lightgrey;
+}

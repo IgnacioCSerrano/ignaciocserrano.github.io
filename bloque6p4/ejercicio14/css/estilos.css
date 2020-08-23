@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-style: oblique;
+    color: #3c4afa;
+}
+
+#status {
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#content {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#content > div {
+    display: inline-block;
+    margin: 10px;
+    width: 120px;
+    height: 60px;
+    border: 1px solid #616df0;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#content > div > span {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#orient {
+    margin: 25px auto;
+    padding: 10px;
+    width: fit-content;
+}
+
+#orient > span {
+    font-weight: bold;
+}
+
+.fondo {
+    background-color: rgb(156, 220, 156);
+}
+
+.verde {
+    background-color: green;
+}
+
+.rojo {
+    background-color: red;
+}
+

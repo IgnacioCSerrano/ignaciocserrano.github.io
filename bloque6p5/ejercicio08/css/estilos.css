@@ -1,0 +1,100 @@
+form {
+    margin: 20px 0;
+}
+
+fieldset {
+    padding: 15px;
+    border: 2px groove rgb(192, 192, 192);
+}
+
+fieldset:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+fieldset > div:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+legend {
+    padding: 0 5px;
+    width: fit-content;
+    font-size: initial;
+}
+
+legend > span {
+    margin-left: 10px;
+    user-select: none;
+}
+
+input[type='image'] {
+    width: 50px;
+    vertical-align: middle;
+}
+
+input[type='button'] {
+    margin: 10px 0;
+}
+
+.btn {
+    margin: 10px 5px 0;
+}
+
+progress, meter {
+    margin-left: 5px;
+    vertical-align: middle;
+    width: 100%;
+    height: 20px;
+}
+
+div.row {
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+input:invalid, textarea:invalid, datalist:invalid, select:invalid {
+    border: 1px solid red;
+}
+
+input:required, textarea:required, datalist:required, select:required {
+    border: 1px solid darkorange;
+}
+
+input:read-only, textarea:read-only {
+    background-color: ghostwhite !important;
+}
+
+.fondo {
+    background-color: ghostwhite;
+}
+
+/*#thumb-container > img {
+    display: inline-block;
+    padding: 15px 5px 25px;
+    margin-right: 10px;
+    width: 50px;
+}*/
+
+#thumb-container {
+    margin-top: 15px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+}
+
+#thumb-container > div {
+    display: flex;
+    padding: 5px;
+    border: 1px solid lightgrey;
+}
+
+#thumb-container > div > img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#thumb-container > div > span {
+    padding-top: inherit;
+    padding-left: 10px;
+    font-size: small;
+}

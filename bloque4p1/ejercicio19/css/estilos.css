@@ -1,0 +1,7 @@
+td:nth-child(even) {
+    background-color: lightgrey;
+}
+
+td:nth-child(odd) {
+    background-color: darkgrey;
+}

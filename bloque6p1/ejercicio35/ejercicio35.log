@@ -1,0 +1,60 @@
+let tablaMultiplicar = n => {
+    let i;
+    let tabla = "";
+    if (Number.isInteger(Number(n))) {
+        for (i = 0; i < 10; i++) {
+            tabla += `${n} x ${i} = ${n * i}\n`;
+        }
+        tabla += `${n} x ${i} = ${n * i}`;
+    } else {
+        console.error("Error: parámetro no es un número entero");
+    }
+    return tabla;
+};
+undefined
+tablaMultiplicar(3)
+"3 x 0 = 0
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+3 x 10 = 30"
+tablaMultiplicar(7)
+"7 x 0 = 0
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70"
+tablaMultiplicar(2.5)
+VM1377:10 Error: parámetro no es un número entero
+tablaMultiplicar @ VM1377:10
+(anonymous) @ VM1402:1
+""
+tablaMultiplicar("hola")
+VM1377:10 Error: parámetro no es un número entero
+tablaMultiplicar @ VM1377:10
+(anonymous) @ VM1426:1
+""
+tablaMultiplicar("2")
+"2 x 0 = 0
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20"

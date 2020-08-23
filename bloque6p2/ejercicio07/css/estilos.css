@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "digital-7 mono";
+    /*src: local("digital-7 mono"), url("http://lmsgi.iesvjp.es/fonts/digital-7/digital-7 (mono).ttf");*/
+    src: local("digital-7 mono"), url("../fonts/digital-7/digital-7 (mono).ttf");
+}
+@font-face {
+    font-family: "digital-7";
+    /*src: local("digital-7"), url("http://lmsgi.iesvjp.es/fonts/digital-7/digital-7.ttf");*/
+    src: local("digital-7"), url("../fonts/digital-7/digital-7.ttf");
+}
+
+body {
+    background-color: #d0d0d0;
+}
+
+.reloj {
+    margin: 5rem auto;
+    background-color: rgba(29,30,35, 0.7);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    transform: skew(-5deg);
+    width: fit-content;
+    color: #fff;
+    font-size: 4rem;
+    font-family: "digital-7 mono";
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 41</title>
+        <script>
+            const preguntaPrueba = "¿Qué significa ES?";
+            const preguntaContinuar = "¿Quieres intentarlo de nuevo?";
+            const solucion = "ECMAScript";
+            let respuesta, continuacion;
+            do {
+                respuesta = prompt(preguntaPrueba);
+                if (respuesta === null) {
+                    continuacion = false;
+                } else if (respuesta === solucion) {
+                    alert("Correcto");
+                    continuacion = false;
+                } else {
+                    alert("Incorrecto");
+                    continuacion = confirm(preguntaContinuar);
+                }
+            } while (continuacion);
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 41</h1>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+let sumaDados = () => {
+    var a = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+    var b = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+    return a + b;
+};
+undefined
+for (let i = 0; i < 20; i++) {
+    console.log(sumaDados());
+};
+VM1419:2 10
+VM1419:2 6
+VM1419:2 11
+VM1419:2 10
+VM1419:2 7
+VM1419:2 7
+VM1419:2 5
+VM1419:2 6
+VM1419:2 10
+VM1419:2 11
+VM1419:2 5
+VM1419:2 5
+VM1419:2 7
+VM1419:2 7
+VM1419:2 3
+VM1419:2 5
+VM1419:2 6
+VM1419:2 7
+VM1419:2 6
+VM1419:2 7
+undefined

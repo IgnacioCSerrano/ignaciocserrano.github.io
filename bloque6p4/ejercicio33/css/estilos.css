@@ -1,0 +1,15 @@
+.centrado {
+    text-align: center;
+}
+
+p.tooltip-arrow {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: medium groove dodgerblue;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}

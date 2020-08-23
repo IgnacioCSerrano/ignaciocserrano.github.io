@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-style: oblique;
+    color: #3e4cfa;
+}
+
+#caja {
+    width: 200px;
+    height: 200px;
+    border: thick solid green;
+    cursor: default;
+}
+
+#coord {
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.oculto {
+    display: none !important;
+}

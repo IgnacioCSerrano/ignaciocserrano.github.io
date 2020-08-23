@@ -1,0 +1,43 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    background-color: blue;
+}
+
+thead {
+    background-color: blue;
+}
+
+tbody {
+    background-color: green;
+}
+
+tfoot {
+    background-color: yellow;
+}
+
+tr {
+    background-color: red;
+}
+
+th {
+    background-color: v;
+}
+
+td {
+    background-color: orange;
+}
+
+th:nth-child(even) {
+    background-color: rgba(238, 130, 238, 0.5)
+}
+
+td:nth-child(even) {
+    background-color: rgba(255, 165, 0, 0.5);
+}
+
+th:nth-child(3n), td:nth-child(3n) {
+    opacity: 0.25;
+}

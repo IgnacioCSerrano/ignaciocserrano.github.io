@@ -1,0 +1,18 @@
+var a = parseInt(prompt("Introduzca un número"));
+undefined
+var b = parseInt(prompt("Introduzca otro número"));
+undefined
+if (b > a) {
+    for (let i = a + 1; i < b; i++) {
+        if (i % 2 === 0) {
+           console.log(i);
+        };
+    };
+} else {
+    console.log("Segundo número no es mayor que primero");
+};
+VM2057:4 2
+VM2057:4 4
+VM2057:4 6
+VM2057:4 8
+undefined

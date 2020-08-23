@@ -1,0 +1,28 @@
+var numero1 = 5;
+undefined
+var numero2 = 8;
+undefined
+if (numero1 < numero2) {
+  console.log("numero1 no es mayor que numero2");
+};
+
+VM467:2 numero1 no es mayor que numero2
+undefined
+if (numero2 > 0) {
+  console.log("numero2 es positivo");
+};
+
+VM485:2 numero2 es positivo
+undefined
+if (numero1 < 0 || numero1 !== 0) {
+  console.log("numero1 es negativo o distinto de cero");
+};
+
+VM584:2 numero1 es negativo o distinto de cero
+undefined
+if (++numero1 < numero2) {
+  console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
+};
+
+VM697:2 Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2
+undefined

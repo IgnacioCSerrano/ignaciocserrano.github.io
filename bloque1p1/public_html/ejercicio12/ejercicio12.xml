@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo_cds SYSTEM "ejerc12.dtd">
+
+<catalogo_cds>
+    <cd id="1">
+        <numero_canciones>22</numero_canciones>
+        <titulo>Título 1</titulo>
+        <artista>Artista 1</artista>
+        <precio>1</precio>
+        <anno>a1</anno>
+    </cd>
+    <cd id="2">
+        <titulo>Título 2</titulo>
+        <artista>Artista 2</artista>
+        <precio>2</precio>
+        <anno>a2</anno>
+    </cd>
+    
+    <!--
+    <cd id="1" titulo="Titulo1" artista="Artista1" precio="1" anno="a1" />
+    <cd id="2" titulo="Titulo2" artista="Artista2" precio="2" anno="a2" />
+    -->
+    
+</catalogo_cds>

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    padding: 5%;
+    background-color: #ffffaa;
+    height: 100vh;
+}
+
+div#cabecera {
+    background-color: #66cc66;
+    height: 15%;
+}
+
+div#menu_izqu {
+    width: 10%; 
+    height: 85%;
+    background-color: #999900; 
+    float: left; 
+}
+
+div#cuerpo {
+    width: 80%; 
+    height: 85%; 
+    background-color: #CC3333; 
+    overflow: auto; 
+}
+
+div#menu_dcha {
+    width: 10%; 
+    height: 85%;
+    background-color: #9900CC; 
+    float: right; 
+}

@@ -1,0 +1,46 @@
+iframe {
+    margin: auto;
+    display: block;
+    width: 55%;
+    height: calc(100vh - 300px);
+}
+
+button {
+    padding: 5px;
+    width: 120px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+li {
+    width: 140px;
+    display: flex; /* list-style only applies to elements with display: list-item – so by making a li element display: flex, you are removing the prerequisite for list-style to have any effect. */
+    justify-content: space-between;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    iframe {
+        width: 100%;
+    }    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    iframe {
+        width: 85%;
+    }     
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    iframe {
+        width: 70%;
+    }    
+}

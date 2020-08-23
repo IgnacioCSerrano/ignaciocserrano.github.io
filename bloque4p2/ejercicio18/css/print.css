@@ -1,0 +1,7 @@
+@media print {
+
+    body {
+         white-space: pre-wrap;
+    }
+
+}

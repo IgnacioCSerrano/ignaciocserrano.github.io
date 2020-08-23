@@ -1,0 +1,18 @@
+let cuadradoA = numero => numero*numero;
+undefined
+let cuadradoB = numero => {numero*numero;};
+undefined
+let cuadradoC = (numero) => numero*numero;
+undefined
+var num;
+undefined
+num = cuadradoA(8);
+64
+num = cuadradoB(8);
+undefined
+num = cuadradoC(8);
+64
+cuadradoB = numero => {return numero*numero;};
+numero => {return numero*numero;}
+num = cuadradoB(8);
+64

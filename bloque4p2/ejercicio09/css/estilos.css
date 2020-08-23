@@ -1,0 +1,26 @@
+.menu > ul {
+    padding: 0 10px;
+    width: fit-content;
+}
+
+.menu > ul > li {
+    margin: 10px 0;
+    list-style: none;
+    border: 1px solid #3f3f3f;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.icono_lupa_mas {
+    background-image: url("../img/plantilla.png");
+    background-repeat: no-repeat;
+    background-position: -128px -112px; /* es posible establecer coordenadas positivas siempre y cuando se deseche la propiedad 'background-repeat: no-repeat', es decir, se permita la repetición de la imagen de fondo, de manera que siga habiendo iconos al mover la imagen hacia la derecha o hacia abajo (eje positivo) --> por ejemplo, al mover la imagen 16 px a la derecha nos encontraríamos con el último icono de la misma fila correspondiente a imagen repetida de la izquierda */ 
+}
+
+.icono_lupa_menos {
+    background-image: url("../img/plantilla.png");
+    background-repeat: no-repeat;
+    background-position: -144px -112px;
+}
+

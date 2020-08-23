@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!-- 
+    If all your input field is doing is providing a UI (user interface) hook for interactions, 
+    then you can put the input fields into the HTML without including a FORM tag.
+        https://www.bennadel.com/blog/2435-are-html-form-tags-required-to-display-form-input-controls.htm
+        https://stackoverflow.com/a/31066963 
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 4</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <h1>Ejercicio 4</h1>
+        <div>
+            <label for="iColFondo1">Color de fondo:</label>
+            <input type="text" id="iColFondo1">
+            <input type="button" id="bColFondo" value="Cambiar color fondo">
+        </div>
+        <div>
+            <label for="iColTexto1">Color del texto:</label>
+            <input type="text" id="iColTexto1">
+            <input type="button" id="bColTexto" value="Cambiar color texto">
+        </div>
+        <div>
+            <label for="iColFondo2">Color de fondo:</label>
+            <input type="color" id="iColFondo2" value="#FFFFFF">
+        </div>
+        <div>
+            <label for="iColTexto2">Color del texto:</label>
+            <input type="color" id="iColTexto2">
+        </div>
+        <div>
+            <label for="iCoordX1">Coordenada X:</label>
+            <input type="range" id="iCoordX1" min="0" max="100" step="1">
+            <span></span>%
+        </div>
+        <div>
+            <label for="iCoordY1">Coordenada Y:</label>
+            <input type="range" id="iCoordY1" min="0" max="100" step="1">
+            <span></span>%
+        </div>
+        <div>
+            <label for="iCoordX2">Coordenada X - V2:</label>
+            <input type="range" id="iCoordX2" min="0" step="1">
+            <span></span>%
+        </div>
+        <div>
+            <label for="iCoordY2">Coordenada Y - V2:</label>
+            <input type="range" id="iCoordY2" min="0" step="1">
+            <span></span>%
+        </div>
+        <div id="cuadro">
+            <h2>Título</h2>
+            <p>Contenido del ...</p>
+        </div>
+        <div id="context_menu">
+            <p>Diseño 1</p>
+            <p>Diseño 2</p>
+            <p>Sin diseño</p>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+@media print {
+
+    a[href^="http" i] {
+        text-decoration: none;
+        color: black;
+    }    
+
+    a[href^="http" i]::after {
+        content: ": [" attr(href) "]";
+    }
+
+}

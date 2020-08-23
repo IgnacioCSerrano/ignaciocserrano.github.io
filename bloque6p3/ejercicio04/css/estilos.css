@@ -1,0 +1,10 @@
+table {
+    border: 2px solid green;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+table td, table th {
+    border: 1px solid grey;
+}

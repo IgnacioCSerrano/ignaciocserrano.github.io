@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu_almuerzo>
+    <comida calorias="650">
+                <nombre>Waffles</nombre>
+                <Precio>2.00</Precio>
+                <descripcion>Waffles baratos de McDonalds</descripcion>
+    </comida>
+        <comida calorias="1500">
+                <nombre>Hamburguesa</nombre>
+                <precio>5.00</precio>
+                <descripcion>La hamburguesa mas común de McDonalds</descripcion>
+    </comida>    
+</menu_almuerzo>
+

@@ -1,0 +1,61 @@
+body {
+    background-image: url('../img/fondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.galeria {
+    padding: 20px;
+    max-width: 50%;
+    position: relative;
+}
+
+.galeria div {
+    display: inline-block;
+    width: 180px;
+    height: 125px;
+}
+
+.galeria img {
+    position: absolute;
+    border: 10px solid white;
+    width: 150px;
+    font-size: 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.galeria div:nth-child(2n) {
+    transform: rotate(6deg);
+}
+
+.galeria div:nth-child(2n + 1) {
+    transform: rotate(-15deg);
+}
+
+.galeria div:nth-child(3n) {
+    transform: rotate(-4deg);
+}
+
+.galeria div:nth-child(6n) {
+    transform: rotate(10deg);
+}
+
+.galeria div:hover {
+    transform: none;
+    transition: transform 0.1s linear;
+}
+
+.galeria div:hover img {
+    border-width: 20px;
+    width: 50vw;
+    top: 0;
+    left: 0;
+    transition: all 0.1s linear; 
+}

@@ -1,0 +1,226 @@
+window.location.href = 'http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html';
+"http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html"
+Navigated to http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html
+document.querySelector(".tarjeta").id = "primera";
+"primera"
+let primeraTarjeta = document.getElementById("primera");
+undefined
+let segundaTarjeta = document.querySelector(".tarjeta:nth-of-type(2)");
+undefined
+primeraTarjeta.style.backgroundColor = "#c2f8fd";
+"#c2f8fd"
+let imgT3 = document.querySelector(".tarjeta:nth-of-type(3)").querySelector("img");
+undefined
+imgT3.src;
+"http://lmsgi.iesvjp.es/Ejercicios/nuevo/monfrague.jpg"
+imgT3.src = "https://picsum.photos/600/400";
+"https://picsum.photos/600/400"
+imgT3.naturalWidth;
+600
+imgT3.naturalHeight;
+400
+imgT3.width;
+151
+imgT3.height;
+101
+document.querySelector(".tarjeta:nth-of-type(5)").textContent;
+"
+            
+                
+                    
+                
+            
+            
+                
+                    
+                    
+                    
+                
+                
+                    Puente de Alconétar
+                
+                
+                    Construida sobre el que fuera Palacio de los Condes Alba de Aliste en el siglo XV. La rehabilitación del edificio original como hotel 4* destaca en espacios como el restaurante y las habitaciones, que muestran el majestuoso encanto del monumento original.                
+            
+            
+                
+                    XX €/noche
+                
+            
+        "
+document.querySelector(".tarjeta:nth-of-type(5)").innerText;
+"  
+Puente de Alconétar
+Construida sobre el que fuera Palacio de los Condes Alba de Aliste en el siglo XV. La rehabilitación del edificio original como hotel 4* destaca en espacios como el restaurante y las habitaciones, que muestran el majestuoso encanto del monumento original.
+XX €/noche"
+document.querySelector(".tarjeta:nth-of-type(5)").innerHTML;
+"
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-puente-de-alconetar">
+                    <img class="img" src="alconetar.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-puente-de-alconetar">Puente de Alconétar</a>
+                </h4>
+                <div class="descripcion">
+                    Construida sobre el que fuera Palacio de los Condes Alba de Aliste en el siglo XV. La rehabilitación del edificio original como hotel 4* destaca en espacios como el restaurante y las habitaciones, que muestran el majestuoso encanto del monumento original.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        "
+let estilosInternos = document.createElement("style");
+undefined
+document.body.appendChild(estilosInternos);
+<style>​</style>​
+estilosInternos.innerHTML = `div.tarjeta {background-color:#fbffb4;}
+div.tarjeta * {color: #e00d0d;} /* aplica estilo a todos los descendientes de div.tarjeta */
+div.tarjeta.activa { border: 5px solid green;}`;
+
+"div.tarjeta {background-color:#fbffb4;}
+div.tarjeta * {color: #e00d0d;} /* aplica estilo a todos los descendientes de div.tarjeta */
+div.tarjeta.activa { border: 5px solid green;}"
+estilosInternos.innerHTML = "";
+""
+estilosInternos.sheet.insertRule("div.tarjeta {background-color:#fbffb4;}");
+0
+estilosInternos.sheet.insertRule("div.tarjeta * {color: #e00d0d;}");
+0
+estilosInternos.sheet.insertRule("div.tarjeta.activa { border: 5px solid green;}");
+0
+estilosInternos.sheet;
+CSSStyleSheet {ownerRule: null, cssRules: CSSRuleList, rules: CSSRuleList, type: "text/css", href: null, …}
+let estilosT1 = window.getComputedStyle(primeraTarjeta);
+undefined
+estilosT1.width;
+"180.8px"
+estilosT1.height;
+"340.2px"
+document.querySelector(".tarjeta:nth-of-type(6)").remove();
+undefined
+let parrafoT1 = document.createElement("p");
+undefined
+parrafoT1.textContent = "¡Hola, mundo!";
+"¡Hola, mundo!"
+primeraTarjeta.appendChild(parrafoT1);
+<p>​¡Hola, mundo!​</p>​
+let parrafoT2 = "<p>Hello, World!</p>";
+undefined
+document.querySelector(".tarjeta:nth-of-type(2)").innerHTML += parrafoT2;
+"
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-conventual-de-alcantara">
+                    <img class="img" src="alcantara.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-conventual-de-alcantara">Conventual de Alcántara</a>
+                </h4>
+                <div class="descripcion">
+                    Antiguo convento del S. XV convertido en hotel 4*, con una decoración moderna y respetuosa con el espíritu del edificio original.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        <p>Hello, World!</p>"
+let generarRGB = () => {
+    var r = Math.floor(Math.random() * 2 ** 8);
+    var g = Math.floor(Math.random() * 2 ** 8);
+    var b = Math.floor(Math.random() * 2 ** 8);
+    return `rgb(${r},${g},${b})`;
+};
+undefined
+let estiloBody = document.body.style;
+undefined
+setInterval(() => {estiloBody.backgroundColor = generarRGB();}, 5000);
+1
+let generarRGBHex = () => {
+    var n = Math.floor(Math.random() * 16 ** 6);
+    var hex = "00000" + n.toString(16).toUpperCase();
+    return "#" + hex.slice(-6);
+};
+undefined
+let estiloPrecioT4 = document.querySelector(".tarjeta:nth-of-type(4) .precio h4").style;
+undefined
+setInterval(() => {estiloPrecioT4.color = generarRGBHex();}, 5000);
+2
+document.querySelector(".tarjeta:nth-of-type(5)").classList.add("activa");
+undefined
+document.querySelector(".tarjeta:nth-of-type(5)").classList.remove("activa");
+undefined
+primeraTarjeta.classList.add("activa");
+undefined
+segundaTarjeta.setAttribute("data-ident-tarjeta", "2");
+undefined
+segundaTarjeta.removeAttribute("data-ident-tarjeta");
+undefined
+segundaTarjeta.dataset.identTarjeta = "2";
+"2"
+segundaTarjeta.removeAttribute("data-ident-tarjeta");
+undefined
+let atributo = document.createAttribute("data-ident-tarjeta");
+undefined
+atributo.value = "2";
+"2"
+segundaTarjeta.setAttributeNode(atributo);
+null
+segundaTarjeta.attributes;
+NamedNodeMap {0: class, 1: data-ident-tarjeta, class: class, data-ident-tarjeta: data-ident-tarjeta, length: 2}
+segundaTarjeta.dataset.identTarjeta;
+"2"
+let details = document.createElement("details");
+undefined
+let summary = document.createElement("summary");
+undefined
+summary.textContent = "Detalle de tarjeta";
+"Detalle de tarjeta"
+details.appendChild(summary);
+<summary>​Detalle de tarjeta​</summary>​
+document.body.appendChild(details);
+<details>​…​</details>​
+let terceraTarjeta = document.querySelector(".tarjeta:nth-of-type(3)");
+undefined
+details.innerHTML += terceraTarjeta.outerHTML;
+"<summary>Detalle de tarjeta</summary><div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-parque-de-monfrague">
+                    <img class="img" src="https://picsum.photos/600/400">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-parque-de-monfrague">Parque de Monfragüe</a>
+                </h4>
+                <div class="descripcion">
+                    Situado en plena dehesa extremeña, a las puertas del Parque Nacional de Monfragüe.  Desde 2017, el hotel cuenta con la certificación Starlight para observación astronómica.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>"
+setInterval(() => {details.toggleAttribute("open");}, 10000);
+3

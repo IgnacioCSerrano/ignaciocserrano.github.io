@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 5</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <!--https://www.mathjax.org/-->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--https://mauriciopoppe.github.io/function-plot/-->
+        <script src="https://unpkg.com/d3@3/d3.min.js"></script>
+        <script src="https://unpkg.com/function-plot@1/dist/function-plot.js"></script>
+    </head>
+    <body>
+        <h1>Ecuación de 2º grado</h1>
+        <div class="centrado">
+            <div id="control">
+                <form id="form">
+                    <div>
+                        <label for="inputA">A:</label>
+                        <input type="number" id="inputA">
+                    </div>
+                    <div>
+                        <label for="inputB">B:</label>
+                        <input type="number" id="inputB">
+                    </div>
+                    <div>
+                        <label for="inputC">C:</label>
+                        <input type="number" id="inputC">
+                    </div>
+                    <div>
+                        <input type="button" value="Calcular" id="button">
+                    </div>
+                </form>
+                <div id="solucion" class="oculto">
+                    <hr>
+                    <p></p>
+                    <hr>
+                </div>
+                <p id="formula" class="oculto">
+                    Cuando \(a \ne 0\) y \({b^2-4ac} \ge 0\), hay 2 soluciones reales a \(ax^2 + bx + c = 0\)
+                    <span>\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]</span>
+                </p>
+            </div>
+            <div id="graph"></div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

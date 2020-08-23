@@ -1,0 +1,119 @@
+body {
+    background-attachment: fixed;
+    background-image: url("../img/contacto.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+div.botones {
+    text-align: center;
+}
+
+.boton {
+    border: 3px outset #1A50B8;
+    color: #000000;
+    background-color: #1A50B8;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.boton:hover {
+    border: 3px inset #006633;
+    color: #000FF0;
+    background-color: #1A50B8;
+    font-weight: bold;
+}
+
+#caja {
+    margin: 25px auto;
+    border: 5px solid #0D490C;
+    height: 80px;
+    width: 80px;
+}
+
+#caja div {
+    border-width: 5px;
+    border-style: solid;
+}
+
+#caja > div {
+    border-color: #10830A;
+}
+
+#caja > div > div {
+    border-color: #30AE1E;
+}
+
+#caja > div > div > div {
+    border-color: #30D21E;
+}
+
+#caja > div > div > div > div {
+    border-color: #48EC51;
+}
+
+#caja > div > div > div > div > div {
+    border-color: #91EA84;
+}
+
+#caja > div > div > div > div > div > div {
+    border-color: #A8F7B1;
+}
+
+#caja > div > div > div > div > div > div > div {
+    border-color: #B4FAC0;
+}
+
+#caja > div > div > div > div > div > div > div > div {
+    border-color: #BEFCC2;
+}
+
+.enlaces {
+    background-color: #B1C3D9;
+    text-align: right;
+}
+
+.enlaces a {
+    border-left: 1px solid #333333;
+    padding-left: 5px;
+}
+
+.enlaces a:hover {
+    border-style: solid;
+    border-color: #333333;
+    border-right-style: none;
+    border-left-style: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: blink;
+}
+
+.bordes_circulares {
+    margin: 20px auto;
+    width: 25%;
+    background-color: #FFCC99;
+    border-radius: 15px;
+}
+
+.bordes_circulares > div.caja {
+    padding: 20px;
+    color: #666666;
+    font-size: large;
+    font-weight: bold;
+    text-indent: 25px;
+}
+
+div.imagenes {
+    text-align: center;
+}
+
+div.imagenes > img {
+    margin: 20px 20px;
+    border: 6px solid #9ebee0;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}

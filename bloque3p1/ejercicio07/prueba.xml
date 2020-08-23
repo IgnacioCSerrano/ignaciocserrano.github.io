@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/</guid>
+        <title>Bloque 2 - Práctica 2</title>
+        <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/</link>
+        <description>Ejercicios de Ignacio Cuevas Serrano para la práctica 2 del bloque 2 de la asignatura Lenguajes de Marcas y Sistemas de Gestión de la Información</description>
+        <atom:link href="http://lmsgi.iesvjp.es/~icuevass01/bloque3p1/ejercicio07/b2p2_rss.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/practica01/</guid>
+            <title>Ejercicios Práctica 1</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/practica01/</link>
+            <description>Listado de ejercicios de la práctica 1 del bloque 2</description>
+            <content:encoded><![CDATA[
+                <h1>Index of /~icuevass01/bloque2p2/practica01</h1>
+                  <table>
+                   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+                   <tr><th colspan="5"><hr></th></tr>
+                <tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/~icuevass01/bloque2p2/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio01.html">ejercicio01.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">1.6K</td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio02.html">ejercicio02.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">321 </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio03.html">ejercicio03.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">399 </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio04.html">ejercicio04.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">411 </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio05.html">ejercicio05.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">5.9K</td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio06.html">ejercicio06.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">4.0K</td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio07.html">ejercicio07.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">1.1K</td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio08.html">ejercicio08.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">2.5K</td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio09.html">ejercicio09.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">2.5K</td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ejercicio10.html">ejercicio10.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">1.2K</td><td>&nbsp;</td></tr>
+                   <tr><th colspan="5"><hr></th></tr>
+                </table>
+                <address>Apache/2.4.25 (Ubuntu) Server at lmsgi.iesvjp.es Port 80</address>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio07/</guid>
+            <title>Ejercicio 7</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio07/</link>
+            <description>Directorios y subdirectorios de páginas</description>
+            <content:encoded><![CDATA[
+                <h1>Index of /~icuevass01/bloque2p2/ejercicio07</h1>
+                  <table>
+                   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+                   <tr><th colspan="5"><hr></th></tr>
+                <tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/~icuevass01/bloque2p2/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="directorio1/">directorio1/</a></td><td align="right">2019-11-24 22:20  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="directorio2/">directorio2/</a></td><td align="right">2019-11-24 22:20  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+                <tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="pagina5.html">pagina5.html</a></td><td align="right">2019-11-24 22:20  </td><td align="right">5.5K</td><td>&nbsp;</td></tr>
+                   <tr><th colspan="5"><hr></th></tr>
+                </table>
+                <address>Apache/2.4.25 (Ubuntu) Server at lmsgi.iesvjp.es Port 80</address>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio08.html</guid>
+            <title>Ejercicio 8</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio08.html</link>
+            <description>Rutas absolutas, relativas al sitio y relativas al documento</description>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 8</h1>
+                <h2>Índice con rutas absolutas</h2>
+                <div>
+                    <p><a href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/practica01">Bloque 2 - Práctica 1</a></p>
+                    <p><a href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio07">Ejercicio 7</a></p>
+                    <p><a href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio08.html">Ejercicio 8</a></p>
+                </div>
+                <h2>Índice con rutas relativas al sitio (servidor)</h2>
+                <div>
+                    <p><a href="/~icuevass01/bloque2p2/practica01">Bloque 2 - Práctica 1</a></p>
+                    <p><a href="/~icuevass01/bloque2p2/ejercicio07">Ejercicio 7</a></p>
+                    <p><a href="/~icuevass01/bloque2p2/ejercicio08.html">Ejercicio 8</a></p>
+                </div>
+                <h2>Índice con rutas relativas al documento</h2>
+                <div>
+                    <p><a href="practica01">Bloque 2 - Práctica 1</a></p>
+                    <p><a href="ejercicio07">Ejercicio 7</a></p>
+                    <p><a href="ejercicio08.html">Ejercicio 8</a></p>
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio09/ejercicio09.html</guid>
+            <title>Ejercicio 9</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio09/ejercicio09.html</link>
+            <description>Real Academia Española</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio09/img/Diccionario.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Real Academia Española</h1>
+                <p>La <strong><dfn>Real Academia Española</dfn> <acronym title="Real Academia Española">(RAE)</acronym></strong><sup><a href="https://es.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola#cite_note-3">3</a></sup> es una institución cultural con sede en <a href="https://es.wikipedia.org/wiki/Madrid"  title="Madrid">Madrid</a> (<a href="https://es.wikipedia.org/wiki/Espa%C3%B1a" title="España">España</a>). Esta y otras veintitrés academias de la Lengua correspondientes a cada uno de los países donde se habla el <a href="https://es.wikipedia.org/wiki/Idioma_espa%C3%B1ol" title="Idioma español">español</a> conforman la <a href="https://es.wikipedia.org/wiki/Asociaci%C3%B3n_de_Academias_de_la_Lengua_Espa%C3%B1ola" title="Asociación de Academias de la Lengua Española">Asociación de Academias de la Lengua Española</a> <acronym title="Asociación de Academias de la Lengua Española">(ASALE)</acronym>.</p>
+                <div align="center">
+                    <p><img src="img/Diccionario.jpg" alt="Diccionario" width="200" /></p>
+                    <p><small>Tomo V de la edición del Diccionario de la Lengua Castellana en 1737</small></p>
+                </div>
+                <p>Se dedica a la <a href="https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_ling%C3%BC%C3%ADstica" title="Normalización lingüística">regularización lingüística</a> mediante la promulgación de <a href="https://es.wikipedia.org/wiki/Norma_ling%C3%BC%C3%ADstica" title="Norma (lingüística)">normativas</a> dirigidas a fomentar la unidad idiomática entre o dentro de los diversos territorios que componen el llamado <a href="https://es.wikipedia.org/wiki/Distribuci%C3%B3n_geogr%C3%A1fica_del_idioma_espa%C3%B1ol" title="Distribución geográfica del idioma español">mundo hispanohablante</a>; garantizar una norma común, en concordancia con sus estatutos fundacionales: «velar por que los cambios que experimente [...] no quiebren la esencial unidad que mantiene en todo el ámbito hispánico».<sup><a href="https://es.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola#cite_note-4">4</a></sup></p>
+                <p>Fue fundada en 1713 por iniciativa del <a href="https://es.wikipedia.org/wiki/Ilustraci%C3%B3n" title="Ilustración">ilustrado</a> <a href="https://es.wikipedia.org/wiki/Juan_Manuel_Fern%C3%A1ndez_Pacheco" title="Juan Manuel Fernández Pacheco">Juan Manuel Fernández Pacheco</a>, VIII <a href="https://es.wikipedia.org/wiki/Marquesado_de_Villena" title="Marqués de Villena">marqués de Villena</a> y duque de Escalona, a imitación de la <a href="https://es.wikipedia.org/wiki/Academia_Francesa" title="Academia Francesa">Academia Francesa</a>. Al año siguiente, el rey <a href="https://es.wikipedia.org/wiki/Felipe_V_de_Espa%C3%B1a" title="Felipe V de España">Felipe V</a> aprobó su constitución y la colocó bajo su protección.<sup><a href="https://es.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola#cite_note-Origenes-5">5</a></sup></p>
+                <p>Las directrices lingüísticas que propone se recogen en diversas obras. Las prioritarias son el <a href="https://es.wikipedia.org/wiki/Diccionario_de_la_lengua_espa%C3%B1ola" title="Diccionario de la lengua española">diccionario</a>, abreviado DRAE (art. 2.º de sus estatutos), editado periódicamente veintitrés veces desde 1780 hasta hoy; y la gramática (4.º), editada entre 2009 y 2011.<sup><a href="https://es.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola#cite_note-6">6</a></sup></p>
+                <p>Desempeña sus funciones en la sede principal, inaugurada en 1894, en la calle Felipe IV, 4, en el barrio de Los Jerónimos, y en el Centro de Estudios de la Real Academia Española y de la ASALE, en la calle Serrano 187-189, en 2007.<sup><a href="https://es.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola#cite_note-7">7</a></sup></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio10/ejercicio10.html</guid>
+            <title>Ejercicio 10</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio10/ejercicio10.html</link>
+            <description>Imágenes e hipervínculos</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio10/img/google.png" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 10</h1>
+                <p><a href="https://www.google.es/">Google</a></p>
+                <p>
+                    <a href="https://www.google.es/">
+                        <img src="img/google.png" alt="Logo de Google" width="100" />
+                    </a>
+                </p>
+                <p><a href="https://www.bing.com/">Bing</a></p>
+                <p>
+                    <a href="https://www.bing.com/">
+                        <img src="img/bing.png" alt="Logo de Bing" width="100" />
+                    </a>
+                </p>
+                <p><a href="https://es.yahoo.com/">Yahoo</a></p>
+                <p>
+                    <a href="https://es.yahoo.com/">
+                        <img src="img/yahoo.png" alt="Logo de Yahoo" width="100" />
+                    </a>
+                </p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio12/ejercicio12.html</guid>
+            <title>Ejercicio 12</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio12/ejercicio12.html</link>
+            <description>Lenguajes de etiquetas</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio12/img/esquema_codificacion_caracteres.gif" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Capítulo 2. Características básicas</h1>
+                <h2>2.1. Lenguajes de etiquetas</h2>
+                <p>Uno de los retos iniciales a los que se tuvo que enfrentar la informática fue el de cómo almacenar la información en los archivos digitales. Como los primeros archivos sólo contenían texto sin formato, la solución utilizada era muy sencilla: se codificaban las letras del alfabeto y se transformaban en números.</p>
+                <p>De esta forma, para almacenar un contenido de texto en un archivo electrónico, se utiliza una tabla de conversión que transforma cada carácter en un número. Una vez almacenada la secuencia de números, el contenido del archivo se puede recuperar realizando el proceso inverso.</p>
+                <div>
+                    <img src="img/esquema_codificacion_caracteres.gif" alt="Ejemplo sencillo de codificación de caracteres" />
+                    <p><strong>Figura 2.1</strong> Ejemplo sencillo de codificación de caracteres</p>
+                </div>
+                <p>El proceso de transformación de caracteres en secuencias de números se denomina <strong>codificación de caracteres</strong> y cada una de las tablas que se han definido para realizar la transformación se conocen con el nombre de <strong>páginas de código</strong>. Una de las codificaciones más conocidas (y una de las primeras que se publicaron) es la codificación <acronym title="American Standard Code for Information Interchange">ASCII</acronym>. La importancia de las codificaciones en <acronym title="HyperText Markup Language">HTML</acronym> se verá más adelante.</p>
+                <p>Una vez resuelto el problema de almacenar el texto simple, se presenta el reto de almacenar los contenidos de texto con formato. En otras palabras, ¿cómo se almacena un texto en negrita? ¿y un texto de color rojo? ¿y otro texto azul, en negrita y subrayado?</p>
+                <p>Utilizar una tabla de conversión similar a las que se utilizan para textos sin formato no es posible, ya que existen infinitos posibles estilos para aplicar al texto. Una solución técnicamente viable consiste en almacenar la información sobre el formato del texto en una zona especial reservada dentro del propio archivo. En esta zona se podría indicar dónde comienza y dónde termina cada formato.</p>
+                <p>No obstante, la solución que realmente se emplea para guardar la información con formato es mucho más sencilla: el archivo electrónico almacena tanto los contenidos como la información sobre el formato de esos contenidos. Si por ejemplo se quiere dividir el texto en párrafos y se desea dar especial importancia a algunas palabras, se podría indicar de la siguiente manera:</p>
+                <div>
+                    <pre><code>&lt;parrafo&gt;
+        Contenido de texto con &lt;importante&gt;algunas palabras&lt;/importante&gt; resaltadas de forma especial.
+        &lt;/parrafo&gt;</code></pre>
+                </div>
+                <p>El principio de un párrafo se indica mediante la palabra <code>&lt;parrafo&gt;</code> y el final de un párrafo se indica mediante la palabra <code>&lt;/parrafo&gt;</code>. De la misma manera, para asignar más importancia a ciertas palabras del texto, se encierran entre <code>&lt;importante&gt;</code> y <code>&lt;/importante&gt;</code>.</p>
+                <p>El proceso de indicar las diferentes partes que componen la información se denomina <strong>marcar</strong> (<em>markup</em> en inglés). Cada una de las palabras que se emplean para marcar el inicio y el final de una sección se denominan <strong>etiquetas</strong>.</p>
+                <p>Aunque existen algunas excepciones, en general las etiquetas se indican por pares y se forman de la siguiente manera:</p>
+                <ul>
+                    <li>Etiqueta de apertura: carácter <code>&lt;</code>, seguido del nombre de la etiqueta (sin espacios en blanco) y terminado con el carácter <code>&gt;</code></li>
+                    <li>Etiqueta de cierre: carácter <code>&lt;</code>, seguido del carácter <code>/</code>, seguido del nombre de la etiqueta (sin espacios en blanco) y terminado con el carácter <code>&gt;</code></li>
+                </ul>
+                <p>Así, la estructura típica de las etiquetas <acronym title="HyperText Markup Language">HTML</acronym> es:</p>
+                <div>
+                    <pre><code>&lt;nombre_etiqueta&gt; ... &lt;/nombre_etiqueta&gt;</code></pre>
+                </div>
+                <p><dfn><acronym title="HyperText Markup Language">HTML</acronym></dfn> es un <strong>lenguaje de etiquetas</strong> (también llamado <strong>lenguaje de marcado</strong>) y las páginas web habituales están formadas por cientos o miles de pares de etiquetas. De hecho, las letras "ML" de la sigla <acronym title="HyperText Markup Language">HTML</acronym> significan <em>"markup language"</em>, que es como se denominan en inglés a los <em>lenguajes de marcado</em>. Además de <acronym title="HyperText Markup Language">HTML</acronym>, existen muchos otros lenguajes de etiquetas como <acronym title="HyperText Markup Language">XML</acronym>, <acronym title="Standard Generalized Markup Language">SGML</acronym>, DocBook y <acronym title="Mathematical Markup Language">MathML</acronym>.</p>
+                <p>La principal ventaja de los lenguajes de etiquetas es que son muy sencillos de leer y escribir por parte de las personas y de los sistemas electrónicos. La principal desventaja es que pueden aumentar mucho el tamaño del documento, por lo que en general se utilizan etiquetas con nombres muy cortos.</p>
+                <div>
+                    <a href="siguiente.html">Siguiente &rarr;</a>
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio13/ejercicio13.html</guid>
+            <title>Ejercicio 13</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio13/ejercicio13.html</link>
+            <description>Big data: cómo nuestro rastro en la Red puede salvar el mundo</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio13/img/Foto_Pentland.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1><font face="Lucida Sans" color="#393939"><big>Big data: cómo nuestro rastro en la Red puede salvar el mundo</big></font></h1>
+                <p><font face="Lucida Sans" color="#393939"><small>Por Zuberoa Marcos | Juanlu Ocampos | 18-10-2016</small></font></p>
+                <div>
+                    <a href="https://es-es.facebook.com/"><img src="img/Compartir_FB.png" alt="Botón de compartir enlace en Facebook" align="left" /></a>
+                    <a href="https://twitter.com/?lang=e"><img src="img/Compartir_TW.png" alt="Botón de compartir enlace en Twitter" align="left" /></a>
+                    <a href="#"><img src="img/Compartir_Mas.png" alt="Botón de añadir más redes sociales para compartir" align="left" /></a>
+                    <br clear="all" />
+                </div>
+                <div>
+                    <p><img src="img/Foto_Pentland.jpg" alt="Fotografía de Alex 'Sandy' Pentland" align="left" /></p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <h3>&nbsp; <font face="Lucida Sans" color="#393939">Alex 'Sandy' Pentland</font></h3>
+                    <p>&nbsp; <font face="Lucida Sans" color="#393939">Director del Human Dynamics Lab, <acronym title="Massachusetts Institute of Technology">MIT</acronym></font></p>
+                </div>
+                <p><font face="Lucida Sans" color="#393939">Un estudio de la Northeastern University dirigido por el profesor Albert-László Barabási, y publicado en el número de febrero de 2010 en la prestigiosa revista <em>Science,</em> concluía que el 93% del comportamiento humano es perfectamente predecible. Como si fuéramos perritos de Pavlov digitales, nos movemos respondiendo a estímulos similares y siguiendo unos patrones de conducta fijos. Así pues, según el estudio, saber qué va a hacer una población determinada en los próximos días o semanas es sólo cuestión de tener el suficiente tiempo -y recursos- como para observarla. La conclusión del estudio (no por sabida menos inquietante) mostraba ya entonces el poder de uno de los términos de moda en tecnología: el Big Data (o los procedimientos usados para almacenar e interpretar grandes cantidades de datos y encontrar patrones repetitivos), un concepto que inevitablemente conduce la imaginación hacia la distopía descrita por George Orwell en <em>1984</em>. Como asegura el cartel de <em>Snowden,</em> la nueva película de Oliver Stone sobre el perseguido analista de la <acronym title="Central Intelligence Agency">CIA</acronym>, cada vez resulta más evidente que “todos estamos vigilados”. La cuestión entonces es dirimir quién puede gestionar todos los datos, ese rastro digital, que dejamos a nuestro paso. Y, sobre todo, para qué son utilizados.</font></p>
+                <p><font face="Lucida Sans" color="#393939">Uno de los pioneros en el estudio del Big Data y las utilidades que pueden desprenderse de la recogida masiva de datos es Alex Pentland, director del Human Dynamics Lab en el <acronym title="Massachusetts Institute of Technology">MIT</acronym>. Pentland, cuyo primer proyecto de investigación en los años setenta fue estudiar a través de imágenes vía satélite los movimientos de las poblaciones de castores en Canadá, aseguró en un artículo de <em>Forbes</em> que ese primer trabajo no era “un mal ejemplo para entender todo lo que he hecho desde entonces”. Pentland, uno de los científicos más citados en el mundo -lo que da idea de la importancia del campo en el que se mueve-, es consciente de lo delicado del terreno que pisa con sus investigaciones. Pasar de roedores a personas y tener lo que él denomina una “visión divina” sobre ellos es un gran poder y, como todos los fans de Spiderman saben, eso conlleva “una gran responsabilidad”. Por eso Pentland es también un ferviente defensor de la privacidad de la información: los usuarios deben ser conscientes de qué es lo que comparten en cada momento y para qué será utilizado.</font></p>
+                <p><font face="Lucida Sans" color="#393939">Y lo cierto es que, dejando a un lado teorías conspiranoicas, el Big Data bien utilizado puede ser de gran utilidad para mejorar nuestras vidas en cuestiones muy diversas. Ayudará, por ejemplo, a racionalizar el consumo energético, ordenar el tráfico de las ciudades para facilitar la movilidad, o predecir los patrones de contagio de una enfermedad. Todo lo suficientemente beneficioso como para permitir que nuestro smartphone comparta algunos datos. Después, bastará con hacer algo sorprendente y mantener el latido de ese 7% de comportamientos inesperados donde, con mucha probabilidad, se encuentren las cosas más interesantes de la vida.</font></p>
+                <p><font face="Lucida Sans" color="#393939"><small>Entrevista: Zuberoa Marcos Edición Juanlu Ocampos | David Castañón <br /> Texto: José L. Álvarez Cedena</small></font></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio14/ejercicio14.html</guid>
+            <title>Ejercicio 14</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio14/ejercicio14.html</link>
+            <description>La guerra de los ‘bots’ se libra en Wikipedia</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio14/img/Foto1.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1><big>La guerra de los ‘bots’ se libra en Wikipedia</big></h1> 
+                <h2><font color="#454545">Hasta 4,7 millones de los cambios que se hacen en la enciclopedia digital son correcciones que los robots se hacen continuamente entre sí</font></h2>
+                <hr />
+                <div>
+                    <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Felpais.com%252Ftecnologia%252F2016%252F10%252F17%252Factualidad%252F1476695831_608756.html%253Fssm%253DFB_CC%26t%3DLa%252520guerra%252520de%252520los%252520%2525E2%252580%252598bots%2525E2%252580%252599%252520se%252520libra%252520en%252520Wikipedia&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=es_ES"><img src="img/Compartir_FB.png" alt="Botón para compartir el enlace en Facebook" /></a>
+                    <a href="https://twitter.com/intent/tweet?text=La%20guerra%20de%20los%20%E2%80%98bots%E2%80%99%20se%20libra%20en%20Wikipedia&url=https%3A%2F%2Felpais.com%2Ftecnologia%2F2016%2F10%2F17%2Factualidad%2F1476695831_608756.html%3Fssm%3DTW_CC&via=elpais_tec&original_referer="><img src="img/Compartir_TW.png" alt="Botón para compartir el enlace en Twitter" /></a>
+                    <a href="#"><img src="img/Compartir_Mas.png" alt="Botón de añadir más redes sociales para compartir" /></a>
+                </div>
+                <hr />
+                <p><font face="Verdana"><small>M. VICTORIA NADAL</small></font><a href="https://twitter.com/stareatLyra"><img src="img/Twitter.png" alt="Botón de acceso a Twitter de M. Victoria Nadal" width="14" hspace="10" /></a></p>
+                <p><font face="Verdana" color="#454545"><small><strong>Madrid</strong> - 25 OCT 2016 - 14:49 <acronym title="Central European Summer Time">CEST</acronym></small></font></p>
+                <div>
+                    <p><img src="img/Foto1.jpg" alt="Captura de pantalla de la página de inicio de Wikipedia en su 15 cumpleaños." width="100%" /></p>
+                    <p align="right"><font face="Verdana" color="#454545"><small>Captura de pantalla de la página de inicio de Wikipedia en su 15 cumpleaños.</small></font></p>
+                    <hr />
+                </div>
+                <p><font face="Verdana" color="#454545">Cada vez son más las páginas web que incorporan <em>bots</em>, programas informáticos que se comportan como humanos, para realizar tareas como responder a las preguntas de los usuarios, hacer publicidad o abrir cuentas de correo electrónico. Pero, a pesar de los esfuerzos y de su uso extendido,&nbsp;aún están muy lejos de actuar en la Red como lo haría una persona. Esa es la conclusión a la que ha llegado un grupo de ingenieros informáticos del Instituto Alan Turing de Reino Unido, que <a href="https://www.academia.edu/28502996/Even_Good_Bots_Fight">ha estudiado el comportamiento de estos robots en Wikipedia</a> y ha descubierto que hasta 4,7 millones de las ediciones de los artículos son correcciones que los <em>bots</em> se hacen constantemente entre sí, cayendo en una especie de edición sin fin nada productiva.</font></p>
+                <p><img src="img/Foto2.jpg" alt="Captura de pantalla de una de las ediciones producida por un 'bot'." width="50%" align="right" /></p>
+                <p><font face="Verdana" color="#454545"><a href="//tecnologia.elpais.com/tecnologia/2016/01/15/actualidad/1452854593_728014.html">Los <em>bots</em> que trabajan en Wikipedia</a> se encargan de tareas que pueden resultar tediosas para las personas, como identificar y deshacer casos de vandalismo, añadir enlaces, corregir la ortografía y guardar la concordancia sintáctica de las oraciones. El problema viene cuando las ediciones que hacen están condicionadas por el país y el lenguaje en el que han sido programados y están influidas por algunos aspectos culturales. Por ejemplo, algunas de estas reversiones vienen por cambiar “<a href="//elpais.com/tag/palestina/a">Palestina</a>” por “territorio palestino” o “Golfo Pérsico” por “Golfo Arábico”, y así con varios millones de conceptos que no coinciden en las distintas regiones del mundo.</font></p>
+                <br clear="all" />
+                <p align="right"><font face="Verdana" color="#454545"><small>Captura de pantalla de una de las ediciones producida por un 'bot'. <strong>WIKIPEDIA</strong></small></font></p> 
+                <hr />
+                <p><font face="Verdana" color="#454545">Además, están programados para revisar los cambios que hacen cada cierto tiempo, lo que ayuda a que se produzcan enfrentamientos con otros <em>bots</em> que hacen exactamente lo mismo y se corrigen entre sí cuando encuentran que su última edición ha vuelto a ser modificada. En los cambios que hacen las personas no se dan este tipo de conflictos porque los usuarios de <a href="//elpais.com/tag/wikipedia/a">Wikipedia</a> rara vez vuelven a comprobar si los datos que corrigieron están actualizados.</font></p>
+                <p><font face="Verdana" color="#454545">Algunos conflictos, como los de Wikipedia, pueden considerarse inocuos. Otros son más problemáticos y virales, como el que sucedió en Twitter en marzo de este año, cuando <a href="//tecnologia.elpais.com/tecnologia/2016/03/24/actualidad/1458855274_096966.html">Microsoft tuvo que retirar a uno de su <em>bots</em></a> por tuitear mensajes de contenido racista, sexista y xenófobo. Había sido programado para contestar preguntas y establecer conversaciones con los más jóvenes de la red y aprendió de ellos este comportamiento.</font></p>
+                <p><font face="Verdana" color="#454545">A pesar de los fallos y la falta de eficacia que demuestran en muchas ocasiones, los <em>bots</em> siguen siendo una opción muy útil en las tareas conversacionales. <a href="//elpais.com/elpais/2015/11/30/eps/1448901382_841637.html">El ejemplo más claro es Siri</a>, la asistente de Apple que resuelve las dudas del usuario a través de mensajes de voz. Pero también hay otros casos, como el diseñado por un estudiante de la Universidad de Stanford, que está programado para ayudar a las personas a recurrir las multas de aparcamiento. En un año ha conseguido anular 160.000 multas y ya funciona en Londres y Nueva York.</font></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio15/ejercicio15.html</guid>
+            <title>Ejercicio 15</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio15/ejercicio15.html</link>
+            <description>Galería de imágenes</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio15/img/Imagen01.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Vehículos deportivos de Grand Theft Auto V</h1>
+                <p><strong>Grand Theft Auto V</strong> es la entrega con más vehículos en toda la saga: se añadieron muchos vehículos nuevos, regresaron algunos que se ausentaron en su entrega pasada y se eliminaron algunos. Hay 275 vehículos en el modo individual (contando los nuevos para PS4, PC y Xbox One) y 256 en GTA Online.</p>
+                <div>
+                    <a href="elemento01.html"><img src="img/Imagen01.jpg" alt="Imagen de coche Adder" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento02.html"><img src="img/Imagen02.jpg" alt="Imagen de coche Bullet" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento03.html"><img src="img/Imagen03.jpg" alt="Imagen de coche Cheetah" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento04.html"><img src="img/Imagen04.jpg" alt="Imagen de coche Entity XF" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento05.html"><img src="img/Imagen05.jpg" alt="Imagen de coche Infernus" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento06.html"><img src="img/Imagen06.jpg" alt="Imagen de coche Osiris" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento07.html"><img src="img/Imagen07.jpg" alt="Imagen de coche T20" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento08.html"><img src="img/Imagen08.jpg" alt="Imagen de coche Turismo R" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento09.html"><img src="img/Imagen09.jpg" alt="Imagen de coche Vacca" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento10.html"><img src="img/Imagen10.jpg" alt="Imagen de coche Voltic" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento11.html"><img src="img/Imagen11.jpg" alt="Imagen de coche Zentorno" width="250" hspace="10" vspace="10" border="2" /></a>
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio16/ejercicio16.html</guid>
+            <title>Ejercicio 16</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio16/ejercicio16.html</link>
+            <description>Galería de imágenes con enlace a nueva pestaña</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio16/img/Imagen01.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Vehículos deportivos de Grand Theft Auto V</h1>
+                <p><strong>Grand Theft Auto V</strong> es la entrega con más vehículos en toda la saga: se añadieron muchos vehículos nuevos, regresaron algunos que se ausentaron en su entrega pasada y se eliminaron algunos. Hay 275 vehículos en el modo individual (contando los nuevos para PS4, PC y Xbox One) y 256 en GTA Online.</p>
+                <div>
+                    <a href="elemento01.html"><img src="img/Imagen01.jpg" alt="Imagen de coche Adder" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento02.html"><img src="img/Imagen02.jpg" alt="Imagen de coche Bullet" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento03.html"><img src="img/Imagen03.jpg" alt="Imagen de coche Cheetah" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento04.html"><img src="img/Imagen04.jpg" alt="Imagen de coche Entity XF" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento05.html"><img src="img/Imagen05.jpg" alt="Imagen de coche Infernus" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento06.html"><img src="img/Imagen06.jpg" alt="Imagen de coche Osiris" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento07.html"><img src="img/Imagen07.jpg" alt="Imagen de coche T20" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento08.html"><img src="img/Imagen08.jpg" alt="Imagen de coche Turismo R" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento09.html"><img src="img/Imagen09.jpg" alt="Imagen de coche Vacca" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento10.html"><img src="img/Imagen10.jpg" alt="Imagen de coche Voltic" width="250" hspace="10" vspace="10" border="2" /></a>
+                    <a href="elemento11.html"><img src="img/Imagen11.jpg" alt="Imagen de coche Zentorno" width="250" hspace="10" vspace="10" border="2" /></a>
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio18/ejercicio18.html</guid>
+            <title>Ejercicio 18</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio18/ejercicio18.html</link>
+            <description><![CDATA[Hipervínculo con elemento <area>]]></description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio18/img/etiquetasHTML5.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <div>         
+                    <!-- Image Map Generated by http://www.image-map.net/ -->
+
+                    <img src="img/etiquetasHTML5.jpg" alt="Iamgen que recoge los principales elementos HTML5" usemap="#image-map" />
+
+                    <map id="image-map" name="image-map">
+                        <area alt="Elemento A" title="Elemento A" href="http://html.conclase.net/w3c/html401-es/struct/links.html#edef-A" coords="659,275,693,287" shape="rect" />
+                        <area alt="Elemento ABBR" title="Elemento ABBR" href="http://html.conclase.net/w3c/html401-es/struct/text.html#edef-ABBR" coords="659,296,730,308" shape="rect" />
+                        <area alt="Elemento ADDRESS" title="Elemento ADDRESS" href="http://html.conclase.net/w3c/html401-es/struct/global.html#edef-ADDRESS" coords="659,317,768,329" shape="rect" />
+                        <area alt="Elemento AREA" title="Elemento AREA" href="http://html.conclase.net/w3c/html401-es/struct/objects.html#edef-AREA" coords="659,338,731,350" shape="rect" />
+                        <area alt="Elemento B" title="Elemento B" href="http://html.conclase.net/w3c/html401-es/present/graphics.html#edef-B" coords="659,360,693,372" shape="rect" />
+                        <area alt="Elemento BASE" title="Elemento BASE" href="http://html.conclase.net/w3c/html401-es/struct/links.html#edef-BASE" coords="659,381,728,393" shape="rect" />
+                        <area alt="Elemento BDO" title="Elemento BDO" href="http://html.conclase.net/w3c/html401-es/struct/dirlang.html#edef-BDO" coords="659,402,721,415" shape="rect" />
+                        <area alt="Elemento BLOCKQUOTE" title="Elemento BLOCKQUOTE" href="http://html.conclase.net/w3c/html401-es/struct/text.html#edef-BLOCKQUOTE" coords="659,424,808,436" shape="rect" />
+                    </map>
+
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio19/ejercicio19.html</guid>
+            <title>Ejercicio 19</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio19/ejercicio19.html</link>
+            <description>Página con hipervínculo al índice</description>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 19</h1>
+                <hr />
+                <div id="index">
+                    <p><a href="#int">Introducción a HTML4</a></p>
+                    <p><a href="#rep">Representación de documentos HTML</a></p>
+                    <p><a href="#tip">Tipos de datos básicos de HTML</a></p>
+                    <p><a href="#dat">Datos de caracteres</a></p>
+                    <ul>
+                        <li><p><a href="#col">Colores</a></p></li>
+                        <li><p><a href="#lon">Longitudes</a></p></li>
+                        <li><p><a href="#uri">URIs</a></p></li>
+                    </ul>
+                    <p><a href="#est">La estructura global de un documento HTML</a></p>
+                    <ul>
+                        <li><p><a href="#cab">La cabecera (HEAD) y el cuerpo (BODY) de un documento</a></p></li>
+                        <li><p><a href="#inf">Información sobre el idioma y la dirección del texto</a></p></li>
+                    </ul>
+                    <p><a href="#txt">Texto</a></p>
+                    <ul>
+                        <li><p><a href="#par">Párrafos</a></p></li>
+                        <li><p><a href="#lin">Líneas</a></p></li>
+                    </ul>
+                    <p><a href="#lis">Listas</a></p>
+                </div>
+                <hr />
+                <h2 id="int">Introducción a HTML4</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="rep">Representación de documentos HTML</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="tip">Tipos de datos básicos de HTML</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="dat">Datos de caracteres</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="col">Colores</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p>
+                    Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="lon">Longitudes</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="uri">URIs</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="est">La estructura global de un documento HTML</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="cab">La cabecera (HEAD) y el cuerpo (BODY) de un documento</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p>
+                    Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="inf">Información sobre el idioma y la dirección del texto</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="txt">Texto</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="par">Párrafos</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h3 id="lin">Líneas</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="lis">Listas</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <p>
+                    Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero.
+                </p>
+                <p>
+                    Proin nonummy, lacus eget pulvinar lacinia, pede felis dignissim leo, vitae tristique magna lacus sit amet eros. Nullam ornare. Praesent odio ligula, dapibus sed, tincidunt eget, dictum ac, nibh. Nam quis lacus. Nunc eleifend molestie velit. Morbi lobortis quam eu velit. Donec euismod vestibulum massa. Donec non lectus. Aliquam commodo lacus sit amet nulla. Cras dignissim elit et augue. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Aenean vestibulum. Sed lobortis elit quis lectus. Nunc sed lacus at augue bibendum dapibus.
+                </p>
+                <p><a href="#index">Volver a índice &uarr;</a></p>
+                <hr />
+                <p><a href="doc/Introduccion_a_HTML4.pdf">Visualizar página en formato PDF</a></p>
+                <p>Puede enviar sus sugerencias en el siguiente <a href="mailto:icuevass01@informatica.iesvalledeljerteplasencia.es?subject=Sugerencias&body=ESCRIBE%AQUÍ%TUS%SUGERENCIAS,%NO%OLVIDES%INCLUIR%TUS%DATOS%PERSONALES">enlace</a></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio20/libro/indiceHTML4.html</guid>
+            <title>Ejercicio 20</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio20/libro/indiceHTML4.html</link>
+            <description>Índice con hipervínculo a ejercicio 19 a través de cambio de base</description>
+            <content:encoded><![CDATA[
+                <div>
+                    <h1>Índice</h1>
+                    <p><a href="#int">Introducción a HTML4</a></p>
+                    <p><a href="#rep">Representación de documentos HTML</a></p>
+                    <p><a href="#tip">Tipos de datos básicos de HTML</a></p>
+                    <p><a href="#dat">Datos de caracteres</a></p>
+                    <ul>
+                        <li><p><a href="#col">Colores</a></p></li>
+                        <li><p><a href="#lon">Longitudes</a></p></li>
+                        <li><p><a href="#uri">URIs</a></p></li>
+                    </ul>
+                    <p><a href="#est">La estructura global de un documento HTML</a></p>
+                    <ul>
+                        <li><p><a href="#cab">La cabecera (HEAD) y el cuerpo (BODY) de un documento</a></p></li>
+                        <li><p><a href="#inf">Información sobre el idioma y la dirección del texto</a></p></li>
+                    </ul>
+                    <p><a href="#txt">Texto</a></p>
+                    <ul>
+                        <li><p><a href="#par">Párrafos</a></p></li>
+                        <li><p><a href="#lin">Líneas</a></p></li>
+                    </ul>
+                    <p><a href="#lis">Listas</a></p>
+                </div>    
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio23.html</guid>
+            <title>Ejercicio 23</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio23.html</link>
+            <description>Enlaces a sitios web de tres compañeros</description>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 23</h1>
+                <!-- Barra slash (/) al inicio de enlace es un puntero al directorio raíz del servidor (http://lmsgi.iesvjp.es) o, lo que es lo mismo, una ruta relativa al sitio -->
+                <p><a href="/~lgonzalezm59/">Enlace a sitio web de Lucía</a></p>
+                <p><a href="/~jmgonzalezv01/">Enlace a sitio web de José María</a></p>
+                <p><a href="/~jescuderom01/">Enlace a sitio web de Jonathan</a></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio24.html</guid>
+            <title>Ejercicio 24</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio24.html</link>
+            <description>Índice con hipervínculo a página externa a través de cambio de base</description>
+            <content:encoded><![CDATA[
+                <div>
+                    <h1>Introducción a XHTML</h1>
+                    <p>Escrito por Javier Eguiluz</p>
+                </div>
+                <div>
+                    <p>
+                        <span>Capítulo 01.</span>
+                        <a href="./xhtml/capitulo-1">Introducción</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>01.02.</span>
+                            <a href="./xhtml/capitulo-1/breve-historia-de-html">Breve historia de HTML</a>
+                        </li>
+                        <li>
+                            <span>01.03.</span>
+                            <a href="./xhtml/capitulo-1/especificacion-oficial">Especificación oficial</a>
+                        </li>
+                        <li>
+                            <span>01.04.</span>
+                            <a href="./xhtml/capitulo-1/html-y-xhtml">HTML y XHTML</a>
+                        </li>
+                        <li>
+                            <span>01.05.</span>
+                            <a href="./xhtml/capitulo-1/html-y-css">HTML y CSS</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 02.</span>
+                        <a href="./xhtml/capitulo-2">Características básicas</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>02.02.</span>
+                            <a href="./xhtml/capitulo-2/el-primer-documento-html">El primer documento HTML</a>
+                        </li>
+                        <li>
+                            <span>02.03.</span>
+                            <a href="./xhtml/capitulo-2/etiquetas-y-atributos">Etiquetas y atributos</a>
+                        </li>
+                        <li>
+                            <span>02.04.</span>
+                            <a href="./xhtml/capitulo-2/elementos-html">Elementos HTML</a>
+                        </li>
+                        <li>
+                            <span>02.05.</span>
+                            <a href="./xhtml/capitulo-2/sintaxis-de-las-etiquetas-xhtml">Sintaxis de las etiquetas XHTML</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 03.</span>
+                        <a href="./xhtml/capitulo-3">Texto</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>03.01.</span>
+                            <a href="./xhtml/capitulo-3/estructurar">Estructurar</a>
+                        </li>
+                        <li>
+                            <span>03.02.</span>
+                            <a href="./xhtml/capitulo-3/marcado-basico-de-texto">Marcado básico de texto</a>
+                        </li>
+                        <li>
+                            <span>03.03.</span>
+                            <a href="./xhtml/capitulo-3/marcado-avanzado-de-texto">Marcado avanzado de texto</a>
+                        </li>
+                        <li>
+                            <span>03.04.</span>
+                            <a href="./xhtml/capitulo-3/marcado-generico-de-texto">Marcado genérico de texto</a>
+                        </li>
+                        <li>
+                            <span>03.05.</span>
+                            <a href="./xhtml/capitulo-3/espacios-en-blanco-y-nuevas-lineas">Espacios en blanco y nuevas líneas</a>
+                        </li>
+                        <li>
+                            <span>03.06.</span>
+                            <a href="./xhtml/capitulo-3/codificacion-de-caracteres">Codificación de caracteres</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 04.</span>
+                        <a href="./xhtml/capitulo-4">Enlaces</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>04.01.</span>
+                            <a href="./xhtml/capitulo-4/url">URL</a>
+                        </li>
+                        <li>
+                            <span>04.02.</span>
+                            <a href="./xhtml/capitulo-4/enlaces-relativos-y-absolutos">Enlaces relativos y absolutos</a>
+                        </li>
+                        <li>
+                            <span>04.03.</span>
+                            <a href="./xhtml/capitulo-4/enlaces-basicos">Enlaces básicos</a>
+                        </li>
+                        <li>
+                            <span>04.04.</span>
+                            <a href="./xhtml/capitulo-4/enlaces-avanzados">Enlaces avanzados</a>
+                        </li>
+                        <li>
+                            <span>04.05.</span>
+                            <a href="./xhtml/capitulo-4/otros-tipos-de-enlaces">Otros tipos de enlaces</a>
+                        </li>
+                        <li>
+                            <span>04.06.</span>
+                            <a href="./xhtml/capitulo-4/ejemplos-de-enlaces-habituales">Ejemplos de enlaces habituales</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 05.</span>
+                        <a href="./xhtml/capitulo-5">Listas</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>05.01.</span>
+                            <a href="./xhtml/capitulo-5/listas-no-ordenadas">Listas no ordenadas</a>
+                        </li>
+                        <li>
+                            <span>05.02.</span>
+                            <a href="./xhtml/capitulo-5/listas-ordenadas">Listas ordenadas</a>
+                        </li>
+                        <li>
+                            <span>05.03.</span>
+                            <a href="./xhtml/capitulo-5/listas-de-definicion">Listas de definición</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 06.</span>
+                        <a href="./xhtml/capitulo-6">Imágenes y objetos</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>06.02.</span>
+                            <a href="./xhtml/capitulo-6/mapas-de-imagen">Mapas de imagen</a>
+                        </li>
+                        <li>
+                            <span>06.03.</span>
+                            <a href="./xhtml/capitulo-6/objetos">Objetos</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 07.</span>
+                        <a href="./xhtml/capitulo-7">Tablas</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>07.01.</span>
+                            <a href="./xhtml/capitulo-7/tablas-basicas">Tablas básicas</a>
+                        </li>
+                        <li>
+                            <span>07.02.</span>
+                            <a href="./xhtml/capitulo-7/tablas-avanzadas">Tablas avanzadas</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 08.</span>
+                        <a href="./xhtml/capitulo-8">Formularios</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>08.01.</span>
+                            <a href="./xhtml/capitulo-8/formularios-basicos">Formularios básicos</a>
+                        </li>
+                        <li>
+                            <span>08.02.</span>
+                            <a href="./xhtml/capitulo-8/elementos-de-formulario">Elementos de formulario</a>
+                        </li>
+                        <li>
+                            <span>08.03.</span>
+                            <a href="./xhtml/capitulo-8/formularios-avanzados">Formularios avanzados</a>
+                        </li>
+                        <li>
+                            <span>08.04.</span>
+                            <a href="./xhtml/capitulo-8/otros-elementos-de-formulario">Otros elementos de formulario</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 09.</span>
+                        <a href="./xhtml/capitulo-9">Estructura y layout</a>
+                    </p>
+                    <p>
+                        <span>Capítulo 10.</span>
+                        <a href="./xhtml/capitulo-10">Metainformación</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>10.01.</span>
+                            <a href="./xhtml/capitulo-10/estructura-de-la-cabecera">Estructura de la cabecera</a>
+                        </li>
+                        <li>
+                            <span>10.02.</span>
+                            <a href="./xhtml/capitulo-10/metadatos">Metadatos</a>
+                        </li>
+                        <li>
+                            <span>10.03.</span>
+                            <a href="./xhtml/capitulo-10/doctype">DOCTYPE</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 11.</span>
+                        <a href="./xhtml/capitulo-11">Otras etiquetas importantes</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>11.02.</span>
+                            <a href="./xhtml/capitulo-11/javascript">JavaScript</a>
+                        </li>
+                        <li>
+                            <span>11.03.</span>
+                            <a href="./xhtml/capitulo-11/css">CSS</a>
+                        </li>
+                        <li>
+                            <span>11.04.</span>
+                            <a href="./xhtml/capitulo-11/iframes">Iframes</a>
+                        </li>
+                        <li>
+                            <span>11.05.</span>
+                            <a href="./xhtml/capitulo-11/otras-etiquetas">Otras etiquetas</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 12.</span>
+                        <a href="./xhtml/capitulo-12">Accesibilidad</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>12.01.</span>
+                            <a href="./xhtml/capitulo-12/requisitos-del-nivel-a-de-accesibilidad">Requisitos del nivel A de accesibilidad</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 13.</span>
+                        <a href="./xhtml/capitulo-13">Validación</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>13.01.</span>
+                            <a href="./xhtml/capitulo-13/validacion-con-dreamweaver">Validación con Dreamweaver</a>
+                        </li>
+                        <li>
+                            <span>13.02.</span>
+                            <a href="./xhtml/capitulo-13/validador-del-w3c">Validador del W3C</a>
+                        </li>
+                        <li>
+                            <span>13.03.</span>
+                            <a href="./xhtml/capitulo-13/otros-validadores">Otros validadores</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 14.</span>
+                        <a href="./xhtml/capitulo-14">Fragmentos de código</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>14.01.</span>
+                            <a href="./xhtml/capitulo-14/documento-xhtml">Documento XHTML</a>
+                        </li>
+                        <li>
+                            <span>14.02.</span>
+                            <a href="./xhtml/capitulo-14/cabecera-xhtml">Cabecera XHTML</a>
+                        </li>
+                        <li>
+                            <span>14.03.</span>
+                            <a href="./xhtml/capitulo-14/tabla">Tabla</a>
+                        </li>
+                        <li>
+                            <span>14.04.</span>
+                            <a href="./xhtml/capitulo-14/formulario">Formulario</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Capítulo 15.</span>
+                        <a href="./xhtml/capitulo-15">Ejercicios resueltos</a>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>15.02.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-2">Ejercicio 2</a>
+                        </li>
+                        <li>
+                            <span>15.03.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-3">Ejercicio 3</a>
+                        </li>
+                        <li>
+                            <span>15.04.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-4">Ejercicio 4</a>
+                        </li>
+                        <li>
+                            <span>15.05.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-5">Ejercicio 5</a>
+                        </li>
+                        <li>
+                            <span>15.06.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-6">Ejercicio 6</a>
+                        </li>
+                        <li>
+                            <span>15.07.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-7">Ejercicio 7</a>
+                        </li>
+                        <li>
+                            <span>15.08.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-8">Ejercicio 8</a>
+                        </li>
+                        <li>
+                            <span>15.09.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-9">Ejercicio 9</a>
+                        </li>
+                        <li>
+                            <span>15.10.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-10">Ejercicio 10</a>
+                        </li>
+                        <li>
+                            <span>15.11.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-11">Ejercicio 11</a>
+                        </li>
+                        <li>
+                            <span>15.12.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-12">Ejercicio 12</a>
+                        </li>
+                        <li>
+                            <span>15.13.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-13">Ejercicio 13</a>
+                        </li>
+                        <li>
+                            <span>15.14.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-14">Ejercicio 14</a>
+                        </li>
+                        <li>
+                            <span>15.15.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-15">Ejercicio 15</a>
+                        </li>
+                        <li>
+                            <span>15.16.</span>
+                            <a href="./xhtml/capitulo-15/ejercicio-16">Ejercicio 16</a>
+                        </li>
+                    </ul>
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio25/ejercicio25.html</guid>
+            <title>Ejercicio 25</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio25/ejercicio25.html</link>
+            <description>Página con redireccionamiento automático a través de la etiqueta meta</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio25/img/pagina_en_construccion.gif" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 25</h1>
+                <p>Lo sentimos. El sitio Web se encuentra en mantenimiento en estos momentos. Va a ser redirigido automáticamente <a href="/">aquí</a> en unos segundos. Disculpe las molestias</p>
+                <p><img src="img/pagina_en_construccion.gif" alt="Imagen animada de obreros trabajando con el texto “Sitio Web está en construcción. Por favor, vuelva más adelante”" width="50%"/></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio29/ejercicio29.html</guid>
+            <title>Ejercicio 29</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio29/ejercicio29.html</link>
+            <description>Muestra de barra de iconos de navegación</description>
+            <content:encoded><![CDATA[
+                <div>
+                    <a href="#"><img src="img/Compartir_FB.png" alt="Botón de compartir enlace en Facebook" /></a>
+                    <a href="#"><img src="img/Compartir_TW.png" alt="Botón de compartir enlace en Twitter" /></a>
+                    <a href="#"><img src="img/Compartir_Mas.png" alt="Botón de añadir más redes sociales para compartir" /></a>
+                    <a href="#"><img src="img/Comentarios.png" alt="Botón de acceso a bloque de comentarios" /></a>
+                    <a href="#"><img src="img/Imprimir.png" alt="Botón de imprimir artículo" align="right" /></a>
+                    <a href="#"><img src="img/Email.png" alt="Botón de acceso a correo electrónico" align="right" /></a>
+                    <a href="#"><img src="img/Favoritos.png" alt="Botón de añadir el enlace a favoritos" align="right" /></a>           
+                </div>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio30/ejercicio30.html</guid>
+            <title>Ejercicio 30</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio30/ejercicio30.html</link>
+            <description>A Google le sale caro ser tu buscador favorito</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p2/ejercicio30/img/Google.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <h1>A Google le sale caro ser tu buscador favorito</h1>
+                <div>
+                    <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.elmundo.es%2Fblogs%2Felmundo%2Fel-gadgetoblog%2F2017%2F10%2F10%2Fa-google-le-sale-caro-ser-tu-buscador.html&related=elmundoes&text=A%20Google%20le%20sale%20caro%20ser%20tu%20buscador%20favorito&tw_p=tweetbutton&url=https%3A%2F%2Fwww.elmundo.es%2Fblogs%2Felmundo%2Fel-gadgetoblog%2F2017%2F10%2F10%2Fa-google-le-sale-caro-ser-tu-buscador.html&via=elmundoes"><img src="img/Twitter.png" alt="Botón para compartir el enlace en Twitter" /></a>
+                    <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.elmundo.es%252Fblogs%252Felmundo%252Fel-gadgetoblog%252F2017%252F10%252F10%252Fa-google-le-sale-caro-ser-tu-buscador.html&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=es_ES"><img src="img/Facebook.png" alt="Botón para compartir el enlace en Facebook" /></a>
+                    <a href="#"><img src="img/Mail.png" alt="Botón de acceso a correo electrónico" /></a>
+                </div>
+                <p><img src="img/Google.jpg" alt="Fotografía que muestra la pantalla de inicio de Google" /></p>
+                <p><small>Los costes de adquisición de tráfico suben para Google.</small></p>
+                <hr />
+                <p>Pregúntale a Siri algo que no sepa y lo más probable es que sugiera buscarlo en la web. ¿Dónde? Buena pregunta. Hasta hace sólo un mes la respuesta habría sido Bing, el buscador de Microsoft, con independencia del buscador que el usuario tenga seleccionado por defecto en Safari (el navegador por defecto en los dispositivos de Apple).</p>
+                <p>Hoy, en cambio, Siri sugiere buscarlo en Google y <a href="https://techcrunch.com/2017/09/25/apple-switches-from-bing-to-google-for-siri-web-search-results-on-ios-and-spotlight-on-mac/">no es por capricho</a>. El acuerdo con Microsoft había llegado a su fin y Google estaba dispuesta a pagar más por ser el buscador predeterminado del asistente virtual de Apple.</p>
+                <p>Google tiene que sumar esa cifra a lo que ya paga por ser el buscador predeterminado en Safari y la cuenta final no sale barata. Según los analistas la empresa paga <strong>entre 3.000 y 4.000 millones de dólares al año a Apple</strong> por el privilegio de ser omnipresente tanto en Mac como en iOS.</p>
+                <p>Apple no es la única compañía a la que tiene que convencer. Google también paga a otras por asegurarse un puesto prioritario en sus productos y la cantidad que debe invertir para lograrlo es cada vez mayor.</p>
+                <p><a href="https://www.bloomberg.com/news/articles/2017-10-09/google-s-19-billion-black-box-is-worrying-investors">Según Bloomberg Businessweek</a>, de hecho, la cifra -que Google presenta en sus resultados financieros como parte del "coste de adquisición de tráfico"- <strong>se ha triplicado a lo largo de los últimos cinco años</strong> y ahora mismo supera los 7.200 millones de dólares.</p>
+            ]]></content:encoded>
+        </item>
+    </channel>
+</rss>

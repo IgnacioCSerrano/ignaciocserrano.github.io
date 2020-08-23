@@ -1,0 +1,95 @@
+/* 
+    POSITION:
+
+    relative: an element’s original position remains in the flow of the document, 
+    just like the static value, but now left/right/top/bottom/z-index will work. 
+    The positional properties “nudge” the element from the original position in that direction.
+
+    absolute: the element is removed from the flow of the document 
+    and other elements will behave as if it’s not even there 
+    whilst all the other positional properties will work on it.
+*/
+
+#caja1 {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    width: 250px;
+    height: 150px;
+    z-index: 1;
+    background-color: #3300FF;
+}
+
+#caja2 {
+    position: absolute;
+    left: 70px;
+    top: 120px;
+    width: 450px;
+    height: 230px;
+    z-index: 2;
+    background-color: #999999;
+}
+
+#caja2 > div:nth-of-type(1) {
+    height: 50px;
+    width: 100px;
+    background-color: #33FF33;
+}
+
+#caja2 > div:nth-of-type(2) {
+    position: relative;
+    left: 100px;
+    top: -30px;
+    height: 50px;
+    width: 100px;
+    background-color: #663300;
+}
+
+#caja2 > div:nth-of-type(3) {
+    height:55px;
+    width: 100px;
+    background-color: #660000;
+}
+
+#caja3 {
+    position: absolute;
+    left: 8px;
+    top: 365px;
+    width: 780px;
+    height: 250px;
+    z-index: 3;
+    background-color: #CC3300;
+}
+
+#caja4 {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 150px;
+    height: 150px;
+    z-index: 4;
+    background-color: #FFFF00;
+}
+
+#caja5 {
+    position: relative;
+    left: 170px;
+    width: 250px;
+    height: 150px;
+    z-index: 4;
+    background-color: #CC00CC;
+}
+
+#caja6 {
+    position: absolute;
+    left: 550px;
+    top: 80px;
+    width: 650px;
+    height: 250px;
+    z-index: 4;
+    border: #990000 medium dashed;
+}
+
+#caja6 img {
+    float: right;
+}

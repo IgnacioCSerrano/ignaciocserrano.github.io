@@ -1,0 +1,16 @@
+ul {
+    margin-bottom: 35px;
+    width: 160px;
+    border: 1px solid black;
+}
+
+li {
+    padding: 5px 0;
+}
+
+span {
+    position: absolute;
+    left: 110px;
+    width: 60px;
+    text-align: right;
+}

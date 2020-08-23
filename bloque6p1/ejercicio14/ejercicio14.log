@@ -1,0 +1,8 @@
+var metros = 2.08;
+undefined
+const mAPulgadas = 39.3701;
+undefined
+var pulgadas = metros * mAPulgadas;
+undefined
+pulgadas
+81.889808

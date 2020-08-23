@@ -1,0 +1,57 @@
+body {
+    background-color: #5b5b5b;
+}
+
+h1 {
+    color: white;
+}
+
+#wrapper {
+     margin: 5% 20% 0;
+}
+
+#wrapper h2 {
+    margin: 10px 0;
+}
+
+#wrapper p {
+    margin: 0;
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 2em;
+}
+
+#wrapper > ul {
+    list-style: none;
+}
+
+#wrapper > ul > li {
+    position: relative;
+    padding: 0 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 130px;
+    height: 170px;
+    box-shadow: 4px 4px 5px black;
+    transition: all 0.1s;
+}
+
+#wrapper > ul > li:nth-child(2n) {
+    background-color: #ffffc5;
+    transform: rotate(-10deg);
+}
+
+#wrapper > ul > li:nth-child(2n + 1) {
+    background-color: #c5c5ff;
+    transform: rotate(7deg);
+}
+
+#wrapper > ul > li:nth-child(3n + 2) {
+    background-color: #c5ffc5;
+    transform: rotate(-3deg);
+}
+
+#wrapper > ul > li:hover {
+    transform: scale(1.5);
+    z-index: 10;
+    transition: all 0.2s linear;
+}

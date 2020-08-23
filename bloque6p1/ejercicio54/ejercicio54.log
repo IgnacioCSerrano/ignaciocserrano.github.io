@@ -1,0 +1,46 @@
+let promptNumero = () => {
+    let n;
+    do {
+        n = prompt("Introduzca un número:");
+        if (isNaN(n)) {
+            alert("Error: parámetro introducido no es un número.");
+        } else if (n === "" || n === null) {
+            return null;
+        } else {
+            return + n;
+        }
+    } while (isNaN(n));
+};
+undefined
+let promptEntero = () => {
+    let n;
+    do {
+        n = prompt("Introduzca un número entero:");
+        if (isNaN(n)) {
+            alert("Error: parámetro introducido no es un número.");
+        } else if (!esInt(n)) {
+            alert("Error: parámetro introducido no es un número entero.");
+        } else if (n === "" || n === null)  {
+            return null;
+        } else {
+            return + n;
+        }
+    } while (isNaN(n) || !esInt(n));
+};
+undefined
+let promptFloat = () => {
+    let n;
+    do {
+        n = prompt("Introduzca un número decimal:");
+        if (isNaN(n)) {
+            alert("Error: parámetro introducido no es un número.");
+        } else if (esInt(n)) {
+            alert("Error: parámetro introducido no es un número decimal.");
+        } else if (n === "" || n === null)  {
+            return null;
+        } else {
+            return + n;
+        }
+    } while (isNaN(n) || esInt(n));
+};
+undefined

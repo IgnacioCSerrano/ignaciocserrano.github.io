@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 3</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center m-3">Alta de perfil</h1>
+        <div class="container mb-4">
+            <!-- enctype="multipart/form-data" is required in forms with a file upload control-->
+            <form action="https://httpbin.org/get" autocomplete="off" enctype="multipart/form-data" method="get"> 
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" class="form-control" id="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="dni">DNI</label>
+                    <input type="text" name="dni" class="form-control" id="dni" required>
+                </div>
+                <div class="form-group">
+                    <label for="calle">Calle</label>
+                    <input type="text" name="calle" class="form-control" id="calle" required>
+                </div>
+                <div class="form-group">
+                    <label for="numero">Número</label>
+                    <input type="number" name="numero" class="form-control" id="numero" required>
+                </div>
+                <div class="form-group">
+                    <label for="numero">Ciudad</label>
+                    <input type="number" name="numero" class="form-control" id="numero" required>
+                </div>
+                <div class="form-group">
+                    <label for="letraDni">Comunidad Autónoma</label>
+                    <select class="form-control" name="letraDni" id="letraDni">
+                        <option value="" selected></option>
+                        <option value="Andalucía">Andalucía</option>
+                        <option value="Aragón">Aragón</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Baleares">Baleares</option>
+                        <option value="Canarias">Canarias</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+                        <option value="Castilla y León">Castilla y León</option>
+                        <option value="Cataluña">Cataluña</option>
+                        <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+                        <option value="Extremadura">Extremadura</option>
+                        <option value="Galicia">Galicia</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="País Vasco">País Vasco</option>
+                        <option value="La Rioja">La Rioja</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" class="form-control" id="edad" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" name="tel" class="form-control" id="tel" required>
+                </div>
+                <div class="custom-file mt-3 mb-4">
+                    <input type="file" class="custom-file-input" id="customFile" accept="image/*">
+                    <label class="custom-file-label" for="customFile">Elije una imagen de perfil</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-danger ml-2">Resetear</button>
+            </form>
+        </div>
+        <script type="text/javascript" src="../../bloque6p1/lib/libreria.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 10</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <h1>Ejercicio 10</h1>
+        <div>
+            <ul>
+                <li>
+                    <p>Selector <em>E F</em>: estilo se aplica para elemento, clase o id <strong>F</strong> que sea descendiente de elemento, clase o id <strong>E</strong></p>
+                    <span class="descendiente">Clase hija de elemento &lt;li&gt;</span>
+                    <div>
+                        <span class="descendiente">Clase nieta de elemento &lt;li&gt;</span>
+                    </div>
+                </li>
+                <li>
+                    <p>Selector <em>E > F</em>: estilo se aplica para elemento, clase o id <strong>F</strong> que sea hijo de elemento, clase o id <strong>E</strong></p>
+                    <span class="hijo">Clase hija de elemento &lt;li&gt;</span>
+                    <div>
+                        <span class="hijo">Clase nieta de elemento &lt;li&gt;</span>
+                    </div>
+                </li>
+                <li>
+                    <p>Selector <em>E + F</em>: estilo se aplica para elemento, clase o id <strong>F</strong> que sea precedido, inmediatamente, de elemento, clase o id <strong>E</strong></p>
+                    <span class="adyacente">Clase adyacente inmediata a elemento &lt;p&gt;</span><br>
+                    <span class="adyacente">Clase adyacente no inmediata a elemento &lt;p&gt;</span>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

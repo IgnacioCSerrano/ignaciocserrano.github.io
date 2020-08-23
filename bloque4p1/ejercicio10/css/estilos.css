@@ -1,0 +1,11 @@
+li .descendiente {
+    color: red;
+}
+
+li > .hijo {
+    color: green;
+}
+
+p + .adyacente {
+    color: blue;
+}

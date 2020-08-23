@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#tareas {
+    min-width: 350px;
+}
+
+#tareas ul {
+    margin: 0;
+    padding: 0;
+}
+
+#tareas ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 25px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#tareas ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+#tareas ul li:hover {
+    background: #ddd;
+}
+
+#tareas ul li.realizada {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+#tareas ul li.realizada::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+#tareas ul li i.fas.fa-trash-alt {
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 12px 12px 12px;
+    border-left: white 1px solid;
+}
+#tareas ul li i.fas.fa-trash-alt:hover {
+    background-color: #f44336;
+
+}
+
+#tareas>div:nth-child(1) {
+    background-color: #007aa9;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+#tareas input.error {
+    background-color: #ffa3a3;
+}
+
+#tareas input[type="button"] {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+#tareas input[type="button"]:hover {
+    background-color: #bbb;
+}

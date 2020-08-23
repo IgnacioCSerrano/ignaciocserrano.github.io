@@ -1,0 +1,14 @@
+#triangulo1 {
+    background-color: black;
+    width: 150px;
+    height: 75px;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+#triangulo2 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}

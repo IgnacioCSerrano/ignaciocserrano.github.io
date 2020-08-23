@@ -1,0 +1,64 @@
+let generarRGB = () => {
+    var r = Math.floor(Math.random() * 2 ** 8);
+    var g = Math.floor(Math.random() * 2 ** 8);
+    var b = Math.floor(Math.random() * 2 ** 8);
+    return `rgb(${r},${g},${b})`;
+};
+undefined
+let colores = [];
+undefined
+for (let i = 0; i < 5; i++) {
+    colores[i] = generarRGB();
+};
+"rgb(206,211,230)"
+colores[0] = generarRGB();
+"rgb(16,49,147)"
+colores[4] = generarRGB();
+"rgb(9,25,194)"
+colores[colores.length - 1] = generarRGB();
+"rgb(55,226,53)"
+console.log(colores.toString());
+VM1777:1 rgb(16,49,147),rgb(41,179,69),rgb(61,93,198),rgb(218,111,36),rgb(55,226,53)
+undefined
+colores.push(generarRGB());
+6
+colores[colores.length] = generarRGB();
+"rgb(147,93,127)"
+colores.unshift(generarRGB());
+8
+colores.pop();
+"rgb(147,93,127)"
+colores.shift();
+"rgb(142,127,114)"
+colores.splice(2,2);
+(2) ["rgb(61,93,198)", "rgb(218,111,36)"]
+for (let i = 0; i < colores.length; i++) {
+    console.log("índice: " + i + ", valor: " + colores[i]);
+};
+VM1812:2 índice: 0, valor: rgb(16,49,147)
+VM1812:2 índice: 1, valor: rgb(41,179,69)
+VM1812:2 índice: 2, valor: rgb(55,226,53)
+VM1812:2 índice: 3, valor: rgb(169,50,167)
+undefined
+for (let color of colores) {
+    console.log(color);
+};
+VM1817:2 rgb(16,49,147)
+VM1817:2 rgb(41,179,69)
+VM1817:2 rgb(55,226,53)
+VM1817:2 rgb(169,50,167)
+undefined
+colores.forEach( color => { console.log(color) } );
+VM1822:1 rgb(16,49,147)
+VM1822:1 rgb(41,179,69)
+VM1822:1 rgb(55,226,53)
+VM1822:1 rgb(169,50,167)
+undefined
+for (let i = colores.length - 1; i >= 0; i--) {
+    console.log("índice: " + i + ", valor: " + colores[i]);
+};
+VM1827:2 índice: 3, valor: rgb(169,50,167)
+VM1827:2 índice: 2, valor: rgb(55,226,53)
+VM1827:2 índice: 1, valor: rgb(41,179,69)
+VM1827:2 índice: 0, valor: rgb(16,49,147)
+undefined

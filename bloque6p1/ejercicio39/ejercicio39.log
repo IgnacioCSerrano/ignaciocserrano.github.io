@@ -1,0 +1,64 @@
+let factorial = n => {
+    let f = 1;
+    if (Number.isInteger(n) && n >= 0) {
+        for (let i = n; i > 0; i--) {
+            f *= i;
+        }
+    } else {
+        f = 0;
+        console.error("Error: parámetro no es un número entero positivo");
+    }
+    return f;
+};
+undefined
+factorial(5)
+120
+factorial(0)
+1
+factorial(2.5)
+VM1091:9 Error: parámetro no es un número entero positivo
+factorial @ VM1091:9
+(anonymous) @ VM1118:1
+0
+factorial(-1)
+VM1091:9 Error: parámetro no es un número entero positivo
+factorial @ VM1091:9
+(anonymous) @ VM1133:1
+0
+factorial("hola")
+VM1091:9 Error: parámetro no es un número entero positivo
+factorial @ VM1091:9
+(anonymous) @ VM1148:1
+0
+let factorialRecursivo = n => {
+    if (Number.isInteger(n) && n >= 0) {
+        if (n === 0) {
+           return 1;
+        } else {
+            return n * factorialRecursivo(n - 1);
+        }
+    } else {
+        console.error("Error: parámetro no es un número entero positivo");
+        return 0;
+    }
+};
+undefined
+factorialRecursivo(5)
+120
+factorialRecursivo(0)
+1
+factorialRecursivo(2.5)
+VM1168:9 Error: parámetro no es un número entero positivo
+factorialRecursivo @ VM1168:9
+(anonymous) @ VM1211:1
+0
+factorialRecursivo(-1)
+VM1168:9 Error: parámetro no es un número entero positivo
+factorialRecursivo @ VM1168:9
+(anonymous) @ VM1226:1
+0
+factorialRecursivo("hola")
+VM1168:9 Error: parámetro no es un número entero positivo
+factorialRecursivo @ VM1168:9
+(anonymous) @ VM1242:1
+0

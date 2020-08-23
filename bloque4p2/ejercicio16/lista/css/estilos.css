@@ -1,0 +1,16 @@
+ul.resumen {
+    margin: 30px auto;
+    padding: 10px;
+    width: 50%;
+    font-family: sans-serif;
+    border: 1px solid crimson;
+    box-shadow: 10px 10px 10px 5px lightgrey;
+    background-color: linen;
+}
+
+ul.resumen > li {
+    margin-top: 5px;
+    color: darkslategray;
+    list-style-position: inside;
+    list-style-image: url("../img/check-image.png");
+}

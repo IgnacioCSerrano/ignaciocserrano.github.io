@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 9</title>
+    </head>
+    <body>
+        <h1>Ejercicio 9</h1>
+        <details>
+            <summary>Tabla 1</summary>
+            <hr>
+            <table border="1">
+                <tr>
+                    <td>&nbsp;</td>
+                    <th scope="col">Columna 1</th>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 1</th>
+                    <td>Lorem Ipsum</td>
+                </tr>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 2</summary>
+            <hr>
+            <table border="1">
+                <colgroup>
+                    <col span="2">
+                    <col span="1">
+                    <col span="2">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td colspan="2" rowspan="2">&nbsp;</td>
+                        <th scope="col" rowspan="2">Columna 1</th>
+                        <th scope="col" colspan="2">Columna 2</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Columna 2a</th>
+                        <th scope="col">Columna 2b</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">Fila 1</th>
+                        <th scope="row">Fila 1a</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1b</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" colspan="2">Fila 2</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 3</summary>
+            <hr>
+            <table border="1">
+                <tr>
+                    <th scope="col">Col a</th>
+                    <th scope="col">Col b</th>
+                    <th scope="col">Col c</th>
+                    <th scope="col">Col d</th>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 1</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 2</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 3</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 4</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 4</summary>
+            <hr>
+            <table border="1">
+                <colgroup>
+                    <col span="2">
+                    <col span="2">
+                    <col span="2">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th colspan="2" rowspan="2">Col a</th>
+                        <th scope="col" colspan="2">Col b</th>
+                        <th scope="col" colspan="2">Col c</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Col b-a</th>
+                        <th scope="col">Col b-b</th>
+                        <th scope="col">Col b-c</th>
+                        <th scope="col">Col b-d</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">Fila 1</th>
+                        <th scope="row">Fila 1-1</th>
+                        <td>Celda b-a-1-1</td>
+                        <td>Celda b-b-1-1</td>
+                        <td>Celda c-a-1-1</td>
+                        <td>Celda c-b-1-1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1-2</th>
+                        <td>Celda b-a-1-2</td>
+                        <td>Celda b-b-1-2</td>
+                        <td>Celda c-a-1-2</td>
+                        <td>Celda c-b-1-2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="2">Fila 2</th>
+                        <th scope="row">Fila 2-1</th>
+                        <td>Celda b-a-2-1</td>
+                        <td>Celda b-b-2-1</td>
+                        <td>Celda c-a-2-1</td>
+                        <td>Celda c-b-2-1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2-2</th>
+                        <td>Celda b-a-2-2</td>
+                        <td>Celda b-b-2-2</td>
+                        <td>Celda c-a-2-2</td>
+                        <td>Celda c-b-2-2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 5</summary>
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Col a</th>
+                        <th scope="col">Col b</th>
+                        <th scope="col">Col c</th>
+                        <th scope="col">Col d</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col" colspan="4">Primer grupo</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1</th>
+                        <td>Cell b1</td>
+                        <td>Cell c1</td>
+                        <td>Cell d1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 3</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="col" colspan="4">Segundo grupo</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1</th>
+                        <td>Cell b1</td>
+                        <td>Cell c1</td>
+                        <td>Cell d1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 3</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 5</summary>
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Start date</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>33</td>
+                        <td>2008/11/28</td>
+                        <td>$162,700</td>
+                    </tr>
+                    <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>London</td>
+                        <td>47</td>
+                        <td>2009/10/09</td>
+                        <td>$1,200,000</td>
+                    </tr>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>41</td>
+                        <td>2012/10/13</td>
+                        <td>$132,000</td>
+                    </tr>
+                    <tr>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>28</td>
+                        <td>2011/06/07</td>
+                        <td>$206,850</td>
+                    </tr>
+                    <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>61</td>
+                        <td>2012/12/02</td>
+                        <td>$372,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bruno Nash</td>
+                        <td>Sotware Engineer</td>
+                        <td>London</td>
+                        <td>38</td>
+                        <td>2011/05/03</td>
+                        <td>$163,500</td>
+                    </tr>
+                    <tr>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>New York</td>
+                        <td>21</td>
+                        <td>2011/12/12</td>
+                        <td>$106,450</td>
+                    </tr>
+                    <tr>
+                        <td>Clara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>New York</td>
+                        <td>46</td>
+                        <td>2011/12/06</td>
+                        <td>$145,600</td>
+                    </tr>                
+                    <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior JavaScript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Start date</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 6</summary>
+            <hr>
+            <table border="1">
+                <colgroup>
+                    <col span="1">
+                    <col span="2">
+                    <col span="3">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col" rowspan="2">Name</th>
+                        <th scope="col" colspan="2">HR Information</th>
+                        <th scope="col" colspan="3">Contact</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Position</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Extn.</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>$162,700</td>
+                        <td>Tokyo</td>
+                        <td>5407</td>
+                        <td>a.satou@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>$1,200,000</td>
+                        <td>London</td>
+                        <td>5497</td>
+                        <td>a.ramos@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>$86,000</td>
+                        <td>San Francisco</td>
+                        <td>1562</td>
+                        <td>a.cox@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>$132,000</td>
+                        <td>London</td>
+                        <td>2558</td>
+                        <td>b.greer@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>$206,850</td>
+                        <td>San Francisco</td>
+                        <td>1314</td>
+                        <td>b.wagner@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>$372,000</td>
+                        <td>New York</td>
+                        <td>4804</td>
+                        <td>b.williamson@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Bruno Nash</td>
+                        <td>Sotware Engineer</td>
+                        <td>$163,500</td>
+                        <td>London</td>
+                        <td>6222</td>
+                        <td>b.nash@datatables.net</td>                    
+                    </tr>
+                    <tr>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>$106,450</td>
+                        <td>New York</td>  
+                        <td>8330</td>
+                        <td>c.vance@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Clara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>$145,600</td>
+                        <td>New York</td>
+                        <td>3990</td>
+                        <td>c.stevens@datatables.net</td>
+                    </tr>                
+                    <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior JavaScript Developer</td>
+                        <td>$433,060</td>
+                        <td>Edinburgh</td>
+                        <td>6224</td>
+                        <td>c.kelly@datatables.net</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Extn.</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 7</summary>
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>$162,700</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>London</td>
+                        <td>$1,200,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>$86,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>$132,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>$206,850</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>$372,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Bruno Nash</td>
+                        <td>Sotware Engineer</td>
+                        <td>London</td>
+                        <td>$163,500</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>New York</td>
+                        <td>$106,450</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Clara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>New York</td>
+                        <td>$145,600</td>
+                    </tr>                
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Cedric Kelly</td>
+                        <td>Senior JavaScript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>$433,060</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </details>
+        <hr>
+        <details>
+            <summary>Tabla 8</summary>
+            <hr>
+            <table border="1">
+                <tr>
+                    <td colspan="2">
+                        <ol type="1" start="10">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                <ul>
+                                    <li>Integer ut mauris at ex sodales vehicula.</li>
+                                </ul>                    
+                            </li>
+                            <li>Fusce blandit ante non ipsum lobortis, eget luctus dolor iaculis.</li>
+                        </ol>
+                    </td>
+                    <td colspan="2">
+                        <ol type="I" start="10">
+                            <li>Primer elemento de la lista</li>
+                            <li>Segundo elemento de lista</li>
+                            <li>Tercer elemento de la lista</li>
+                            <li>Cuarto elemento de la lista</li>    
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at elit vitae nulla tristique vulputate.</td>
+                    <td rowspan="2"><img src="img/white.png" alt="Fondo blanco" width="60"></td>
+                    <td><img src="img/imagen.jpg" alt="Imagen de una garganta reserva natural de agua" width="60"></td>
+                    <td rowspan="2">
+                        <table border="1">
+                            <tr>
+                                <th scope="col">Producto</th>
+                                <th scope="col"><mark>sku</mark></th>
+                            </tr>
+                            <tr>
+                                <td>Producto 1</td>
+                                <td>123</td>
+                            </tr>
+                            <tr>
+                                <td>Producto 2</td>
+                                <td>234</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ol type="a">
+                            <li><a href="http://informatica.iesvalledeljerteplasencia.es/"><mark>iesvjp</mark></a></li>
+                            <li><a href="http://informatica.iesvalledeljerteplasencia.es/images/stories/ciclos/tripticoASIR/Triptico-ASIR.pdf">Tríptico ASIR en PDF</a></li>
+                            <li><a href="http://informatica.iesvalledeljerteplasencia.es/images/stories/ciclos/tripticpDAM/Triptico-DAM.pdf">Tríptico DAM en PDF</a></li>                                   
+                        </ol>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <ul>
+                            <li>Economía, Comercio e Innovación</li>
+                            <li>Administración Pública y Hacienda</li>
+                            <li>Fomento</li>
+                            <li>Industria, Energía y Medio Ambiente</li>
+                            <li>Agricultura y Desarrollo Rural</li>
+                            <li>Igualdad y Empleo</li>
+                            <li>Educación</li>
+                            <li>Sanidad y Dependencia</li>
+                            <li>Cultura y Turismo</li>
+                            <li>&lt;&lt;Jóvenes y Deporte&gt;&gt;</li>
+                        </ul>
+                    </td>
+                </tr>            
+            </table>
+        </details>
+    </body>
+</html>

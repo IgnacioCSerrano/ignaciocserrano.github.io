@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <lastBuildDate>Sat, 7 Dec 2019 06:12:00 +0000</lastBuildDate>
+        <title>Canal de noticias RSS del Instituto Nacional de Estadística</title>
+        <link>https://www.ine.es/</link>
+        <description>Google News RSS Examples</description>
+        <image>
+            <url>https://www.ine.es/menus/plantillas/fatwire/img/logoine_rss.gif</url>
+            <title>Canal de noticias RSS del Instituto Nacional de Estadística</title>
+            <link>https://www.ine.es/</link>
+        </image>
+        <item>
+            <title>Índices de Producción Industrial (IPI). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/daco422/ipi1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. La variación mensual del Índice de Producción Industrial es del −0,4% si se eliminan los efectos estacionales y de calendario. La tasa anual del Índice de Producción Industrial se sitúa en el −1,3% en la serie corregida de efectos estacionales y de calendario, y en el 1,1% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736145519&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índice de Precios de Vivienda (IPV). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/ipv/ipv0319.pdf</link>
+            <description><![CDATA[
+                Tercer trimestre 2019. La tasa de variación anual del Índice de Precios de Vivienda disminuye seis décimas y se sitúa en el 4,7%. Los precios de la vivienda suben un 1,6% respecto al trimestre anterior. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736152838&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Encuesta Coyuntural sobre Stocks y Existencias (ECSE). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/ecse/ecse0319.pdf</link>
+            <description><![CDATA[
+                Tercer trimestre 2019. El índice del nivel de existencias de mercaderías en el Comercio aumenta un 3,4% en tasa anual. Dentro del tercer trimestre, el mes de septiembre presenta la mayor tasa anual de crecimiento, con un 3,6%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176995&amp;menu=ultiDatos&amp;idp=1254735576799">Información detallada</a>. Se publican los datos definitivos de la Estadística de adquisiciones de nacionalidad española de residentes del año 2018 <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177001&amp;menu=ultiDatos&amp;idp=1254735573002">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística sobre Ejecuciones Hipotecarias (EH)</title>
+            <link>https://www.ine.es/daco/daco42/eh/eh0319.pdf</link>
+            <description><![CDATA[
+                Tercer trimestre 2019. Las inscripciones de certificaciones por ejecuciones hipotecarias iniciadas sobre vivienda habitual bajan un 21,3%. El 62,1% de las ejecuciones hipotecarias iniciadas sobre viviendas corresponde a hipotecas constituidas entre 2005 y 2008. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176993&amp;menu=ultiDatos&amp;idp=1254735576757">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índices de Precios de Exportación (IPRIX) y de Importación (IPRIM) de Productos Industriales. Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/iprixm/iprixm1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. La tasa de variación anual del IPRIX se sitúa en el –0,9%, una décima por encima de la registrada en el mes de septiembre. La tasa de variación anual del IPRIM es del –2,9%, más de un punto y medio por debajo de la del mes anterior. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736148943&amp;menu=ultiDatos&amp;idp=1254735576715" >Información detallada</a>. Actualizado el capítulo Ciencia y tecnología, sociedad de la información de la publicación Mujeres y hombres en España <a href="https://www.ine.es/ss/Satellite?L=0&amp;c=INEPublicacion_C&amp;cid=1259924822888&amp;p=1254735110672&amp;pagename=ProductosYServicios%2FPYSLayout&amp;param1=PYSDetalleGratuitas">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Encuesta de Gasto Turístico</title>
+            <link>https://www.ine.es/daco/daco42/egatur/egatur1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. El gasto total de los turistas internacionales que visitan España en octubre aumenta un 2,5% respecto al mismo mes de 2018. El gasto medio diario se sitúa en 161 euros, un 6,5% más que en octubre de 2018. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177002&amp;menu=ultiDatos&amp;idp=1254735576863" >Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Movimientos Turísticos en Fronteras (FRONTUR)</title>
+            <link>https://www.ine.es/daco/daco42/frontur/frontur1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. España recibe 7,6 millones de turistas internacionales en octubre, un 0,3% menos que en el mismo mes de 2018. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176996&amp;menu=ultiDatos&amp;idp=1254735576863" >Información detallada</a>. Tercer trimestre 2019. Se publican los datos de la Estadística de transporte ferroviario del tercer trimestre de 2019. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177040&amp;menu=ultiDatos&amp;idp=1254735576820">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística sobre Recogida y Tratamiento de Residuos</title>
+            <link>https://www.ine.es/prensa/residuos_2017.pdf</link>
+            <description><![CDATA[
+                Estadística sobre recogida y tratamiento de residuos urbanos. Año 2017. Las empresas gestoras de residuos urbanos recogieron 22,5 millones de toneladas de residuos, un 2,9% más que en 2016. En 2017 se recogieron 483,9 kilogramos de residuos urbanos por habitante, un 2,7% más que en el año anterior. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176844&amp;menu=ultiDatos&amp;idp=1254735976612">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Cuentas medioambientales: Cuenta de los residuos</title>
+            <link>https://www.ine.es/prensa/cma_2017_res.pdf</link>
+            <description><![CDATA[
+                Cuenta de los Residuos / Estadística sobre generación de residuos. Año 2017. La economía española generó 132,1 millones de toneladas de residuos en 2017, un 2,3% más que en el año anterior.
+<br/> <a href="/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177062&amp;menu=ultiDatos&amp;idp=1254735976603">Cuenta de los residuos</a> - <a href="/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176841&amp;menu=ultiDatos&amp;idp=1254735976612">Estadística sobre generación de residuos</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Encuestas de ocupación en alojamientos turísticos extrahoteleros</title>
+            <link>https://www.ine.es/daco/daco42/ocuptr/eoat1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. Las pernoctaciones en alojamientos turísticos extrahoteleros descienden un 6,0% en octubre respecto al mismo mes de 2018.
+<br/> <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176962&amp;menu=ultiDatos&amp;idp=1254735576863">EOAP</a> - <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176961&amp;menu=ultiDatos&amp;idp=1254735576863">EOC</a> - <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176963&amp;menu=ultiDatos&amp;idp=1254735576863">EOTR</a> - <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176964&amp;menu=ultiDatos&amp;idp=1254735576863">Albergues. EOA</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Hipotecas (H)</title>
+            <link>https://www.ine.es/daco/daco42/daco426/h0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. El número de hipotecas sobre viviendas inscritas en los registros de la propiedad es de 22.488, un 31,6% menos en tasa anual. El importe medio de dichas hipotecas aumenta un 5,3% y se sitúa en 135.452 euros. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736170236&amp;menu=ultiDatos&amp;idp=1254735576757">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Indicador adelantado del Índice de Precios de Consumo (IPC). Indicador adelantado del Índice de Precios de Consumo Armonizado (IPCA)</title>
+            <link>https://www.ine.es/daco/daco42/daco421/ipcia1119.pdf</link>
+            <description><![CDATA[
+                Noviembre 2019. El indicador adelantado del IPC sitúa su variación anual en el 0,4% en noviembre, tres décimas por encima de la registrada en octubre. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176802&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Indicador adelantado del Índice de Precios de Consumo (IPC). Indicador adelantado del Índice de Precios de Consumo Armonizado (IPCA)</title>
+            <link>https://www.ine.es/daco/daco42/daco421/ipcia1119.pdf</link>
+            <description><![CDATA[
+                Noviembre 2019. La tasa anual del indicador adelantado del IPCA es del 0,5%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176803&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índices de Comercio al por Menor (ICM). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/daco4215/ccm1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. La variación mensual del Índice de Comercio al por Menor a precios constantes es del 0,0% si se eliminan los efectos estacionales y de calendario. La tasa anual del Índice General del Comercio Minorista a precios constantes se sitúa en el 2,6% en la serie corregida de efectos estacionales y de calendario, y en el 2,4% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176900&amp;menu=ultiDatos&amp;idp=1254735576799">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística sobre Actividades de I+D</title>
+            <link>https://www.ine.es/prensa/imasd_2018_p.pdf</link>
+            <description><![CDATA[
+                Estadística sobre actividades de I+D. Definitivos año 2018. El gasto en I+D interna aumentó un 6,3% en 2018 y alcanzó los 14.946 millones de euros, el 1,24% del PIB. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176754&amp;menu=ultiDatos&amp;idp=1254735576669">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>ndices de Cifra de Negocios Empresarial (ICNE). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/icne/icne0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. La Cifra de Negocios Empresarial registra una variación mensual del −0,7% en septiembre si se eliminan los efectos estacionales y de calendario. La tasa anual del ICNE es del 0,5% en la serie corregida de efectos estacionales y de calendario, y del 2,3% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176958&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índice de Precios Industriales. Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/daco423/ipri1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. La variación anual del Índice de Precios Industriales sube cinco décimas, hasta el –2,8%. La tasa mensual de los precios industriales es del 0,5%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736147699&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Coyuntura Turística Hotelera (EOH/IPH/IRSH)</title>
+            <link>https://www.ine.es/daco/daco42/prechote/cth1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. Las pernoctaciones en establecimientos hoteleros disminuyen un 2,0% en octubre respecto al mismo mes de 2018. Los hoteles facturan 85,8 euros de media por habitación ocupada, lo que supone un incremento anual del 2,3%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177015&amp;menu=ultiDatos&amp;idp=1254735576863">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índices de Entradas de Pedidos en la Industria (IEP). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/iep/iep0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. La variación mensual del Índice General de Entradas de Pedidos en la Industria es del −1,8% si se eliminan los efectos estacionales y de calendario. La tasa anual se sitúa en el −1,1% en la serie corregida de efectos estacionales y de calendario, y en el 1,2% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736148149&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índices de Cifras de Negocios en la Industria (ICN). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/icn/icn0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. La variación mensual del Índice General de Cifras de Negocios en la Industria es del −1,4% si se eliminan los efectos estacionales y de calendario. La tasa anual se sitúa en el −1,6% en la serie corregida de efectos estacionales y de calendario, y en el 1,1% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736148782&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Indicadores de Actividad del Sector Servicios (IASS). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/iass/iass0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. La cifra de negocios del Sector Servicios de Mercado no varía respecto al mes anterior si se eliminan los efectos estacionales y de calendario. La tasa anual se sitúa en el 2,5% en la serie corregida de efectos estacionales y de calendario, y en el 3,6% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176863&amp;menu=ultiDatos&amp;idp=1254735576778">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Indicadores de Demografía Empresarial</title>
+            <link>https://www.ine.es/prensa/dae_2017.pdf</link>
+            <description><![CDATA[
+                Demografía armonizada de empresas. Año 2017. En España operaron 3.580.773 empresas en 2017, un 0,5% más que el año anterior. En 2017 se crearon 336.000 empresas y desaparecieron 284.614, lo que supuso una tasa neta de crecimiento del 1,4%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736161927&amp;menu=ultiDatos&amp;idp=1254735576550">Información detallada</a>. Se publica la Estadística del taxi. Serie 1994-2019. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176959&amp;menu=resultados&amp;idp=1254735576820">Información detallada</a>Septiembre 2019. El INE publica el Indice de garantía de la competitividad. La tasa anual del IGC correspondiente al mes de septiembre es del -1,58%. <a href="https://www.ine.es/ss/Satellite?c=Page&amp;cid=1259947704944&amp;pagename=ProductosYServicios%2FPYSLayout&amp;p=1254735893337&amp;L=0">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Cuentas medioambientales: Cuenta de Impuestos ambientales</title>
+            <link>https://www.ine.es/prensa/cma_2017_ia.pdf</link>
+            <description><![CDATA[
+                Impuestos ambientales. Avance 2018 y año 2017. Los impuestos ambientales alcanzaron 22.066 millones de euros en 2018, un 3,3% más que en 2017. Representaron el 8,1% del total de impuestos de la economía, dos décimas menos que en 2017. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176942&amp;menu=ultiDatos&amp;idp=1254735976603">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Cuentas medioambientales. Cuenta de emisiones a la atmósfera</title>
+            <link>https://www.ine.es/prensa/cma_2017_ea.pdf</link>
+            <description><![CDATA[
+                Cuentas de emisiones a la atmósfera. Avance 2018 y año 2017. La economía española emitió 340,7 millones de toneladas de gases de efecto invernadero en 2018, un 2,3% menos que en 2017. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176941&amp;menu=ultiDatos&amp;idp=1254735976603" >Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índice de Precios de Consumo (IPC). Base 2016. Índice de Precios de Consumo Armonizado (IPCA). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/daco421/ipc1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. La tasa de variación anual del IPC en el mes de octubre es del 0,1%, la misma que la registrada el mes anterior. La tasa anual de la inflación subyacente se mantiene en el 1,0%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176802&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índice de Precios de Consumo a Impuestos Constantes</title>
+            <link>https://www.ine.es/daco/daco42/daco421/ipc1019.pdf#page=13</link>
+            <description><![CDATA[
+                Octubre 2019. En el mes de octubre la tasa de variación anual del IPCA se sitúa en el 0,2%, la misma que la registrada el mes anterior. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176803&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Cuentas medioambientales. Cuenta de los Flujos Físicos de la Energía</title>
+            <link>https://www.ine.es/prensa/cma_2017_ffe.pdf</link>
+            <description><![CDATA[
+                Cuenta de los flujos físicos de la energía. Año 2017. El consumo de productos energéticos por parte de los hogares como consumidores finales aumentó un 1,9% en 2017. La oferta total de productos energéticos creció un 5,1% respecto a 2016 y la producción interior se incrementó un 5,5%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177046&amp;menu=ultiDatos&amp;idp=1254735976603">Información detallada</a>CNA. Se publican los datos de Contabilidad Nacional de España. Tablas de Origen y Destino. Año 2016. <a href="/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177059&amp;menu=resultados&amp;idp=1254735576581">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Transmisiones de Derechos de la Propiedad (ETDP)</title>
+            <link>https://www.ine.es/daco/daco42/etdp/etdp0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. En septiembre se inscriben en los registros de la propiedad 143.471 fincas, un 3,7% menos que en el mismo mes del año anterior. Las compraventas de viviendas inscritas disminuyen un 12,0% respecto a septiembre de 2018. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736171438&amp;menu=ultiDatos&amp;idp=1254735576757">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Transporte de Viajeros (TV)</title>
+            <link>https://www.ine.es/daco/daco42/daco4210/tv0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. El número de usuarios del transporte público aumenta un 4,2% en septiembre respecto al mismo mes de 2018. El transporte urbano sube un 4,4% en tasa anual y el interurbano un 2,4%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176906&amp;menu=ultiDatos&amp;idp=1254735576820">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Decil de salarios del empleo principal. Encuesta de Población Activa (EPA)</title>
+            <link>https://www.ine.es/prensa/epa_2018_d.pdf</link>
+            <description><![CDATA[
+                EPA. Decil de salarios del empleo principal. Año 2018. El salario medio mensual (en términos brutos) fue de 1.944,4 euros en el año 2018, con un aumento del 2,9% respecto a 2017. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176918&amp;menu=resultados&amp;secc=1254736195128&amp;idp=1254735976595">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Sociedades Mercantiles (SM)</title>
+            <link>https://www.ine.es/daco/daco42/daco424/sm0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. En septiembre se crean 5.787 sociedades mercantiles, un 1,6% menos que en el mismo mes de 2018. Cantabria (42,9%) registra el mayor aumento anual en el número de sociedades mercantiles creadas. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177026&amp;menu=ultiDatos&amp;idp=1254735576606">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índices de Producción Industrial (IPI). Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/daco422/ipi0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. La variación mensual del Índice de Producción Industrial es del −0,8% si se eliminan los efectos estacionales y de calendario. La tasa anual del Índice de Producción Industrial se sitúa en el 0,8% en la serie corregida de efectos estacionales y de calendario, y en el 3,1% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736145519&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística del Procedimiento Concursal (EPC)</title>
+            <link>https://www.ine.es/daco/daco42/epc/epc0319.pdf</link>
+            <description><![CDATA[
+                Tercer trimestre 2019. El número de deudores concursados aumenta un 9,1% en tasa anual en el tercer trimestre. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177018&amp;menu=ultiDatos&amp;idp=1254735576606">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Índices de Precios de Exportación (IPRIX) y de Importación (IPRIM) de Productos Industriales. Base 2015</title>
+            <link>https://www.ine.es/daco/daco42/iprixm/iprixm0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. La tasa de variación anual del IPRIX se sitúa en el –1,4%, dos décimas por debajo de la registrada en el mes de agosto. La tasa de variación anual del IPRIM es del –1,3%, la misma que en el mes anterior. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736148943&amp;menu=ultiDatos&amp;idp=1254735576715">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Movimientos Turísticos en Fronteras (FRONTUR)</title>
+            <link>https://www.ine.es/daco/daco42/frontur/frontur0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. España recibe 8,9 millones de turistas internacionales en septiembre, un 0,2% menos que en el mismo mes de 2018. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176996&amp;menu=ultiDatos&amp;idp=1254735576863">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Encuesta de Gasto Turístico</title>
+            <link>https://www.ine.es/daco/daco42/egatur/egatur0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. El gasto total de los turistas internacionales que visitan España en septiembre aumenta un 1,7% respecto al mismo mes de 2018. El gasto medio diario se sitúa en 151 euros, un 2,8% más que en septiembre de 2018. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177002&amp;menu=ultiDatos&amp;idp=1254735576863">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Contabilidad Nacional Trimestral de España: principales agregados</title>
+            <link>https://www.ine.es/daco/daco42/daco4214/cntr0319a.pdf</link>
+            <description><![CDATA[
+                Tercer trimestre 2019. El Producto Interior Bruto registra una variación trimestral del 0,4% en el tercer trimestre de 2019. La tasa anual es del 2,0%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736164439&amp;menu=ultiDatos&amp;idp=1254735576581">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Encuestas de ocupación en alojamientos turísticos extrahoteleros</title>
+            <link>https://www.ine.es/daco/daco42/ocuptr/eoat0919.pdf</link>
+            <description><![CDATA[
+                Septiembre 2019. Las pernoctaciones en alojamientos turísticos extrahoteleros descienden un 1,1% en septiembre respecto al mismo mes de 2018. <br/> <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176962&amp;menu=ultiDatos&amp;idp=1254735576863">EOAP</a> - <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176961&amp;menu=ultiDatos&amp;idp=1254735576863">EOC</a> - <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176963&amp;menu=ultiDatos&amp;idp=1254735576863">EOTR</a> - <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176964&amp;menu=ultiDatos&amp;idp=1254735576863">Albergues. EOA</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Indicador adelantado del Índice de Precios de Consumo (IPC). Indicador adelantado del Índice de Precios de Consumo Armonizado (IPCA)</title>
+            <link>https://www.ine.es/daco/daco42/daco421/ipcia1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. El indicador adelantado del IPC sitúa su variación anual en el 0,1% en octubre, la misma que la registrada en septiembre. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176802&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Indicador adelantado del Índice de Precios de Consumo (IPC). Indicador adelantado del Índice de Precios de Consumo Armonizado (IPCA)</title>
+            <link>https://www.ine.es/daco/daco42/daco421/ipcia1019.pdf</link>
+            <description><![CDATA[
+                Octubre 2019. La tasa anual del indicador adelantado del IPCA es del 0,2%. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176803&amp;menu=ultiDatos&amp;idp=1254735976607">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Comunicado institucional</title>
+            <link>https://www.ine.es/prensa/comunicado29102019.pdf</link>
+            <description><![CDATA[
+                El Instituto Nacional de Estadística (INE) está realizando un estudio a partir de datos de teléfonos móviles para incorporarlos a la información sobre movilidad que ofrece tradicionalmente en los Censos de Población y Viviendas. Esta información se limitará a un recuento de terminales que será proporcionada al INE en forma de tablas agregadas de resultados. Los operadores no facilitarán datos individuales sobre números de teléfono, ni sobre los titulares de las líneas, por lo que en ningún caso el INE podrá rastrear la posición de ningún terminal.https://www.ine.es/daco/daco42/daco4215/ccm0919.pdfSeptiembre 2019. La variación mensual del Índice de Comercio al por Menor a precios constantes es del 0,1% si se eliminan los efectos estacionales y de calendario. La tasa anual del Índice General del Comercio Minorista a precios constantes se sitúa en el 3,4% en la serie corregida de efectos estacionales y de calendario, y en el 3,6% en la serie original. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736176900&amp;menu=ultiDatos&amp;idp=1254735576799">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Estadística de Hipotecas (H)</title>
+            <link>https://www.ine.es/daco/daco42/daco426/h0819.pdf</link>
+            <description><![CDATA[
+                Agosto 2019. El número de hipotecas sobre viviendas inscritas en los registros de la propiedad es de 20.385, un 29,9% menos en tasa anual. El importe medio de dichas hipotecas aumenta un 5,0% y se sitúa en 128.501 euros. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736170236&amp;menu=ultiDatos&amp;idp=1254735576757">Información detallada</a>
+            ]]></description>
+        </item>
+        <item>
+            <title>Encuesta de Comercio Internacional de Servicios (ECIS)</title>
+            <link>https://www.ine.es/prensa/ecis_2018.pdf</link>
+            <description><![CDATA[
+                ECIS. Año 2018. Las exportaciones de Servicios aumentaron un 3,5% en 2018 y las importaciones un 7,0%. El 43,3% de las exportaciones fueron generadas por empresas que pertenecían a un grupo empresarial español, y el 45,3% de las importaciones por empresas controladas por un grupo extranjero. <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736174702&amp;menu=resultados&amp;secc=1254736195218&amp;idp=1254735576778">Información detallada</a>
+            ]]></description>
+        </item>
+    </channel>
+</rss>

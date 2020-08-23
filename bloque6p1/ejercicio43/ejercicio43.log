@@ -1,0 +1,4 @@
+let a, b;
+undefined
+let result = ((a + b < 4) ? 'Inferior' : 'Superior');
+undefined

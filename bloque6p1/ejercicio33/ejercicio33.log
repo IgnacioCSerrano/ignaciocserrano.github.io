@@ -1,0 +1,22 @@
+console.log('Valor de y antes: ', y);         
+for (var y = 0; y < 3; y++)         
+    console.log(y);           
+                                    
+console.log('Valor de y después: ', y);   
+ 
+console.log('Valor de x antes: ', x );         
+for (let x = 0; x < 3; x++)         
+    console.log(x);                                               
+console.log('Valor de x después: ', x);
+
+VM2809:1 Valor de y antes:  undefined
+VM2809:3 0
+VM2809:3 1
+VM2809:3 2
+VM2809:5 Valor de y después:  3
+VM2809:7 Valor de x antes:  {Nd: ƒ, vka: ƒ, getContext: ƒ, getData: ƒ, toString: ƒ, …}
+VM2809:9 0
+VM2809:9 1
+VM2809:9 2
+VM2809:10 Valor de x después:  {Nd: ƒ, vka: ƒ, getContext: ƒ, getData: ƒ, toString: ƒ, …}
+undefined

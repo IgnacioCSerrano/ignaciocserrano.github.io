@@ -1,0 +1,8 @@
+let binomioAlCuadrado = (a, b) => a**2 + b**2 + (2 * a * b);
+undefined
+binomioAlCuadrado(2, 3);
+25
+binomioAlCuadrado(5, 5);
+100
+binomioAlCuadrado(7, 4);
+121

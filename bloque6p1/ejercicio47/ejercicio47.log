@@ -1,0 +1,40 @@
+function Error(message) {
+  this.name = "Error";
+  this.message = message || 'Default Message';
+  this.number = 1;
+};
+undefined
+let esImpar = n => {
+    if (!Number.isInteger(n)) {
+        throw new Error("Error: parámetro no es un número entero");
+    } else {
+        return (n % 2 !== 0);
+    }    
+};
+undefined
+try {
+    esImpar("");
+} catch (e) {
+    console.log(`Mensaje: ${e.message}`);
+    console.log(`Código: ${e.number}`);
+};
+VM1025:4 Mensaje: Error: parámetro no es un número entero
+VM1025:5 Código: 1
+undefined
+let esImparV2 = n => {
+    if (!Number.isInteger(n)) {
+        throw {name: "Error", message: "Error: parámetro no es un número entero", number: 1};
+    } else {
+        return ((n % 2 !== 0) ? true : false);
+    }
+};
+undefined
+try {
+    esImparV2("");
+} catch (e) {
+    console.log(`Mensaje: ${e.message}`);
+    console.log(`Código: ${e.number}`);
+};
+VM1085:4 Mensaje: Error: parámetro no es un número entero
+VM1085:5 Código: 1
+undefined

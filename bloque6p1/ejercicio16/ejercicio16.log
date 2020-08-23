@@ -1,0 +1,16 @@
+var texto = "“Al bien hacer jamás le falta ‘premio’.”\n \
+“Cada uno es ‘artífice’ de su propia ventura.”\n \
+‘Donde una puerta se cierra, “otra se abre”.’";
+undefined
+texto
+"“Al bien hacer jamás le falta ‘premio’.”
+ “Cada uno es ‘artífice’ de su propia ventura.”
+ ‘Donde una puerta se cierra, “otra se abre”.’"
+var texto = `“Al bien hacer jamás le falta ‘premio’.”
+“Cada uno es ‘artífice’ de su propia ventura.”
+‘Donde una puerta se cierra, “otra se abre”.’`;
+undefined
+texto
+"“Al bien hacer jamás le falta ‘premio’.”
+“Cada uno es ‘artífice’ de su propia ventura.”
+‘Donde una puerta se cierra, “otra se abre”.’"

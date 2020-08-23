@@ -1,0 +1,13 @@
+li {
+    padding: 5px;
+}
+
+span {
+    position: absolute;
+    left: 130px;
+    font-weight: bold;
+}
+
+code {
+    font-style: normal;
+}

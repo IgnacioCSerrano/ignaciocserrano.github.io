@@ -1,0 +1,46 @@
+div {
+    margin: 10px;
+    border: 1px solid #3f3f3f;
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 50px;
+    max-width: 200px;
+    max-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.c_auto {cursor: auto}
+
+.c_cruz {cursor: crosshair}
+
+.c_defecto {cursor: default}
+
+.c_puntero {cursor: pointer}
+
+.c_mover {cursor: move}
+
+.c_redim_der {cursor: e-resize}
+
+.c_redim_arvder {cursor: ne-resize}
+
+.c_redim_arvizq {cursor: nw-resize}
+
+.c_redim_arv {cursor: n-resize}
+
+.c_redim_abjder {cursor: se-resize}
+
+.c_redim_abjizq {cursor: sw-resize}
+
+.c_redim_abj {cursor: s-resize}
+
+.c_redim_izq {cursor: w-resize}
+
+.c_texto {cursor: text}
+
+.c_espera {cursor: wait}
+
+.c_ayuda {cursor: help}
+
+.c_progreso {cursor: progress}

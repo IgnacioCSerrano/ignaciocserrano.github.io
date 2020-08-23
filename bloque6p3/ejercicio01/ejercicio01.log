@@ -1,0 +1,36 @@
+let notas =  [6,4,7,6,8,9];
+undefined
+for (let nota of notas) {
+    console.log(nota);
+};
+VM17:2 6
+VM17:2 4
+VM17:2 7
+VM17:2 6
+VM17:2 8
+VM17:2 9
+undefined
+// let maxValor = Infinity;
+let maxValor = notas[0];
+// let minValor = Infinity;
+let minValor = notas[0];
+for (let i = 1; i < notas.length; i++) {
+    maxValor = (notas[i] > maxValor) ? notas[i] : maxValor;
+    minValor = (notas[i] < minValor) ? notas[i] : minValor;
+};
+console.log("Máximo valor del array: " + maxValor);
+console.log("Mínimo valor del array: " + minValor);
+VM367:9 Máximo valor del array: 9
+VM367:10 Mínimo valor del array: 4
+undefined
+let suma = 0;
+for (let nota of notas) {
+    suma += nota;
+};
+console.log("Suma de valores del array: " + suma);
+VM375:5 Suma de valores del array: 40
+undefined
+let media = suma / notas.length;
+console.log("Media de valores del array: " + media);
+VM380:2 Media de valores del array: 6.666666666666667
+undefined

@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.centrar { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}  
+
+.overlay {
+    background-color: #cd9557;
+    opacity: 0.5;
+    z-index: 10;
+    transition: opacity 2s, left 3s ease-out;
+}
+
+.logo {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    height: 110px;
+    width: 270px;
+    background-color: black;
+    box-shadow: 0 0 10px white;
+    transform: skew(-8deg);
+    z-index: 30;
+}
+
+.logo > div {
+    position: relative;
+    height: 60px;
+    background-color: #00ab39;
+    border-bottom: 10px solid white;
+    box-sizing: border-box;
+    animation: aparicionIzqDer 2s cubic-bezier(0, 0.75, 0.25, 1) forwards;
+}
+
+.logo > div > span {
+    margin: 25px 0 0 135px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    display: inline-block;
+}
+
+.logo > p {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    animation: aparicionDerIzq 1.5s cubic-bezier(0, 1, 1, 1) forwards;
+}
+
+.logo > p > a {
+    display: inline-block;
+    margin-top: 25px;
+    transform: translateY(-25%);
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.logo:hover + .overlay {
+    opacity: 0.05;
+    left: 150%;
+}
+
+.acerca {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: medium dashed black;
+    box-shadow: 3px 3px 10px black;
+    background-color: white;
+    z-index: 20;
+    transition: all 0.1s linear;
+    transform: rotate(-45deg) translate(50px, 200px);
+}
+
+.acerca > .icono {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.acerca > p {
+    margin: 0;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+    line-height: 1.75em;
+    letter-spacing: 0.05em;
+    display: none;
+}
+
+.acerca > iframe {
+    margin: 0 15px 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    display: none;
+}
+
+.fa-map {
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    transform: rotate(45deg);
+}
+
+.acerca:hover {
+    transform: none;
+}
+
+.acerca:hover > .icono {
+    display: none;
+}
+
+.acerca:hover > p, .acerca:hover > iframe {
+    display: block;
+}
+
+@keyframes aparicionIzqDer {
+    0%      {left: -50vw; opacity: 0} 
+    100%    {left: 0; opacity: 1 }
+}
+
+@keyframes aparicionDerIzq {
+    0%      {right: -100vw; opacity: 0} 
+    100%    {right: 0; opacity: 1 }
+}

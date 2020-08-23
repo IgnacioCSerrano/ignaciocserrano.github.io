@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+video#video_fondo { 
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#progress_bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    z-index: 20;
+    cursor: pointer;
+    background-color: transparent; /* not applied in Webkit browsers */
+}
+
+/* 
+    In Chrome and Safari, background-color Webkit stylesheet styles applied when custom is specified, 
+    so it is neccesary to use Webkit pseudo-classes
+        https://www.hongkiat.com/blog/html5-progress-bar/
+*/
+
+progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(94, 127, 134, 0.8);
+}
+
+progress::-moz-progress-bar {
+    background-color: rgba(94, 127, 134, 0.8);
+}
+
+.content {
+    padding: 25px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 35%;
+    background-color: rgba(94, 127, 134, 0.8);
+    color: #f1f1f1;
+    z-index: 10;
+}
+
+.content h1 {
+    margin-bottom: 16px;
+}
+
+.content p {
+    font-size: smaller;
+    padding: 5px 0;
+}
+
+.botones {
+    text-align: center;
+}
+
+.content button {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    font-size: medium;
+    border: none;
+    background: #8da2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background: cadetblue;
+}

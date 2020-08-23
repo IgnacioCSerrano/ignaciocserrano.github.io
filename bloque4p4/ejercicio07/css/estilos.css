@@ -1,0 +1,100 @@
+#contenedor {
+    margin: 50px auto;
+    width: 50%;
+    border: 2px solid black;
+}
+
+div.animado {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    animation-name: animRotarYColor, animDesplazar;
+    animation-duration: 0.5s, 5s;
+    animation-direction: normal, alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#circulo {
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    animation-name: animDesaparecer;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#wrapper, #wrapper2 {
+    width: fit-content;
+}
+
+#wrapper:hover > .fa-minus, #wrapper2:hover > .fa-minus {
+    display: inline-block;
+}
+
+.fa-minus, #wrapper:hover > .fa-plus, #wrapper2:hover > .fa-plus {
+    display: none;
+}
+
+#wrapper:hover > #contenido, #wrapper2:hover > #contenido2 {
+    display: block;
+}
+
+#contenido, #contenido2 {
+    margin: 10px 0;
+    padding: 20px;
+    width: fit-content;
+    border: 2px solid red;
+    display: none;
+}
+
+#contenido2 {
+    /*
+        Al establacer posicionamiento absoluto a un elemento, este "pierde" su lugar en el flujo natural de la página 
+        (como si flotase sobre el documento), por lo que se superpone sobre lo que haya debajo (o lo que hay debajo
+        se superpone sobre él dependiendo del atributo z-index)
+    */
+    position: absolute;
+    background-color: white;
+}
+
+#wrapper2 + p {
+    height: 60px;
+}
+
+span[data-descr] {
+    text-decoration: underline dotted;
+    font-style: oblique;
+}
+
+span[data-descr]:hover::after {
+    content: attr(data-descr); /* attr() es función que obtiene valor de atributo especificado como parámetro */
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+}
+
+@keyframes animRotarYColor {
+    0%   {background-color:red; transform:rotate(0);}
+    25%  {background-color:yellow; transform:rotate(45deg);}
+    50%  {background-color:blue;  transform:rotate(90deg);}
+    75%  {background-color:green;  transform:rotate(135deg);}
+    100% {background-color:red;  transform:rotate(180deg);}
+}
+
+@keyframes animDesplazar {
+    0% {left:0} 
+    100% {left: calc(100% - 10px)}
+}
+
+@keyframes animDesaparecer {
+    0% {transform:scale(0);} 
+    100% {transform:scale(1);}
+}

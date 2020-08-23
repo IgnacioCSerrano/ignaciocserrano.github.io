@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ejerc13.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE employees SYSTEM "ejerc13.dtd">
+
+    <employees>
+    ...
+    </employees>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT employees (employee)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT employee (id|firstName|lastName|photo)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT id (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT firstName (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT lastName (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT photo (#PCDATA)>

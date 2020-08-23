@@ -1,0 +1,10 @@
+let a = +prompt('a?', '');
+undefined
+if (a === 0) {
+    alert(0);
+} else if (a === 1) {
+    alert(1);
+} else if (a === 2 || a === 3) {
+    alert('2,3');
+};
+undefined

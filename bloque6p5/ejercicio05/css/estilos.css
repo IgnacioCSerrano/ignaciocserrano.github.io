@@ -1,0 +1,68 @@
+#control {
+    width: 200px;
+    height: 435px;
+    border: thick solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#form {
+    margin: 25px auto 0;
+    width: fit-content;
+}
+
+#form > div {
+    margin: 15px 0;
+    text-align: center;
+}
+
+#form > div > label {
+    display: inline-block;
+    width: 20px;
+}
+
+#form > div > input {
+    width: 130px;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    width: fit-content !important;
+}
+
+#control > p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+#solucion > hr {
+    width: 150px;
+}
+
+#solucion > p {
+    text-align: center;
+}
+
+#graph {
+    margin-left: 30px;
+    height: 435px;
+    width: 600px;
+    border: thick solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oculto {
+    visibility: hidden;
+}

@@ -1,0 +1,14 @@
+function mostrarDatos (e) {
+    console.log ("---------- Target ----------", e.target);
+    console.log ("---------- CurrentTarget ---", e.currentTarget);
+}
+
+undefined
+document.querySelectorAll('.tarjeta').forEach(tarjeta => {
+    tarjeta.addEventListener('click', mostrarDatos);
+});
+undefined
+document.querySelector('.tarjeta').addEventListener('click', e => {
+    console.log(e);
+});
+undefined

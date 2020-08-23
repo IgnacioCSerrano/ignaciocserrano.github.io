@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ejerc17_antonio.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE HorarioEscolar SYSTEM "ejerc17_antonio.dtd">
+
+    <HorarioEscolar>
+    ...
+    </HorarioEscolar>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT HorarioEscolar (IES|Grupo)*>
+<!ATTLIST HorarioEscolar
+    curso CDATA #IMPLIED
+    fechaCreacion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT IES (Nombre|Url)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Url (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Grupo (Tutoria|Modulos|Horario)*>
+<!ATTLIST Grupo
+    nombre CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Tutoria (Dia|Profesor)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Dia (Periodo)*>
+<!ATTLIST Dia
+    nombre CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Periodo EMPTY>
+<!ATTLIST Periodo
+    desde CDATA #IMPLIED
+    hasta CDATA #IMPLIED
+    abbr CDATA #IMPLIED
+    tipo CDATA #IMPLIED
+    descripcion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Profesor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Modulos (Modulo)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Modulo (Profesor)*>
+<!ATTLIST Modulo
+    abbr CDATA #IMPLIED
+    nombre CDATA #IMPLIED
+    horas CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Horario (Dia)*>

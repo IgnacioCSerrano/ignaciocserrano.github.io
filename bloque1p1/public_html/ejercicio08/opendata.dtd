@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/opendata.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE sparql SYSTEM "opendata.dtd">
+
+    <sparql>
+    ...
+    </sparql>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sparql (head|results)*>
+<!ATTLIST sparql
+    xmlns CDATA #IMPLIED
+    xsi:schemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT head (variable)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT variable EMPTY>
+<!ATTLIST variable
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT results (result)*>
+<!ATTLIST results
+    distinct CDATA #IMPLIED
+    ordered CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT result (binding)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT binding (uri|literal)*>
+<!ATTLIST binding
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT uri (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT literal (#PCDATA)>
+<!ATTLIST literal
+    datatype CDATA #IMPLIED
+  >

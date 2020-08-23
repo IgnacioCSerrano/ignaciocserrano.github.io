@@ -1,0 +1,24 @@
+var lista = "<ol id='lista1'>\n \
+    <li>Elemento 1</li>\n \
+    <li>Elemento 2</li>\n \
+    <li>Elemento 3</li>\n \
+</ol>";
+undefined
+lista
+"<ol id='lista1'>
+     <li>Elemento 1</li>
+     <li>Elemento 2</li>
+     <li>Elemento 3</li>
+ </ol>"
+var lista = `<ol id='lista1'>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ol>`;
+undefined
+lista
+"<ol id='lista1'>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ol>"

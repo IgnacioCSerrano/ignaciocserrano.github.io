@@ -1,0 +1,84 @@
+.fondo {
+    margin: 0 auto 50px;
+    padding-bottom: 30px;
+    width: 50%;
+    background-color: #1c1c1c;
+}
+
+.cuerpo {
+    margin: auto;
+    width: 260px;
+    height: 100px;
+    background-color: white;
+}
+
+.pie {
+    margin: auto;
+    width: 260px;
+    height: 65px;
+    background-color: #23b6b6;
+    font-family: sans-serif;
+}
+
+.pie > p {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.pie > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+.capa_oblicua {
+    margin: 3px;
+    width: 300px;
+}
+
+/*.pie.borde {
+    height: 65px;
+}*/
+
+.pie.borde::after {
+    display: block; /* ::before and ::after pseudo-elements are inline boxes by default */
+    height: 7px;
+    content: "";
+    border-bottom: 20px solid #1c1c1c;
+    border-left: 260px solid #23b6b6;
+}
+
+/*Solución de Lucía González*/
+
+.caja {
+    background-color: #1C1C1C;
+    width: 300px;
+    height: 95px;
+    padding: 0 15px 10px 10px;
+}
+
+.caja > div {
+    background-color: #23b6b6;
+    font: large sans-serif;
+    padding: 30px 50px 20px 30px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.caja > div:after {
+    content: ""; 
+    position: absolute; 
+    top: 78%; 
+    left: 0; 
+    height: 100%; 
+    width: 150%; 
+    background: #1C1C1C; 
+    transform: rotate(-5deg);
+}
+
+.caja > div > a {
+    color: white;
+    text-decoration: none;
+}
+

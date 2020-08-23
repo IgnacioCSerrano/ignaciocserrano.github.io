@@ -1,0 +1,185 @@
+.centrar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+video {
+  z-index: 0;
+}
+.overlay {
+  background-color: #cd9557;
+  opacity: 0.6;
+  z-index: 1;
+}
+h1 {
+  /*transform: skewX(+8deg); */
+  position: relative;
+  color: white;
+  font-size: 61px;
+  box-shadow: 0px 14px white;
+  animation: entrada1 2s forwards;
+  background-color: #00ac31;
+}
+.texto {
+  height: 100%;
+  min-height: 0;
+  width: 30.5rem;
+  /* padding-bottom: 0; */
+  /* overflow: hidden; */
+  /* padding-bottom: 3rem; */
+  z-index: 17;
+  position: relative;
+  /* width: 100%; */
+  /* min-height: 35rem; */
+  /* height: 100%; */
+  /* -webkit-transform: skewY(4deg); */
+  /* transform: skewY(4deg); */
+  /* -webkit-transform-origin: bottom right; */
+  /* transform-origin: bottom right; */
+  /* -webkit-transform-origin: top right; */
+  transform-origin: top right;
+  text-align: center;
+  box-shadow: 1px 1px 20px 0px white;
+  left: 10%;
+  /*background-color: black;*/
+  transform: skewX(-8deg);
+  animation: negro 0.5s forwards;
+}
+p {
+  position: relative;
+  animation: entrada2 1.5s forwards;
+}
+p a {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+}
+@keyframes negro {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: black;
+  }
+}
+@keyframes entrada1 {
+  from {
+    left: -600px;
+    background-color: transparent;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes entrada2 {
+  from {
+    right: -2000px;
+    background-color: transparent;
+  }
+  to {
+    right: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .texto {
+    width: 80%;
+    min-width: 375px;
+  }
+  .texto h1 {
+    font-size: 50px;
+  }
+}
+
+.texto:hover + .overlay {
+  transition: opacity 2s, left 3s ease-out;
+  opacity: 0.1;
+  left: 150%;
+}
+
+#acerca {
+  transition: transform 0.2s;
+  position: fixed;
+  background-color: #000000;
+  width: 200px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed #ece3e3;
+  box-shadow: 3px -1px 20px 0px;
+  z-index: 10;
+  color: white;
+  transform: rotate(-45deg) translate(50px, 200px);
+  cursor: pointer;
+}
+#acerca i.fa-map {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  transform: rotate(45deg);
+  color: white;
+}
+#acerca div,
+#acerca i.fa-window-close {
+  display: none;
+}
+#acerca.abierto div {
+  display: block;
+}
+#acerca.abierto {
+  transform: none;
+  border-color: black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 450px;
+  max-width: 100%;
+  text-align: center;
+  height: max-content;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  border: none;
+  cursor: initial;
+}
+#acerca.abierto i.fa-map {
+  display: none;
+}
+#acerca.abierto i.fa-window-close {
+  display: inline-block;
+  color: black;
+  position: absolute;
+  top: 5px;
+  left: calc(100% - 30px);
+  cursor: pointer;
+}
+iframe {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  box-shadow: -1px -1px 10px grey;
+  border-radius: 25px;
+  width: 100%;
+  height: 300px;
+}
+#acerca > a[href="#acerca"] {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#acerca {
+  color: #908886;
+  line-height: 24px;
+  letter-spacing: 0.09em;
+  font-size: 12px;
+  font-family: "Humanist521BT-Roman", "Humanist521BT-Light", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}

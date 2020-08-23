@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 7</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center m-2">Generación automática de tablas HTML</h1>
+        <div class="container-fluid">
+            <hr>
+            <div class="row">
+                <div class="col-md-5">
+                    <form id="formulario">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nFil">Nº Filas</label>
+                                <input type="number" class="form-control" id="nFil" min="1" max="100" value="1" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="nCol">Nº Columnas</label>
+                                <input type="number" class="form-control" id="nCol" min="1" max="100" value="1" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="checkbox" id="headFil">
+                                <label for="headFil">
+                                    Primera fila es encabezado
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="checkbox" id="headCol">
+                                <label for="headCol">
+                                    Primera columna es encabezado
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="tabId">Id de tabla</label>
+                                <!-- \s matches whitespace (spaces, tabs and new lines) whereas \S is \s negated (anything except a whitespace) -->
+                                <input type="text" class="form-control" id="tabId" 
+                                       pattern="^[\S]+$" 
+                                       title="Un identificador válido no puede contener ningún espacio">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="tabClass">Clases de tabla</label>
+                                <input type="text" class="form-control" id="tabClass">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Generar tabla</button>
+                    </form>
+                </div>
+                <div class="col-md-7">
+                    <div class="border rounded">
+                        <div class="bg-light p-3 pl-4 w-100 border-bottom">
+                            <p class="text-primary m-0">
+                                Código
+                                <button class="btn btn-outline-secondary border-0 p-0 pl-1 pr-1 ml-1 mb-1 d-none animated" id="copyButton" title="Copiar HTML">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </p>
+                        </div>
+                        <div>
+                            <pre class="m-0 p-3" id="tableCode"><span class="text-center d-block">- En este bloque se mostrará la tabla generada -</span></pre>
+                            <input type="hidden" id="inpHid">
+                        </div>
+                        <div class="bg-light p-3 pl-4 w-100 border-top">
+                            <p class="text-primary m-0">Preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

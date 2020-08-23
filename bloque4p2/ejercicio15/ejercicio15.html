@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 15</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <h1>Ejercicio 15</h1>
+        <p>El efecto del pie quebrado en las entradas del blog se consigue mediante la inclusión en la base de un elemento <code>&lt;svg&gt;</code> (Gráfico Vectorial Escalable) en conjunto con elementos <code>&lt;g&gt;</code> y <code>&lt;path&gt;</code> que definen su geometría.</p>
+        <div class="fondo">
+            <div class="cuerpo"></div>
+            <div class="pie">
+                <p><a href="#">Continuar leyendo ...</a></p>
+                <div class="capa_oblicua">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150" fill="#1c1c1c">
+                    <g transform="translate(0,-902.36218)"></g>
+                    <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"></path>
+                    <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"></path>
+                    <path d="m 1925,0 0,150 -1925,0"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <p>Podemos conseguir el mismo efecto asignando al bloque pie un pseudoelemento <code>::after</code> de contenido vacío con bordes inferior e izquierdo de colores parejos con el color del fondo y del pie, respectivamente, y dimensiones de anchura tales que ambos definan una pendiente.</p>
+        <div class="fondo">
+            <div class="cuerpo"></div>
+            <div class="pie borde">
+                <p><a href="#">Continuar leyendo ...</a></p>
+            </div>
+        </div>
+        <!--<div class="caja"><div><a href="#">Continuar leyendo &hellip;</a></div></div>-->
+    </body>
+</html>

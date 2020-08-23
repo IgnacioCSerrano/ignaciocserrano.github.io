@@ -1,0 +1,74 @@
+div {
+    margin: 15px 0;
+}
+
+#cuadro {
+    position: absolute;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fffd38;
+    width: 175px;
+    height: 175px;
+    box-shadow: 3px 3px 10px grey;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+label[for^="iCoord"] {
+    vertical-align: top;
+}
+
+#context_menu {
+    position: absolute;
+    margin: 0;
+    background-color: #e0e0e0;
+    box-shadow: 3px 3px 10px grey;
+    display: none;
+}
+
+#context_menu > p {
+    margin: 0;
+    padding: 10px;
+    cursor: default;
+}
+
+#context_menu > p:hover {
+    background-color: lightgray;
+}
+
+.design1 {
+    font-family: sans-serif;
+    background-color: mintcream;
+    color: darkslategrey;
+}
+
+.design1 input[type="button"] {
+    padding: 3px 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.design1 input[type="button"]:hover {
+    background-color: silver;
+}
+
+.design2 {
+    font-family: monospace;
+    font-style: oblique;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: khaki;
+    color: darkred;
+}
+
+.design2 input[type="color"] {
+    width: 20px;
+    border-radius: 50%;
+    border: thin solid cornflowerblue;
+}

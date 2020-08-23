@@ -1,0 +1,11 @@
+p {
+    padding: .5em;
+    border: 1px solid black;
+    width: 50%;
+    white-space: nowrap;
+}
+
+.desbordado {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

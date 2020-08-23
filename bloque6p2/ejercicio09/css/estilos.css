@@ -1,0 +1,28 @@
+input {
+   background-color: #dbdfdb;
+   font-size: 20px;
+   width: 100%;
+   box-shadow: 2px 2px 11px;
+   border-radius: 6px;
+   padding:20px;
+   cursor: pointer;  
+}
+
+input:hover {
+      box-shadow: inset 2px 2px 11px;
+}
+
+dl {
+    border: 1px solid #7b7b7b;
+}
+
+dt {
+    padding: 5px;
+    color: white;
+    background-color: #7b7b7b;
+}
+
+dd {
+    padding: 10px;
+    margin-left: 5px;
+}

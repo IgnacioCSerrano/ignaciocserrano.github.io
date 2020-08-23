@@ -1,0 +1,15 @@
+for (var i = 1, j = 1; i <= 10; i++, j+=2) {   
+ console.log('i = ' + i + ' j = ' + j);
+};
+
+VM800:2 i = 1 j = 1
+VM800:2 i = 2 j = 3
+VM800:2 i = 3 j = 5
+VM800:2 i = 4 j = 7
+VM800:2 i = 5 j = 9
+VM800:2 i = 6 j = 11
+VM800:2 i = 7 j = 13
+VM800:2 i = 8 j = 15
+VM800:2 i = 9 j = 17
+VM800:2 i = 10 j = 19
+undefined

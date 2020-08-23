@@ -1,0 +1,85 @@
+:target {
+    background-color: lightcyan;
+}
+
+a[href^="#"]:link {
+    color: hsla(158, 100%, 50%, 1);
+}
+
+a[href^="#"]:visited {
+    color: rgb(77, 183, 101);
+}
+
+a[target="_blank"]:link {
+    color: #db7f55;
+}
+
+a[target="_blank"]:visited {
+    color: hsl(136, 53%, 20%);
+}
+
+a[href$=".pdf"] {
+    background-color:  hsl(356, 53%, 55%);
+}
+
+a:hover {
+    background-color:  #bbafed;
+}
+
+p:nth-of-type(even)::first-letter {
+    color: red;
+}
+
+ol > li:nth-child(2n+1) {
+    background-color: #eae8e8;
+}
+
+ul ol, ul ul, ol ol, ol ul, ul dl, ol dl, dl ol, dl ul {
+    background-color: rgba(149, 244, 208, 0.5) 
+}
+
+ul > li:first-child {
+    background-color: green;
+}
+
+ul > li:nth-last-child(2) {
+    background-color: pink;
+}
+
+ul > li:last-child {
+    background-color: brown;
+}
+
+p::selection {
+    background-color: hsl(100, 44%, 52%);
+}
+
+h1 + p::first-line, h2 + p::first-line, h3 + p::first-line {
+    color: rgb(52, 155, 136);
+}
+
+p.tecnico {
+    color: #99a49c;
+}
+
+p.iyc {
+    color: #cdebd5;
+}
+
+p.tecnico.iyc {
+    color: #3cd367;
+}
+
+a[href^="HTTPS" i] {
+    color: sandybrown;
+}
+
+div > ul > li:not(.different):not(:nth-child(4)):not(:nth-child(6)) {
+    color: green;
+    background-color: blue;
+}
+
+section:hover .iyc {
+    background-color: hsl(203, 65%, 59%) !important;
+}
+

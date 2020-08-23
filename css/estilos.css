@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    color: #3f3f3f;
+    background-color: #f1f1f3;
+}
+
+.fondo {
+    background-image: url('../img/close-up-of-laptop-keyboard-331684.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+h1, h2 {
+    margin: 16px;
+    width: 35%;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6vw;
+}
+
+#bloques {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: fit-content;
+}
+
+#bloques > h2 {
+    margin: 0;
+    color: initial;
+}
+
+h3 {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: gainsboro;
+    border: 5px outset whitesmoke;
+    font-variant: small-caps;
+    font-size: larger;
+    user-select: none;
+    cursor: pointer;
+}
+
+h3.activo {
+    color: whitesmoke;
+    background-color: dimgrey;
+    border-style: inset;
+}
+
+h3 > i.fas, h3 > i.fab {
+    width: 25px;
+}
+
+i.fas::before, i.fab::before {
+    vertical-align: middle;
+}
+
+ul {
+    padding-bottom: 15px;
+    list-style: none;
+    list-style-position: inside;
+    text-transform: uppercase;
+    text-align: center;
+    display: none;
+}
+
+.credits {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+}
+
+.credits:nth-of-type(2) {
+    display: none;
+}
+
+/*
+    The Interaction Media part of CSS4 specification defines the media queries allowing Web applications to identify the browser's primary pointer 
+    (i.e. mouse, touch, keyboard) and decides whether hovering over the element is possible using the "classic" interface (like touch on tablet), 
+        https://whatwebcando.today/pointer-adaptation.html
+*/
+@media (hover: hover) { /* media query that limits the enclosed CSS rules to be used only when the primary pointing device allows hovering over elements */
+    a:hover {
+        color: crimson;
+    }
+    h3:not(.activo):hover {
+        background-color: white;
+    }
+}
+
+/*Dispositivos pequeños (móviles)*/
+@media (max-width: 768px) {
+    h1, h2 {
+        color: #3f3f3f;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        padding: 10px 7.5px;
+    }
+    h3 > i {
+        width: 20px;
+    }
+    .fondo {
+        background-image: url('../img/modern-art-2414036.jpg');
+        height: 100vh;
+    }
+    #bloques {
+        font-size: 13px;
+    }
+    .credits:nth-of-type(1) {
+        display: none;
+    }
+    .credits:nth-of-type(2) {
+        display: initial;
+        color: white;
+    }
+    li {
+        padding: 7px 0;
+    }
+    li > a {
+        padding: 5px 15px;
+        background-color: #eeeeee;
+        border-radius: 50%;
+    }
+    a {
+        color: navy;
+    }
+}

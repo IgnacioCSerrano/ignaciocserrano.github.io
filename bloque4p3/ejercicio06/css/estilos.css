@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+video#video_fondo { 
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 100%; 
+    min-height: 100%;
+}     
+
+.content {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    z-index: 10;
+}

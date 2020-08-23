@@ -1,0 +1,23 @@
+div {
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: medium dashed #0000CC;   
+}
+
+.caja1 {
+    overflow: hidden;
+}
+
+.caja2 {
+    overflow: scroll;
+}
+
+.caja3 {
+    overflow: auto;
+}
+
+.caja4 {
+    overflow: visible;
+}

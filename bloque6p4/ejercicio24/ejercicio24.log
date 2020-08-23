@@ -1,0 +1,4 @@
+document.body.contentEditable = true;
+true
+document.designMode = "on";
+"on"

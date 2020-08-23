@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Bloque 2 - Práctica 3</title>
+        <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/</link>
+        <description>Ejercicios de Ignacio Cuevas Serrano para la práctica 3 del bloque 2 de la asignatura Lenguajes de Marcas y Sistemas de Gestión de la Información</description>
+        <atom:link href="http://lmsgi.iesvjp.es/~icuevass01/bloque3p1/ejercicio07/b2p3_rss.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio01/ejercicio01.html</guid>
+            <title>Ejercicio 1</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio01/ejercicio01.html</link>
+            <description>Ejemplos de páginas web con frameset</description>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 1</h1>
+                <h2>Listado de páginas de marcos</h2>
+                <ul>
+                    <li><a href="marco1.html">Página 1</a></li>
+                    <li><a href="marco2.html">Página 2</a></li>
+                    <li><a href="marco3.html">Página 3</a></li>
+                    <li><a href="marco4.html">Página 4</a></li>
+                </ul>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio02/ejercicio02.html</guid>
+            <title>Ejercicio 2</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio02/ejercicio02.html</link>
+            <description>Ejemplos de páginas web con frameset y atributos noresize, frameborder y scrolling</description>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 2</h1>
+                <h2>Listado de páginas de marcos</h2>
+                <ul>
+                    <li><a href="marco1.html">Página 1 - No redimensionamiento</a></li>
+                    <li><a href="marco2.html">Página 2 - No bordes</a></li>
+                    <li><a href="marco3.html">Página 3 - No scroll salvo cuerpo</a></li>
+                </ul>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio04/ejercicio04.html</guid>
+            <title>Ejercicio 4</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio04/ejercicio04.html</link>
+            <description>Página con menú en frameset</description>
+            <content:encoded><![CDATA[
+                <frameset cols="370,*">
+                    <frame name="menu" src="indice_libro.html" />
+                    <frame name="cuerpo" src="https://uniwebsidad.com/libros/xhtml" />
+
+                    <noframes>
+                        <p>Su navegador no soporta frames. Puede visitar el contenido en los siguientes enlaces:</p>
+                        <ul>
+                            <li><a href="indice_libro.html"></a>Men&uacute;</li>
+                            <li><a href="https://uniwebsidad.com/libros/xhtml"></a>Cuerpo</li>
+                        </ul>
+                    </noframes>
+                </frameset>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio05/ejercicio05.html</guid>
+            <title>Ejercicio 5</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio05/ejercicio05.html</link>
+            <description>Página con menú de imágenes en frameset</description>
+            <media:content url="http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio05/img/Imagen01.jpg" medium="image"></media:content>
+            <content:encoded><![CDATA[
+                <frameset cols="250,*">
+                    <frame name="menu" src="indice_galeria.html" />
+                    <frame name="cuerpo" src="template.html" />
+
+                    <noframes>
+                        <p>Su navegador no soporta frames. Puede visitar el contenido en los siguientes enlaces:</p>
+                        <ul>
+                            <li><a href="indice_galeria.html"></a>Men&uacute;</li>
+                            <li><a href="template.html"></a>Cuerpo</li>
+                        </ul>
+                    </noframes>
+                </frameset>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio07/ejercicio07.html</guid>
+            <title>Ejercicio 7</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio07/ejercicio07.html</link>
+            <description>Ejemplo de iframe</description>
+            <content:encoded><![CDATA[
+                <h1>Ejemplos de código en distintos lenguajes de programación</h1>
+                <ul>
+                    <li><a href="doc/Ada95.txt">Ada95 (gnat 8.3)</a></li>
+                    <li><a href="doc/Assembler32bit">Assembler 32bit (gcc 8.3)</a></li>
+                    <li><a href="doc/Bash.txt">Bash (bash 5.0.3)</a></li>
+                    <li><a href="doc/C++.txt">C++ 4.3.2 (gcc-4.3.2)</a></li>
+                    <li><a href="doc/COBOL.txt">COBOL (gnucobol 2.2.0)</a></li>
+                    <li><a href="doc/Java.txt">Java (sun-jdk-1.8.0_51)</a></li>
+                    <li><a href="doc/JavaScript.txt">JavaScript (rhino 1.7.9)</a></li>
+                    <li><a href="doc/Pascal.txt">Pascal (fpc 3.0.4)</a></li>
+                    <li><a href="doc/PHP.txt">PHP (php 7.3.5)</a></li>
+                    <li><a href="doc/Python3.txt">Python 3 (python 3.7.3)</a></li>
+                </ul>
+                <iframe src="doc/Template.txt" name="iframe" width="50%" height="300"></iframe>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio08/ejercicio08.html</guid>
+            <title>Ejercicio 8</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio08/ejercicio08.html</link>
+            <description>Página web con índice de hipervínculos y elementos iframe</description>
+            <media:content url="https://www.youtube.com/watch?v=ECfKkdS8_FU" medium="video" width="560" height="315"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Introducción a HTML5</h1>
+                <hr />
+                <div>
+                    <p id="indice"><small>ÍNDICE</small></p>
+                    <ol>
+                        <li><a href="#1">Editores HTML5</a></li>
+                        <li><a href="#2">Sintaxis del lenguaje</a></li>
+                        <li><a href="#3">Estructura básica de una página Web</a></li>
+                        <li><a href="#4">Tecnología digital</a></li>
+                    </ol>
+                </div>
+                <hr />
+                <h2 id="1">1. Editores HTML5</h2>
+                <iframe width="560" height="315" align="right" src="https://www.youtube.com/embed/ECfKkdS8_FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <br clear="all" />
+                <p><a href="#indice">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="2">2. Sintaxis del lenguaje</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <iframe id='audio_38329810' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://www.ivoox.com/player_ej_38329810_4_1.html?c1=ff6600"></iframe>
+                <p><a href="#indice">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="3">3. Estructura básica de una página Web</h2>
+                <iframe src="//www.slideshare.net/slideshow/embed_code/key/fJCeElxrjjUu9l" width="595" height="485" align="right" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <br clear="all" />
+                <p><a href="#indice">Volver a índice &uarr;</a></p>
+                <hr />
+                <h2 id="4">4. Tecnología digital</h2>
+                <iframe width="550" height="400" align="left" src="https://prezi.com/p/m7nrwyad2b0r/embed" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+                <p align="right">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p align="right">
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                </p>
+                <br clear="all" />
+                <p><a href="#indice">Volver a índice &uarr;</a></p>
+            ]]></content:encoded>
+        </item>
+        <item>
+            <guid isPermaLink="true">http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio09/ejercicio09.html</guid>
+            <title>Ejercicio 9</title>
+            <link>http://lmsgi.iesvjp.es/~icuevass01/bloque2p3/ejercicio09/ejercicio09.html</link>
+            <description>Lista de reproducción de canciones de Extremoduro</description>
+            <media:content url="https://www.youtube.com/watch?v=-byTiKtOrH4" medium="video" width="640" height="360"></media:content>
+            <content:encoded><![CDATA[
+                <h1>Ejercicio 9</h1>
+                <iframe name="video" width="640" height="360" align="left" src="https://www.youtube.com/embed/-byTiKtOrH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div>
+                    <ul>
+                        <li>                   
+                            <a href="https://www.youtube.com/embed/AqAaKX6iCPs"><img src="img/decidi.jpg" alt="Miniatura de la portada del disco &quot;Rock Transgresivo&quot;" width="80" height="45" hspace="5" align="middle" />Extremoduro - Decidí</a>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="https://www.youtube.com/embed/FAmavvYPSLk"><img src="img/ama.jpg" alt="Miniatura de la portada del disco &quot;Deltoya&quot;" width="80" height="45" hspace="5" align="middle" />Extremoduro - Ama, ama, ama y ensancha el alma</a>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="https://www.youtube.com/embed/GUw7RCRNcH4"><img src="img/pepe.jpg" alt="Miniatura de la portada del disco &quot;¿Dónde están mis amigos?&quot;" width="80" height="45" hspace="5" align="middle" />Extremoduro - Pepe Botika (¿Dónde están mis amigos?)</a>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="https://www.youtube.com/embed/Z_E4QhC3Inc"><img src="img/golfa.jpg" alt="Miniatura de la portada del disco &quot;Grandes exitos y fracasos (Episodio 1º)&quot;" width="80" height="45" hspace="5" align="middle" />Extremoduro - Golfa</a>
+                        </li>
+                        <hr />
+                        <li>                    
+                            <a href="https://www.youtube.com/embed/iazSnYcUI1I"><img src="img/salir.jpg" alt="Miniatura de la portada del disco &quot;Grandes exitos y fracasos (Episodio 2º)&quot;" width="80" height="45" hspace="5" align="middle" />Extremoduro - Salir</a>
+                        </li>
+                        <hr />
+                        <li>                   
+                            <a href="https://www.youtube.com/embed/-byTiKtOrH4"><img src="img/dulce.jpg" alt="Miniatura de la portada del disco &quot;La Ley Innata&quot;" width="80" height="45" hspace="5" align="middle" />Extremoduro - Dulce introducción al caos</a>
+                        </li>
+                    </ul>
+                </div>
+            ]]></content:encoded>
+        </item>
+    </channel>
+</rss>

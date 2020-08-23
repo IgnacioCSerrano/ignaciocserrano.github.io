@@ -1,0 +1,66 @@
+.galeria {
+    margin: auto;
+    width: fit-content;
+}
+
+.galeria > span {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(18,95,212,0.09707633053221287) 17%);
+}
+
+.galeria > span:hover {
+    text-shadow: 0px 5px 10px #fdff00;
+}
+
+.galeria > div {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px 1px #3f3f3f;
+}
+
+.galeria > span:not(:hover) ~ div > img {
+    transform: translate(-240px, 50px);
+}
+
+.galeria > div > img {
+    transition: transform 2.5s ease-out;
+}
+
+.galeria > span:nth-child(1):hover ~ div > img {
+    transform: translate(-255px, -265px);
+}
+
+.galeria > span:nth-child(2):hover ~ div > img {
+    transform: translate(-30px, -345px)
+}
+
+.galeria > span:nth-child(3):hover ~ div > img {
+    transform: translate(-85px, -275px) rotate(180deg)
+}
+
+.galeria > span:nth-child(4):hover ~ div > img {
+    transform: translate(-375px, -135px) rotate(-90deg)
+}
+
+.galeria > span:nth-child(5):hover ~ div > img {
+    transform: translate(-325px, -375px) rotate(149deg)
+}
+
+.galeria > span:nth-child(6):hover ~ div > img {
+    transform: translate(-75px, -345px) rotate(-90deg)
+}
+
+@keyframes presentacion {
+    0% {transform: translate(-255px, -265px)}
+    20% {transform: translate(-30px, -345px)}
+    40% {transform: translate(-85px, -275px) rotate(180deg)}
+    60% {transform: translate(-375px, -135px) rotate(-90deg)}
+    80% {transform: translate(-325px, -375px) rotate(149deg)}
+    100% {transform: translate(-75px, -345px) rotate(-90deg)}
+}

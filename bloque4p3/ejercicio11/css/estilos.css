@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+figure#tabla {
+    margin: 0 auto;
+}
+
+figure#tabla > table {
+    margin: auto;
+    border-collapse: separate; /* Don't collapse if you want to use sticky and keep the border style of header cells. When browsers collapse the borders, the border on the <th> must be getting applied to surrounding element: the top border to the <table> and the bottom border to the following <tr> */
+    border-spacing: 0;
+    width: 60%;
+}
+
+figure#tabla > figcaption {
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+/*figure#tabla > thead {
+    border: 1px solid black;
+}*/
+
+figure#tabla > table > thead > tr > th {
+    position: sticky;
+    top: 30px;
+    height: 75px;
+    border-top: 1px solid black;
+    border-bottom: 1.3px solid black;
+}
+
+figure#tabla > table > thead > tr > th:first-child {
+    border-left: 1px solid black;
+}
+
+figure#tabla > table > thead > tr > th:last-child {
+    border-right: 1px solid black;
+}
+
+figure#tabla > table > tbody > tr > td {
+    vertical-align: top;
+}
+
+figure#tabla > table > thead > tr > th:nth-child(odd), 
+figure#tabla > table > tbody > tr > td:nth-child(odd) {
+    background-color: #ffff99;
+}
+
+figure#tabla > table > thead > tr > th:nth-child(even), 
+figure#tabla > table > tbody > tr > td:nth-child(even) {
+    background-color: #ccff99;
+}
+
+figure#tabla > table > tbody > tr > td:nth-child(1),
+figure#tabla > table > tbody > tr > td:nth-child(6),
+figure#tabla > table > tbody > tr > td:nth-child(7),
+figure#tabla > table > tbody > tr > td:nth-child(8) {
+    text-align: right;
+}
+
+

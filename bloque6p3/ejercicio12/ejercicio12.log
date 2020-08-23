@@ -1,0 +1,72 @@
+let datosJSON = {
+    "bloqueado": "NO",
+    "curso": "2018/2019",
+    "evaluacion": "3ª Evaluación - Ordinaria Junio ",
+    "modulos": [
+        {
+          "idRegistro": 10,
+          "nombre": "ISO",
+          "grupo": "1ASIR"
+        },
+        {
+          "idRegistro": 24,
+          "nombre": "LMSGI",
+          "grupo": "1DAW"
+        }
+    ]
+};
+undefined
+datosJSON.bloqueado;
+"NO"
+datosJSON.modulos;
+(2) [{…}, {…}]
+typeof datosJSON.modulos;
+"object"
+datosJSON.modulos.length;
+2
+datosJSON.modulos[0].idRegistro;
+10
+datosJSON["curso"];
+"2018/2019"
+datosJSON.curso;
+"2018/2019"
+datosJSON.modulos[0].grupo = "1ºASIR";
+"1ºASIR"
+datosJSON.modulos[1].grupo = "1ºDAW";
+"1ºDAW"
+datosJSON.modulos.push(
+    {
+        "idRegistro": 22,
+        "nombre": "LMSGI",
+        "grupo": "1ºDAM"
+    }
+);
+3
+datosJSON.nuevoDato = "IESVJP";
+"IESVJP"
+for (let p in datosJSON) {
+    console.log(p);
+    console.log(datosJSON[p]);
+};
+VM108:2 bloqueado
+VM108:3 NO
+VM108:2 curso
+VM108:3 2018/2019
+VM108:2 evaluacion
+VM108:3 3ª Evaluación - Ordinaria Junio 
+VM108:2 modulos
+VM108:3 (3) [{…}, {…}, {…}]
+VM108:2 nuevoDato
+VM108:3 IESVJP
+undefined
+console.log(Object.keys(datosJSON));
+VM113:1 (5) ["bloqueado", "curso", "evaluacion", "modulos", "nuevoDato"]
+undefined
+console.log(Object.values(datosJSON));
+VM118:1 (5) ["NO", "2018/2019", "3ª Evaluación - Ordinaria Junio ", Array(3), "IESVJP"]
+undefined
+delete datosJSON.nuevoDato;
+true
+console.log(datosJSON);
+VM128:1 {bloqueado: "NO", curso: "2018/2019", evaluacion: "3ª Evaluación - Ordinaria Junio ", modulos: Array(3)}
+undefined

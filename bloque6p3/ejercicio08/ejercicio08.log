@@ -1,0 +1,11 @@
+window.location.href = 'http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html';
+"http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html"
+Navigated to http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html
+let precios =  [58.00, 90.00, 40.00, 30.00, 60.00, 25.00, 78.00, 75.00];
+undefined
+let elemPrecios = document.querySelectorAll(".precio h4");
+undefined
+for (let i = 0; i < elemPrecios.length; i++) {
+    elemPrecios[i].textContent = elemPrecios[i].textContent.replace("XX", precios[i]);
+}
+"75 €/noche"

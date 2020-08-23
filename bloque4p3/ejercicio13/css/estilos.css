@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, arial, sans-serif;
+    background-color: #93a8ac;
+}
+
+dl, dt, dd, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #666666;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 0 5px;
+    border-top: 4px solid rgb(102, 102, 102);
+    z-index: 100;
+    width: 100%;
+}
+
+.menu dl { 
+    float: left;
+    width: 100%;
+}
+
+.menu dt {
+    margin: 1px;
+    border: 1px solid grey;
+    background: rgb(204, 204, 204);
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu dd { 
+    border: 1px solid gray;
+    display: none;
+}
+
+.menu dt:hover + dd, .menu dd:hover {
+    display: block;
+}
+
+.menu li { 
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.menu dt a, .menu li a { 
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 214, 255);
+}
+
+.menu dt a { 
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+}
+
+.menu dt a:visited, .menu li a:visited { 
+    color: rgb(102, 0, 0);
+}
+
+.menu dt a:hover, .menu li a:hover { 
+    background: rgb(238, 238, 238);
+    color: rgb(0, 0, 204);
+    font-weight: bolder;
+    font-size: medium;
+}

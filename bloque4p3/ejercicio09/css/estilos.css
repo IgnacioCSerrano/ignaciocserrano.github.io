@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+main.menu {
+    margin-top: 30px;
+    position: relative;
+}
+
+main.menu > section {
+    margin: 0;
+    padding: 0;
+}
+
+main.menu > section {
+    display: inline-block;
+    padding: 0;
+    margin-right: -4px;
+    width: 150px;
+    list-style: none;
+    background-color: #ffcc99;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main.menu > section > h2 {
+    margin: 0;
+    padding: 16px 0;
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    cursor: default;
+}
+
+main.menu > section:hover > h2 {
+    color: black;
+}
+
+main.menu > section > div {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    padding: 10px;
+    width: 1050px;
+    height: 75vh;
+    border: 15px solid #ffcc99;
+    font-size: xx-large;
+    text-align: left;
+    display: none;
+}
+
+main.menu > section:first-child > div {
+    display: block;
+}
+
+main.menu > section:not(:first-child):hover > div {
+    display: block;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.violet {
+    background-color: violet;
+}

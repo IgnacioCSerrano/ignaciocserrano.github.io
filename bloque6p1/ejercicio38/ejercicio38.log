@@ -1,0 +1,14 @@
+let potencia = (x, y) => {
+    let potencia = 1;
+    for (let i = 0; i < y; i++) {
+        potencia *= x;
+    }
+    return potencia;
+};
+undefined
+potencia(2, 10)
+1024
+potencia(5, 3)
+125
+potencia(10, 0)
+1

@@ -1,0 +1,8 @@
+let login, mensaje;
+undefined
+mensaje = (login == 'Empleado' ? 'Hola' :
+              (login == 'Director' ? 'Bienvenido' :
+                  (login == '' ? 'No login' : '')
+              )
+          );
+""

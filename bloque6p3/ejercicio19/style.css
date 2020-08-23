@@ -1,0 +1,168 @@
+/* CSS adaptado de https://codepen.io/er40/pen/bdFgx */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 300, 700);
+body {
+  background: #485b6e;
+}
+#perfiles {
+  margin-top: 20px;
+}
+#perfiles h1,
+#perfiles p {
+  color: white;
+}
+
+h1 {
+  font-family: "Open Sans", sans;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+h1 a {
+  color: inherit;
+}
+
+h2 {
+  color: #2c3e52;
+  font-family: "Open Sans", sans;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.perfil {
+  width: 460px;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+
+.perfil img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: auto;
+  height: 100%;
+  float: left;
+  transition: all 0.8s;
+  -moz-transition: all 0.8s;
+}
+.perfil div:nth-of-type(1) h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: "Open Sans";
+}
+
+.perfil div:nth-of-type(1) h4 {
+  padding: 0px;
+  padding-bottom: 13px;
+  margin: 0px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: 90%;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+}
+
+.perfil div:nth-of-type(1) p {
+  /*padding-top: 13px;*/
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Open Sans";
+}
+
+.perfil div:nth-of-type(1) {
+  width: 42%;
+  height: 89%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  padding: 3% 4%;
+  background: #D90E0E;
+  color: white;
+  /*	display: none;*/
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.4s;
+}
+
+.perfil:hover div:nth-of-type(1) {
+  display: block !important;
+  color: white;
+  background: rgba(217, 14, 14, 0.85);
+  left: 0px;
+  top: 0px;
+}
+.perfil div:nth-of-type(1) p:last-child {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  padding-top: 10px;
+}
+.perfil div:nth-of-type(2) p {
+  padding: 100px 0px 0px 20px;
+  font-size: 24px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #fff;
+}
+.perfil div:nth-of-type(2) p span {
+  font-family: "Open Sans" !important;
+}
+
+.perfil div:nth-of-type(2) a {
+  padding: 0px 0px 0px 20px;
+  font-size: 14px !important;
+  color: #FF5A22 !important;
+  font-family: "Open Sans" !important;
+  text-decoration: none !important;
+}
+.perfil div:nth-of-type(2) a[href^="tel"]::before {
+  content: "\260E";
+  margin-right: 4px;
+}
+.perfil div:nth-of-type(2) {
+  position: absolute;
+  left: 50%;
+}
+
+.perfil div:nth-of-type(2) {
+  background: #eee !important;
+  width: 50% !important;
+  height: inherit !important;
+}
+
+.perfil div:nth-of-type(2) p {
+  color: #000 !important;
+}
+
+div.cargando {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+  /* transform: rotate(0.3rad);/ */
+  /* transform: rotate(3grad); */
+  /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

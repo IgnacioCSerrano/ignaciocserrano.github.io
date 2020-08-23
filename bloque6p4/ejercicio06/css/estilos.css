@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+main.menu {
+    margin-top: 30px;
+    position: relative;
+}
+
+main.menu > section {
+    margin: 0;
+    padding: 0;
+}
+
+main.menu > section:hover > h2 {
+    color: black;
+}
+
+main.menu > section {
+    display: inline-block;
+    padding: 0;
+    margin-right: -4px;
+    width: 150px;
+    list-style: none;
+    background-color: #ffcc99;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main.menu > section > h2 {
+    margin: 0;
+    padding: 16px 0;
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+}
+
+main.menu > section > div {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    padding: 10px;
+    width: 1050px;
+    height: 75vh;
+    border: 15px solid #ffcc99;
+    font-size: xx-large;
+    text-align: left;
+    display: none;
+}
+
+main.menu > section:first-child > div {
+    display: block;
+}
+
+section:nth-child(1) > div {
+    background-color: red;
+}
+
+section:nth-child(2) > div {
+    background-color: orange;
+}
+
+section:nth-child(3) > div {
+    background-color: yellow;
+}
+
+section:nth-child(4) > div {
+    background-color: green;
+}
+
+section:nth-child(5) > div {
+    background-color: blue;
+}
+
+section:nth-child(6) > div {
+    background-color: indigo;
+}
+
+section:nth-child(7) > div {
+    background-color: violet;
+}

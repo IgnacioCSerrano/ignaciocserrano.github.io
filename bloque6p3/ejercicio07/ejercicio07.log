@@ -1,0 +1,14 @@
+window.location.href = 'http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html';
+"http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html"
+Navigated to http://lmsgi.iesvjp.es/Ejercicios/nuevo/nuevop_5.html
+let generarRGB = () => {
+    var r = Math.floor(Math.random() * 2 ** 8);
+    var g = Math.floor(Math.random() * 2 ** 8);
+    var b = Math.floor(Math.random() * 2 ** 8);
+    return `rgb(${r},${g},${b})`;
+};
+undefined
+for (let tarjeta of document.querySelectorAll(".tarjeta")) {
+    tarjeta.style.backgroundColor = generarRGB();
+}
+"rgb(0,245,210)"

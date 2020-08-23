@@ -1,0 +1,4 @@
+Math;
+Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}abs: ƒ abs()acos: ƒ acos()acosh: ƒ acosh()asin: ƒ asin()asinh: ƒ asinh()atan: ƒ atan()atanh: ƒ atanh()atan2: ƒ atan2()ceil: ƒ ceil()cbrt: ƒ cbrt()expm1: ƒ expm1()clz32: ƒ clz32()cos: ƒ cos()cosh: ƒ cosh()exp: ƒ exp()floor: ƒ floor()fround: ƒ fround()hypot: ƒ hypot()imul: ƒ imul()log: ƒ log()log1p: ƒ log1p()log2: ƒ log2()log10: ƒ log10()max: ƒ max()min: ƒ min()pow: ƒ pow()random: ƒ random()round: ƒ round()sign: ƒ sign()sin: ƒ sin()sinh: ƒ sinh()sqrt: ƒ sqrt()tan: ƒ tan()tanh: ƒ tanh()trunc: ƒ trunc()E: 2.718281828459045LN10: 2.302585092994046LN2: 0.6931471805599453LOG10E: 0.4342944819032518LOG2E: 1.4426950408889634PI: 3.141592653589793SQRT1_2: 0.7071067811865476SQRT2: 1.4142135623730951Symbol(Symbol.toStringTag): "Math"__proto__: Object
+Math.PI;
+3.141592653589793

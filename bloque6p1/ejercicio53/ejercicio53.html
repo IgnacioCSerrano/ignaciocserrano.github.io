@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 53</title>
+        <script>
+            let usuario, contrasenna;
+            do {
+                usuario = prompt("Nombre de usuario:");
+                if (usuario !== null && usuario.toLowerCase() !== "admin") {
+                    alert("¡Usuario incorrecto!");
+                }
+            } while (usuario !== null && usuario.toLowerCase() !== "admin");
+            if (usuario === null) {
+                alert("Operación cancelada");
+            } else {
+                contrasenna = prompt("Contraseña:");
+                if (contrasenna === null) {
+                    alert("Operación cancelada.");
+                } else if (contrasenna !== "P@ssw0rd") {
+                    alert("Contraseña incorrecta.");
+                } else {
+                    alert("¡Bienvenido!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 53</h1>
+    </body>
+</html>

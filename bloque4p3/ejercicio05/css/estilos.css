@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+body > header {
+    margin-bottom: 5px;
+    width: 100%;
+    background-image: url("../img/degradado_horizontal_rojo.jpg");
+    background-size: contain;
+    color: #e02b2b;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+    line-height: 3em;
+    letter-spacing: 0.5em;
+    text-indent: 1em;
+}
+
+body > header .nombre {
+    float: right;
+}
+
+.descripcion {
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-top: thin solid #e02b2b;
+    background-image: url("../img/flecha_mayor.jpg");
+    background-position: 161px 2px;
+    background-repeat: no-repeat;
+    color: #333333;
+    text-align: justify;
+    clear: both;
+}
+
+.descripcion .imagen {
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+    border: #e02b2b thick solid;
+    float: left;
+}
+
+.descripcion .producto {
+    color: #000000;
+    font-variant: small-caps;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+
+}
+
+.descripcion .precio {
+    margin-left: 190px;
+    font-size: small;
+    font-style: oblique;
+    text-transform: uppercase;
+    border-top: medium solid #00FF33 ;
+    border-bottom: medium solid #00FF33;
+
+}
+
+.descripcion p {
+    margin: 0;
+}

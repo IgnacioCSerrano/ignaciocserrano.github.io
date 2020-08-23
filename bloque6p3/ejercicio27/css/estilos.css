@@ -1,0 +1,24 @@
+h2 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+thead > tr {
+    background-color: ghostwhite;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: azure;
+}
+

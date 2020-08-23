@@ -1,0 +1,63 @@
+body {
+    color: #3f3f3f;
+}
+h1 {
+    color: aqua;
+}
+h2 {
+    color: blueviolet;
+}
+h3 {
+    color: brown;
+}
+p {
+    color: blue;
+}
+abbr {
+    color: coral;
+}
+acronym {
+    color: crimson;
+}
+cite {
+    color: darkmagenta;
+}
+q {
+    color: deeppink;
+}
+blockquote {
+    color: gold;
+}
+strong {
+    color: green;
+}
+em {
+    color: indigo;
+}
+dfn {
+    color: limegreen;
+}
+pre {
+    color: magenta;
+}
+code {
+    color: midnightblue;
+}
+samp {
+    color: orange;
+}
+kbd {
+    color: purple;
+}
+var {
+    color: red;
+}
+sup {
+    color: salmon;
+}
+sub {
+    color: violet;
+}
+address {
+    color: yellowgreen;
+}

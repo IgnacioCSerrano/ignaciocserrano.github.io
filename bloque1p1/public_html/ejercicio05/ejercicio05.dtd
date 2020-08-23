@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ejerc5.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE productos SYSTEM "ejerc5.dtd">
+
+    <productos>
+    ...
+    </productos>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT productos (producto)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT producto (nombre|cantidad|precio|maxGan)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cantidad (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT precio (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT maxGan (#PCDATA)>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 10</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <h1>Ejercicio 10</h1>
+        <h2>Cronómetro</h2>
+        <p>Añadir nuevo cronómetro: <span class="add"><i class="fas fa-plus-square"></i></span></p>
+        <div id="cronos"></div>
+        <hr>
+        <h2>Temporizador</h2>
+        <p>Añadir nuevo temporizador: <span class="add"><i class="fas fa-plus-square"></i></span></p>
+        <small>Haz clic sobre los dígitos para establecer el tiempo de cuenta atrás.</small>
+        <div id="timers"></div>
+        <hr>
+        <div id="form" class="oculto">
+            <form>
+                <div>
+                    <label>Horas</label>
+                    <input type="number" min="0" max="99">
+                </div>
+                <div>
+                    <label>Minutos</label>
+                    <input type="number" min="0" max="59">
+                </div>
+                <div>
+                    <label>Segundos</label>
+                    <input type="number" min="0" max="59">
+                </div>
+                <button type="button">Aplicar</button>
+                <button type="button">Cancelar</button>
+            </form>
+        </div>
+        <audio src="audio/Alarm-ringtone.mp3" id="ringtone"></audio>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    background-color: #eee;
+    color: #3c4858;
+    font-family: 'Pontano Sans', Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+.tarjeta {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    margin: 50px 0;
+    border-radius: 6px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Establecer 'transition: all' fuera de hover da problemas en Chrome al renderizar elemento con transición durante carga de página*/
+.tarjeta header {
+    /*margin: -30px 15px 0;*/
+    margin: 0 15px;
+    position: relative;
+    top: -30px;
+    z-index: 1;
+    transition: all 1s cubic-bezier(.34,1.61,.7,1);
+}
+
+.tarjeta:hover header {
+    transform: translate3d(0,-50px,0);
+}
+
+.tarjeta header img {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.tarjeta .cuerpo {
+    position:relative;
+    margin-top: -70px;
+}
+
+.tarjeta .cuerpo .iconos i{
+    margin-right: 20px;   
+}
+
+.tarjeta .cuerpo .iconos i:nth-child(1) {
+    color: green;
+}
+
+.tarjeta .cuerpo .iconos i:nth-child(2) {
+    color: red;
+}
+
+.tarjeta .cuerpo h4 {
+    padding: 15px 0 5px;
+    margin: 0;
+}
+
+.tarjeta .cuerpo h4 a {
+    color: #3c4858;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tarjeta .cuerpo .descripcion {
+    color: #999;
+    overflow: auto;
+    height: 120px;
+    padding: 10px;
+}
+
+.tarjeta footer {
+    border-top: 1px solid #eee;
+    margin: 20px 15px 0px;
+}
+
+.tarjeta footer .precio h4{
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.4em;   
+    color: #9a9a9a;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .tarjeta {
+        width: 100%;
+    }    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .tarjeta {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+    }    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .tarjeta {
+        width: calc(33.3% - 20px);
+        margin-right: 20px;
+    }    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .tarjeta {
+        width: calc(25% - 20px);
+        margin-right: 20px;
+    }    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1919.98px) { 
+    .tarjeta {
+        width: calc(20% - 20px);
+        margin-right: 20px;
+    }    
+}
+
+/* Exceptionally large devices (1920px and up) */
+@media (min-width: 1920px) {
+    .tarjeta {
+        width: 364px;
+        margin-right: 20px;
+    }    
+}

@@ -1,0 +1,321 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    font-family: initial;
+}
+
+/*Apartado a*/
+
+.lista1 {
+    margin: 50px 0;
+    padding: 5px 5px;
+    background-color: #1c5493;
+    width: fit-content;
+}
+
+.lista1 > ul {
+    padding-left: 0;
+}
+
+.lista1 > ul > li {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    list-style: none;
+    color: white;
+}
+
+.lista1 > ul > li > ul {
+    border-left: 1px solid grey;
+    padding: 5px 25px 0;
+    margin-top: 5px;
+}
+
+.lista1 > ul > li > ul > li {
+    padding: 5px;
+    list-style-image: url("../img/arrow-menu.png");
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.lista1 > ul > li > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.lista1 > ul > li > a {
+    color: white;
+    text-decoration: none; 
+}
+
+/*Apartado b*/
+
+.banner1 {
+    margin: 50px 0;
+    background-image: url("../img/banner_skills_2016.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 200px;
+    height: 200px;
+}
+
+.banner1 > div {
+    padding: 150px 0 0 10px;
+}
+
+.banner1 > div > p {
+    margin: 0;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.banner1 > div > p > a {
+    text-decoration: none;
+    color: #007800;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*Apartado c*/
+
+.menu1 {
+    margin: 50px 0;
+}
+
+.menu1 > div {
+    width: fit-content;
+}
+
+.menu1 > div > p {
+    margin-bottom: 0;
+    padding: 10px 5px;
+    border-bottom: thick solid #192929;
+    background-color: #2e4a51;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+.menu1 > div > ul {
+    margin-top: 0;
+    padding: 0 5px;
+    opacity: 0;
+}
+
+.menu1:hover > div > ul {
+    opacity: 1;
+}
+
+.menu1 > div > ul > li {
+    padding: 5px;
+    list-style: none;
+    background-color: #106f83;
+    border-bottom: 1px solid white;
+    background-image: url("../img/arrow-menu.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px);
+    cursor: pointer;
+}
+
+.menu1 > div > ul > li:hover {
+    background-color: #338295;
+}
+
+.menu1 > div > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*Apartado d*/
+
+.menu2 {
+    margin: 50px 0;
+    width: fit-content;
+}
+
+.menu2 > p {
+    margin-bottom: 0;
+    padding: 10px 5px;
+    background-color: white;
+    color: #72c02c;
+    font-weight: bold;
+    border-bottom: medium solid #72c02c;
+    cursor: default;
+}
+
+.menu2 > ul {
+    margin: 0;
+    padding: 0 5px;
+    overflow: hidden;
+    height: 0;
+}
+
+.menu2:hover > ul {
+    height: auto;
+}
+
+.menu2 > ul > li {
+    padding: 8px;
+    list-style: none;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.menu2 > ul > li:hover {
+    background-color: #687074;
+}
+
+.menu2 > ul > li:last-child {
+    border-bottom: medium solid #687074;
+}
+
+.menu2 > ul > li > a {
+    text-decoration: none;
+    color: #687074;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.menu2 > ul > li:hover > a {
+    color: white;
+}
+
+/*Apartado e*/
+
+.banner2 {
+    margin: 50px 0;
+}
+
+.banner2 > .fondo {
+    background-image: url("../img/pexels-photo-235922.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    width: 600px;
+}
+
+.banner2 > .fondo > .filtro {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+/*
+
+    There is no CSS property background-opacity, but you can fake it by inserting a pseudo element with regular opacity the exact size of the element behind it.
+
+.banner2 > div:nth-child(1)::after {
+    content: "";
+    background-image: url("../img/pexels-photo-235922.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+*/
+
+.banner2 > .fondo > .filtro > p:nth-child(1) {
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: right;
+    color: #479601;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner2 > .fondo > .filtro > p:nth-child(2) {
+    padding: 10px;
+    margin-top: 0;
+    color: #626262;
+    font-size: 36px;
+}
+
+.banner2 > div.fondo > .filtro > p:nth-child(3) {
+    text-align: right;
+}
+
+.barra1 {
+    margin: 100px 0;
+    border-top: 1px solid #a3a3a3;
+    width: 50%;
+}
+
+.barra1 > p {
+    margin-top: 0;
+    padding: 5px 13px;
+    background-color: #588ab1;
+    color: white;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.barra2 {
+    margin: 100px 0;
+    padding-bottom: 5px;
+    border-bottom: medium solid #2e6d9d;
+    width: 50%;
+}
+
+.barra2 > span:nth-child(1) {
+    padding-right: 5px;
+    color: #0c3048;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.barra2 > span:nth-child(2),
+.barra2 > span:nth-child(3) {
+    color: #4076a1;
+    vertical-align: 3px;
+}
+
+.barra2 > span:nth-child(3) > a {
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4076a1;
+}
+
+.enlaces {
+    margin: 0 auto 100px;
+    width: fit-content;
+}
+
+.enlaces > a {
+    margin: 0 10px;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.enlaces > a:hover {
+    opacity: 0.5;
+}
+
+.enlaces > a:nth-child(1) {
+    background-color: #958e84;
+}
+
+.enlaces > a:nth-child(2) {
+    background-color: #848e95;
+}
+
+.enlaces > a:nth-child(3) {
+    background-color: #958484;
+}

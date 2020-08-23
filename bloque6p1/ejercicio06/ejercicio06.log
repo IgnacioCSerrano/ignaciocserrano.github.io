@@ -1,0 +1,8 @@
+var nombre = "Ignacio";
+undefined
+var apellidos = "Cuevas Serrano";
+undefined
+alert(nombre + " " + apellidos);
+undefined
+alert(`${nombre} ${apellidos}`);
+undefined

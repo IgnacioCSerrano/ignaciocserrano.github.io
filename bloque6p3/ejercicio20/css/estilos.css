@@ -1,0 +1,40 @@
+.entrada {
+    color: #5e8360;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+
+.rejilla {
+    margin: 35px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);  
+    grid-gap: 25px;
+    justify-content: center;
+}
+
+.tarjeta {
+    padding: 15px;
+    height: 60px;
+    border: 1px solid lightgrey;
+}
+
+.tarjeta > img {
+    width: 60px;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tarjeta > p {
+    padding-left: 75px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tarjeta > p > span {
+    color: #3f89f0;
+    font-weight: bold;
+}

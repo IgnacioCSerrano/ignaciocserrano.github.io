@@ -1,0 +1,2200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/</id>
+    <updated>2019-12-01T00:00:00.000-00:00</updated>
+    <title type="text">Bloque 2 - Práctica 3</title>
+    <subtitle type="text">Curso 2019/2020</subtitle>
+    <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/" />
+    <author>
+        <name>Ignacio Cuevas Serrano</name>
+        <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+    </author>
+    <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque3p1/ejercicio07/b2p4_atom.xml" rel="self" type="application/atom+xml" />
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio01.html</id>
+        <updated>2019-12-01T00:00:00.000-00:01</updated>
+        <title type="text">Ejercicio 1</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio01.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary><![CDATA[Ejemplos de listas <dl>, <ol> y <ul>]]></summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 1</h1>
+            <dl>
+                <dt>Disco Duro (HD)</dt>
+                <dd>Se llama <dfn>disco duro</dfn> al dispositivo encargado de almacenar información de forma persistente en un ordenador.</dd>
+                <dt>Memoria <abbr title="Random Access Memory">RAM</abbr></dt>
+                <dd>Es una memoria volátil, es decir, pierde su contenido al desconectar la energía eléctrica.</dd>
+                <dt><abbr title="Central Processing Unit">CPU</abbr></dt>
+                <dd>
+                    Se llama <strong><dfn><abbr title="Central Processing Unit">CPU</abbr></dfn></strong> (siglas de <em><strong>C</strong>entral <strong>P</strong>rocessing <strong>U</strong>nit</em>) o <strong>Unidad Central de Proceso</strong> (<abbr title="Unidad Central de Proceso">UCP</abbr>) a la unidad donde se ejecutan las instrucciones de los programas y se controla el funcionamiento de los distintos componentes del ordenador. Suele estar integrada en un chip denominado microprocesador. Está compuesto por:
+                    <ul>
+                        <li>Registros</li>
+                        <li>Unidad de control</li>
+                        <li>Unidad Aritmético-lógica</li>
+                        <li>Unidad en coma flotante (depende del procesador)</li>
+                    </ul>
+                </dd>
+            </dl>
+            <hr>
+            <ol type="A">
+                <li>Elemento 1</li>
+                <li>
+                    Elemento 2
+                    <ol type="a">
+                        <li>
+                            Elemento 2.1
+                            <ol type="i">
+                                <li>Elemento 2.1.1</li>
+                                <li>Elemento 2.1.2</li>
+                            </ol>
+                        </li>                  
+                        <li>Elemento 2.2</li>
+                    </ol>
+                </li>
+                <li>
+                    Elemento 3
+                    <ol type="a">
+                        <li>
+                            Elemento 3.1
+                            <ol type="i">
+                                <li>Elemento 3.1.1</li>
+                                <li>Elemento 3.1.2</li>
+                            </ol>
+                        </li>                  
+                        <li>Elemento 3.2</li>
+                    </ol>
+                </li>
+            </ol>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio03.html</id>
+        <updated>2019-12-01T00:00:00.000-00:02</updated>
+        <title type="text">Ejercicio 3</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio03.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Horario de 1º DAW para el curso 2019/2020</summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 3</h1>
+            <table border="1">
+                <caption>HORARIO ESCOLAR 1º DAW</caption>
+                <thead>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">Lunes</th>
+                        <th scope="col">Martes</th>
+                        <th scope="col">Miércoles</th>
+                        <th scope="col">Jueves</th>
+                        <th scope="col">Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">15:20 - 16:15</th>
+                        <td>FOL</td>
+                        <td>BBDD</td>
+                        <td>PGRMC</td>
+                        <td>PGRMC</td>
+                        <td>BBDD</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16:15 - 17:10</th>
+                        <td>BBDD</td>
+                        <td>BBDD</td>
+                        <td>FOL</td>
+                        <td>PGRMC</td>
+                        <td>BBDD</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17:10 - 18:05</th>
+                        <td>SSINF</td>
+                        <td>PGRMC</td>
+                        <td>LMSGI</td>
+                        <td>LMSGI</td>
+                        <td>LMSGI</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18:05 - 18:25</th>
+                        <td colspan="5" align="center">RECREO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18:25 - 19:20</th>
+                        <td>SSINF</td>
+                        <td>SSINF</td>
+                        <td>LMSGI</td>
+                        <td>SSINF</td>
+                        <td>PGRMC</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19:20 - 20:15</th>
+                        <td>PGRMC</td>
+                        <td>ENTDL</td>
+                        <td>BBDD</td>
+                        <td>SSINF</td>
+                        <td>SSINF</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20:15 - 21:10</th>
+                        <td>PGRMC</td>
+                        <td>ENTDL</td>
+                        <td>ENTDL</td>
+                        <td>FOL</td>
+                        <td>ENTDL</td>
+                    </tr>
+                </tbody>
+            </table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio04/ejercicio04.html</id>
+        <updated>2019-12-01T00:00:00.000-00:03</updated>
+        <title type="text">Ejercicio 4</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio04/ejercicio04.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Tabla con imágenes y listas</summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 4</h1>
+            <table>
+                <tr>
+                    <td><img src="img/imagen01.jpg" alt="Imagen de una choza de piedra"></td>
+                    <td valign="top">
+                        <ol reversed>
+                            <li>Lorem <mark>ipsum dolor</mark> sit amet, consectetur adipiscing elit.</li>
+                            <li>Integer ut mauris at ex sodales vehicula.</li>
+                            <li>Fusce blandit ante non ipsum lobortis, eget luctus dolor iaculis.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/imagen02.jpg" alt="Imagen de una garganta reserva natural de agua"></td>
+                    <td valign="top">
+                        <ol type="a">
+                            <li>Vivamus varius est eget pharetra pellentesque.</li>
+                            <li>Nam in turpis vehicula, semper diam vitae, ornare urna.</li>
+                            <li>Quisque at enim id mi volutpat varius.</li>
+                            <li>Cras tincidunt ante eleifend mi volutpat molestie.</li>
+                            <li>In suscipit massa dictum vehicula efficitur.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/imagen03.jpg" alt="Imagen de un cerezo en flor"></td>
+                    <td valign="top">
+                        <ul>
+                            <li>Sed ullamcorper lectus vitae dapibus fringilla</li>
+                            <li>Fusce eu <mark>velit eu odio semper aliquet at vel</mark> lorem.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio05/ejercicio05.html</id>
+        <updated>2019-12-01T00:00:00.000-00:04</updated>
+        <title type="text">Ejercicio 5</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio05/ejercicio05.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Parrilla de productos de lña tienda virtual de El Corte Inglés</summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 5</h1>
+            <table>
+                <tr align="center">
+                    <td><img src="img/envio1.png" alt="Icono de envío express"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/envio2.png" alt="Iconos de envío express y tiempo de envío"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/envio2.png" alt="Iconos de envío express y tiempo de envío"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/envio1.png" alt="Icono de envío express"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/imagen01.jpg" alt="Imagen de primer producto">
+                        <hr>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <img src="img/imagen02.jpg" alt="Imagen de segundo producto">
+                        <hr>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <img src="img/imagen03.jpg" alt="Imagen de tercer producto">
+                        <hr>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <img src="img/imagen04.jpg" alt="Imagen de cuarto producto">
+                        <hr>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td valign="top"><img src="img/titulo01.png" alt="Título de primer producto"></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><img src="img/titulo02.png" alt="Título de segundo producto"></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><img src="img/titulo03.png" alt="Título de tercer producto"></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><img src="img/titulo04.png" alt="Título de cuarto producto"></td>
+                <tr>
+                    <td><img src="img/proveedor1.png" alt="Nombre de proveedor"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/proveedor2.png" alt="Nombre de proveedor"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/proveedor1.png" alt="Nombre de proveedor"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/proveedor1.png" alt="Nombre de proveedor"></td>
+                </tr>
+                <tr>
+                    <td><img src="img/precio01.png" alt="Precio de primer producto"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/precio02.png" alt="Precio de segundo producto"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/precio03.png" alt="Precio de tercer producto"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/precio04.png" alt="Precio de cuarto producto"></td>
+                </tr>
+                <tr>
+                    <td colspan="4">&nbsp;</td>
+                </tr>
+                <tr align="center">
+                    <td><img src="img/envio2.png" alt="Iconos de envío express y tiempo de envío"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/envio2.png" alt="Iconos de envío express y tiempo de envío"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/envio2.png" alt="Iconos de envío express y tiempo de envío"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/envio2.png" alt="Iconos de envío express y tiempo de envío"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/imagen05.jpg" alt="Imagen de quinto producto">
+                        <hr>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <img src="img/imagen06.jpg" alt="Imagen de sexto producto">
+                        <hr>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <img src="img/imagen07.jpg" alt="Imagen de séptimo producto">
+                        <hr>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <img src="img/imagen08.jpg" alt="Imagen de octavo producto">
+                        <hr>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td valign="top"><img src="img/titulo05.png" alt="Título de quinto producto"></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><img src="img/titulo06.png" alt="Título de sexto producto"></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><img src="img/titulo07.png" alt="Título de séptimo producto"></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><img src="img/titulo08.png" alt="Título de octavo producto"></td>
+                <tr>
+                    <td><img src="img/proveedor1.png" alt="Nombre de proveedor"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/proveedor1.png" alt="Nombre de proveedor"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/proveedor1.png" alt="Nombre de proveedor"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/proveedor3.png" alt="Nombre de proveedor"></td>
+                </tr>
+                <tr>
+                    <td><img src="img/precio05.png" alt="Precio de quinto producto"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/precio06.png" alt="Precio de sexto producto"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/precio07.png" alt="Precio de séptimo producto"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="img/precio08.png" alt="Precio de octavo producto"></td>
+                </tr>
+            </table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio06.html</id>
+        <updated>2019-12-01T00:00:00.000-00:05</updated>
+        <title type="text">Ejercicio 6</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio06.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Tabla periódica de la ortografía</summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 6</h1>
+            <figure>
+                <figcaption>La tabla periódica de la ortografía</figcaption>
+                <table border="1">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">1</th>
+                        <td colspan="16">&nbsp;</td>
+                        <th scope="col">18</th>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row" width="20">1</th>
+                        <td>
+                            <span><strong>H</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <th scope="col">2</th>
+                        <td colspan="10">&nbsp;</td>
+                        <th scope="col">13</th>
+                        <th scope="col">14</th>
+                        <th scope="col">15</th>
+                        <th scope="col">16</th>
+                        <th scope="col">17</th>
+                        <td>
+                            <span><strong>He</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row">2</th>
+                        <td>
+                            <span><strong>Li</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Be</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td colspan="10">&nbsp;</td>
+                        <td>
+                            <span><strong>B</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>C</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>N</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>O</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>F</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>NE</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row">3</th>
+                        <td>
+                            <span><strong>Na</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>mg</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <th scope="col">3</th>
+                        <th scope="col">4</th>
+                        <th scope="col">5</th>
+                        <th scope="col">6</th>
+                        <th scope="col">7</th>
+                        <th scope="col">8</th>
+                        <th scope="col">9</th>
+                        <th scope="col">10</th>
+                        <th scope="col">11</th>
+                        <th scope="col">12</th>
+                        <td>
+                            <span><strong>Al</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Si</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>P</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>$</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Cl</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ar</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center"> 
+                        <th scope="row">4</th>
+                        <td>
+                            <span><strong>K</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ca</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Sc</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ti</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>V</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Cr</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Mn</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Fe</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Co</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ni</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Cu</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Zn</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>G.<sup>a</sup></strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ge</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>As</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Se</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Br</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Kr</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row">5</th>
+                        <td>
+                            <span><strong>Rb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Sr.</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Y</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Zr</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Nb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Mo</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Tc</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ru</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Rh</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>P. D.</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ag</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>CD</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>In</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Sn</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Sb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Te</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>¡</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Xe</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row">6</th>
+                        <td>
+                            <span><strong>Cs</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ba</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <span><strong>Hf</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ta</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>W</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Re-</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Os</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ir</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Pt</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Aú</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>hg</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Tl</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Pb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Bi</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Po</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>At</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Rb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <th scope="row">7</th>
+                        <td>
+                            <span><strong>Fr</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ra</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <span><strong>Rf</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Db</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Sg</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Bh</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Hs</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Mt</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ds</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Rg</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Cn</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Nh</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Fl</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Mc</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Lv</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ts</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Og</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="19">&nbsp;</td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="4" rowspan="2">&nbsp;</td>
+                        <td>
+                            <span><strong>La</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ce</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Pr</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Nd</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>p. m.</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Sm</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Eu</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Gd</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>tb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Dy</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Ho</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Er</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Tm</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Yb</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Lu</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <span><strong>Ac</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Th</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Pa</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>U</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Np</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Pu</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Am</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Cm</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Bk</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Cf</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Es</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>FM</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Md</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>No</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                        <td>
+                            <span><strong>Lr</strong></span><br>
+                            <span><small>Lorem ipsum dolor sit amet</small></span>
+                        </td>
+                    </tr>
+                </table>
+            </figure>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio07/ejercicio07.html</id>
+        <updated>2019-12-01T00:00:00.000-00:06</updated>
+        <title type="text">Ejercicio 7</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio07/ejercicio07.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary><![CDATA[Ejemplos de tablas con <thead>, <tbody>, <tfoot> y <colgroup>]]></summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 7</h1>
+            <hr>
+            <table border="1">
+                <caption>Tabla 1</caption>
+                <tr>
+                    <td>&nbsp;</td>
+                    <th scope="col">Columna 1</th>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 1</th>
+                    <td>Lorem Ipsum</td>
+                </tr>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 2</caption>
+                <tr>
+                    <th scope="col">Col a</th>
+                    <th scope="col">Col b</th>
+                    <th scope="col">Col c</th>
+                    <th scope="col">Col d</th>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 1</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 2</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 3</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fila 4</th>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                    <td>Lorem Ipsum</td>
+                </tr>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 3</caption>
+                <colgroup>
+                    <col span="2">
+                    <col span="1">
+                    <col span="2">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td colspan="2" rowspan="2">&nbsp;</td>
+                        <th scope="col" rowspan="2">Columna 1</th>
+                        <th scope="col" colspan="2">Columna 2</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Columna 2a</th>
+                        <th scope="col">Columna 2b</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">Fila 1</th>
+                        <th scope="row">Fila 1a</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1a</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" colspan="2">Fila 2</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 4</caption>
+                <colgroup>
+                    <col span="2">
+                    <col span="2">
+                    <col span="2">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th colspan="2" rowspan="2">Col a</th>
+                        <th scope="col" colspan="2">Col b</th>
+                        <th scope="col" colspan="2">Col c</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Col b-a</th>
+                        <th scope="col">Col b-b</th>
+                        <th scope="col">Col b-c</th>
+                        <th scope="col">Col b-d</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">Fila 1</th>
+                        <th scope="row">Fila 1-1</th>
+                        <td>Celda b-a-1-1</td>
+                        <td>Celda b-b-1-1</td>
+                        <td>Celda c-a-1-1</td>
+                        <td>Celda c-b-1-1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1-2</th>
+                        <td>Celda b-a-1-2</td>
+                        <td>Celda b-b-1-2</td>
+                        <td>Celda c-a-1-2</td>
+                        <td>Celda c-b-1-2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="2">Fila 2</th>
+                        <th scope="row">Fila 2-1</th>
+                        <td>Celda b-a-2-1</td>
+                        <td>Celda b-b-2-1</td>
+                        <td>Celda c-a-2-1</td>
+                        <td>Celda c-b-2-1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2-2</th>
+                        <td>Celda b-a-2-2</td>
+                        <td>Celda b-b-2-2</td>
+                        <td>Celda c-a-2-2</td>
+                        <td>Celda c-b-2-2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 5</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Col a</th>
+                        <th scope="col">Col b</th>
+                        <th scope="col">Col c</th>
+                        <th scope="col">Col d</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col" colspan="4">Primer grupo</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1</th>
+                        <td>Cell b1</td>
+                        <td>Cell c1</td>
+                        <td>Cell d1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 3</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="col" colspan="4">Segundo grupo</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1</th>
+                        <td>Cell b1</td>
+                        <td>Cell c1</td>
+                        <td>Cell d1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 3</th>
+                        <td>Cell b2</td>
+                        <td>Cell c2</td>
+                        <td>Cell d2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 5</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Start date</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>33</td>
+                        <td>2008/11/28</td>
+                        <td>$162,700</td>
+                    </tr>
+                    <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>London</td>
+                        <td>47</td>
+                        <td>2009/10/09</td>
+                        <td>$1,200,000</td>
+                    </tr>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>41</td>
+                        <td>2012/10/13</td>
+                        <td>$132,000</td>
+                    </tr>
+                    <tr>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>28</td>
+                        <td>2011/06/07</td>
+                        <td>$206,850</td>
+                    </tr>
+                    <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>61</td>
+                        <td>2012/12/02</td>
+                        <td>$372,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bruno Nash</td>
+                        <td>Sotware Engineer</td>
+                        <td>London</td>
+                        <td>38</td>
+                        <td>2011/05/03</td>
+                        <td>$163,500</td>
+                    </tr>
+                    <tr>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>New York</td>
+                        <td>21</td>
+                        <td>2011/12/12</td>
+                        <td>$106,450</td>
+                    </tr>
+                    <tr>
+                        <td>Clara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>New York</td>
+                        <td>46</td>
+                        <td>2011/12/06</td>
+                        <td>$145,600</td>
+                    </tr>                
+                    <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior JavaScript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Start date</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 6</caption>
+                <colgroup>
+                    <col span="1">
+                    <col span="2">
+                    <col span="3">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col" rowspan="2">Name</th>
+                        <th scope="col" colspan="2">HR Information</th>
+                        <th scope="col" colspan="3">Contact</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Position</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Extn.</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>$162,700</td>
+                        <td>Tokyo</td>
+                        <td>5407</td>
+                        <td>a.satou@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>$1,200,000</td>
+                        <td>London</td>
+                        <td>5497</td>
+                        <td>a.ramos@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>$86,000</td>
+                        <td>San Francisco</td>
+                        <td>1562</td>
+                        <td>a.cox@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>$132,000</td>
+                        <td>London</td>
+                        <td>2558</td>
+                        <td>b.greer@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>$206,850</td>
+                        <td>San Francisco</td>
+                        <td>1314</td>
+                        <td>b.wagner@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>$372,000</td>
+                        <td>New York</td>
+                        <td>4804</td>
+                        <td>b.williamson@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Bruno Nash</td>
+                        <td>Sotware Engineer</td>
+                        <td>$163,500</td>
+                        <td>London</td>
+                        <td>6222</td>
+                        <td>b.nash@datatables.net</td>                    
+                    </tr>
+                    <tr>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>$106,450</td>
+                        <td>New York</td>  
+                        <td>8330</td>
+                        <td>c.vance@datatables.net</td>
+                    </tr>
+                    <tr>
+                        <td>Clara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>$145,600</td>
+                        <td>New York</td>
+                        <td>3990</td>
+                        <td>c.stevens@datatables.net</td>
+                    </tr>                
+                    <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior JavaScript Developer</td>
+                        <td>$433,060</td>
+                        <td>Edinburgh</td>
+                        <td>6224</td>
+                        <td>c.kelly@datatables.net</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Extn.</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 7</caption>
+                <thead>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>$162,700</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer (CEO)</td>
+                        <td>London</td>
+                        <td>$1,200,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>$86,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>$132,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Brenden Wagner</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>$206,850</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>$372,000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Bruno Nash</td>
+                        <td>Sotware Engineer</td>
+                        <td>London</td>
+                        <td>$163,500</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Caesar Vance</td>
+                        <td>Pre-Sales Support</td>
+                        <td>New York</td>
+                        <td>$106,450</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Clara Stevens</td>
+                        <td>Sales Assistant</td>
+                        <td>New York</td>
+                        <td>$145,600</td>
+                    </tr>                
+                    <tr>
+                        <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                        <td>Cedric Kelly</td>
+                        <td>Senior JavaScript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>$433,060</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Office</th>
+                        <th scope="col">Salary</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+            <table border="1">
+                <caption>Tabla 8</caption>
+                <tr>
+                    <td colspan="2">
+                        <ol type="1" start="10">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                <ul>
+                                    <li>Integer ut mauris at ex sodales vehicula.</li>
+                                </ul>                    
+                            </li>
+                            <li>Fusce blandit ante non ipsum lobortis, eget luctus dolor iaculis.</li>
+                        </ol>
+                    </td>
+                    <td colspan="2">
+                        <ol type="I" start="10">
+                            <li>Primer elemento de la lista</li>
+                            <li>Segundo elemento de lista</li>
+                            <li>Tercer elemento de la lista</li>
+                            <li>Cuarto elemento de la lista</li>    
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at elit vitae nulla tristique vulputate.</td>
+                    <td rowspan="2"><img src="img/white.png" alt="Fondo blanco" width="60"></td>
+                    <td><img src="img/imagen.jpg" alt="Imagen de una garganta reserva natural de agua" width="60"></td>
+                    <td rowspan="2">
+                        <table border="1">
+                            <tr>
+                                <th scope="col">Producto</th>
+                                <th scope="col"><mark>sku</mark></th>
+                            </tr>
+                            <tr>
+                                <td>Producto 1</td>
+                                <td>123</td>
+                            </tr>
+                            <tr>
+                                <td>Producto 2</td>
+                                <td>234</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ol type="a">
+                            <li><a href="http://informatica.iesvalledeljerteplasencia.es/"><mark>iesvjp</mark></a></li>
+                            <li><a href="http://informatica.iesvalledeljerteplasencia.es/images/stories/ciclos/tripticoASIR/Triptico-ASIR.pdf">Tríptico ASIR en PDF</a></li>
+                            <li><a href="http://informatica.iesvalledeljerteplasencia.es/images/stories/ciclos/tripticpDAM/Triptico-DAM.pdf">Tríptico DAM en PDF</a></li>                                   
+                        </ol>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <ul>
+                            <li>Economía, Comercio e Innovación</li>
+                            <li>Administración Pública y Hacienda</li>
+                            <li>Fomento</li>
+                            <li>Industria, Energía y Medio Ambiente</li>
+                            <li>Agricultura y Desarrollo Rural</li>
+                            <li>Igualdad y Empleo</li>
+                            <li>Educación</li>
+                            <li>Sanidad y Dependencia</li>
+                            <li>Cultura y Turismo</li>
+                            <li>&lt;&lt;Jóvenes y Deporte&gt;&gt;</li>
+                        </ul>
+                    </td>
+                </tr>            
+            </table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio08/ejercicio08.html</id>
+        <updated>2019-12-01T00:00:00.000-00:07</updated>
+        <title type="text">Ejercicio 8</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio08/ejercicio08.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary><![CDATA[Ejemplos de elementos <video> y <audio>]]></summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 8</h1>
+            <figure>
+                <figcaption>Vídeo 1</figcaption>
+                <video poster="img/ic_sinfondo.png" width="560" controls loop>
+                    <!-- Video from http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/ -->
+                    <source src="video/small.webm" type="video/webm">
+                    <source src="video/small.mp4" type="video/mp4">
+                    <source src="video/small.ogv" type="video/ogg"> 
+                    <source src="video/small.3gp" type="video/3gp">
+                    <p>Su navegador no soporta la etiqueta &lt;video&gt;. Puede acceder al contenido en el siguiente <a href="http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/">enlace</a></p>
+                </video>
+            </figure>
+            <hr>
+            <figure>
+                <figcaption>Vídeo 2</figcaption>
+                <video poster="img/ic_sinfondo.png" width="560" controls> 
+                    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                    <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+                    <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"> 
+                    <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+                    <p>Su navegador no soporta la etiqueta &lt;video&gt;. Puede acceder al contenido en el siguiente <a href="http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/">enlace</a></p>
+                </video>
+            </figure>
+            <hr>
+            <figure>
+                <figcaption style="display: none;">Audio</figcaption>
+                <audio loop autoplay>
+                     <!-- Music from https://file-examples.com/index.php/sample-audio-files/ --> 
+                     <source src="audio/file_example.mp3" type="audio/mpeg">
+                    <p>Su navegador no soporta la etiqueta &lt;audio&gt;. Puede acceder al contenido en el siguiente <a href="https://file-examples.com/index.php/sample-audio-files/sample-mp3-download/">enlace</a></p>
+                </audio>
+            </figure>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio09/ejercicio09.html</id>
+        <updated>2019-12-01T00:00:00.000-00:08</updated>
+        <title type="text">Ejercicio 9</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio09/ejercicio09.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary><![CDATA[Ejemplos de elementos <details> y <summary>]]></summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 9</h1>
+            <details>
+                <summary>Tabla 1</summary>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th scope="col">Columna 1</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1</th>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 2</summary>
+                <hr>
+                <table border="1">
+                    <colgroup>
+                        <col span="2">
+                        <col span="1">
+                        <col span="2">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <td colspan="2" rowspan="2">&nbsp;</td>
+                            <th scope="col" rowspan="2">Columna 1</th>
+                            <th scope="col" colspan="2">Columna 2</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Columna 2a</th>
+                            <th scope="col">Columna 2b</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="2">Fila 1</th>
+                            <th scope="row">Fila 1a</th>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 1a</th>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" colspan="2">Fila 2</th>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                            <td>Lorem Ipsum</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 3</summary>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <th scope="col">Col a</th>
+                        <th scope="col">Col b</th>
+                        <th scope="col">Col c</th>
+                        <th scope="col">Col d</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 1</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 2</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 3</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fila 4</th>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                        <td>Lorem Ipsum</td>
+                    </tr>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 4</summary>
+                <hr>
+                <table border="1">
+                    <colgroup>
+                        <col span="2">
+                        <col span="2">
+                        <col span="2">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th colspan="2" rowspan="2">Col a</th>
+                            <th scope="col" colspan="2">Col b</th>
+                            <th scope="col" colspan="2">Col c</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Col b-a</th>
+                            <th scope="col">Col b-b</th>
+                            <th scope="col">Col b-c</th>
+                            <th scope="col">Col b-d</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="2">Fila 1</th>
+                            <th scope="row">Fila 1-1</th>
+                            <td>Celda b-a-1-1</td>
+                            <td>Celda b-b-1-1</td>
+                            <td>Celda c-a-1-1</td>
+                            <td>Celda c-b-1-1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 1-2</th>
+                            <td>Celda b-a-1-2</td>
+                            <td>Celda b-b-1-2</td>
+                            <td>Celda c-a-1-2</td>
+                            <td>Celda c-b-1-2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">Fila 2</th>
+                            <th scope="row">Fila 2-1</th>
+                            <td>Celda b-a-2-1</td>
+                            <td>Celda b-b-2-1</td>
+                            <td>Celda c-a-2-1</td>
+                            <td>Celda c-b-2-1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 2-2</th>
+                            <td>Celda b-a-2-2</td>
+                            <td>Celda b-b-2-2</td>
+                            <td>Celda c-a-2-2</td>
+                            <td>Celda c-b-2-2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 5</summary>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th scope="col">Col a</th>
+                            <th scope="col">Col b</th>
+                            <th scope="col">Col c</th>
+                            <th scope="col">Col d</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col" colspan="4">Primer grupo</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 1</th>
+                            <td>Cell b1</td>
+                            <td>Cell c1</td>
+                            <td>Cell d1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 2</th>
+                            <td>Cell b2</td>
+                            <td>Cell c2</td>
+                            <td>Cell d2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 3</th>
+                            <td>Cell b2</td>
+                            <td>Cell c2</td>
+                            <td>Cell d2</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <th scope="col" colspan="4">Segundo grupo</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 1</th>
+                            <td>Cell b1</td>
+                            <td>Cell c1</td>
+                            <td>Cell d1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 2</th>
+                            <td>Cell b2</td>
+                            <td>Cell c2</td>
+                            <td>Cell d2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fila 3</th>
+                            <td>Cell b2</td>
+                            <td>Cell c2</td>
+                            <td>Cell d2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 5</summary>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Office</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Start date</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>33</td>
+                            <td>2008/11/28</td>
+                            <td>$162,700</td>
+                        </tr>
+                        <tr>
+                            <td>Angelica Ramos</td>
+                            <td>Chief Executive Officer (CEO)</td>
+                            <td>London</td>
+                            <td>47</td>
+                            <td>2009/10/09</td>
+                            <td>$1,200,000</td>
+                        </tr>
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco</td>
+                            <td>66</td>
+                            <td>2009/01/12</td>
+                            <td>$86,000</td>
+                        </tr>
+                        <tr>
+                            <td>Bradley Greer</td>
+                            <td>Software Engineer</td>
+                            <td>London</td>
+                            <td>41</td>
+                            <td>2012/10/13</td>
+                            <td>$132,000</td>
+                        </tr>
+                        <tr>
+                            <td>Brenden Wagner</td>
+                            <td>Software Engineer</td>
+                            <td>San Francisco</td>
+                            <td>28</td>
+                            <td>2011/06/07</td>
+                            <td>$206,850</td>
+                        </tr>
+                        <tr>
+                            <td>Brielle Williamson</td>
+                            <td>Integration Specialist</td>
+                            <td>New York</td>
+                            <td>61</td>
+                            <td>2012/12/02</td>
+                            <td>$372,000</td>
+                        </tr>
+                        <tr>
+                            <td>Bruno Nash</td>
+                            <td>Sotware Engineer</td>
+                            <td>London</td>
+                            <td>38</td>
+                            <td>2011/05/03</td>
+                            <td>$163,500</td>
+                        </tr>
+                        <tr>
+                            <td>Caesar Vance</td>
+                            <td>Pre-Sales Support</td>
+                            <td>New York</td>
+                            <td>21</td>
+                            <td>2011/12/12</td>
+                            <td>$106,450</td>
+                        </tr>
+                        <tr>
+                            <td>Clara Stevens</td>
+                            <td>Sales Assistant</td>
+                            <td>New York</td>
+                            <td>46</td>
+                            <td>2011/12/06</td>
+                            <td>$145,600</td>
+                        </tr>                
+                        <tr>
+                            <td>Cedric Kelly</td>
+                            <td>Senior JavaScript Developer</td>
+                            <td>Edinburgh</td>
+                            <td>22</td>
+                            <td>2012/03/29</td>
+                            <td>$433,060</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Office</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Start date</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 6</summary>
+                <hr>
+                <table border="1">
+                    <colgroup>
+                        <col span="1">
+                        <col span="2">
+                        <col span="3">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col" rowspan="2">Name</th>
+                            <th scope="col" colspan="2">HR Information</th>
+                            <th scope="col" colspan="3">Contact</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Position</th>
+                            <th scope="col">Salary</th>
+                            <th scope="col">Office</th>
+                            <th scope="col">Extn.</th>
+                            <th scope="col">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Accountant</td>
+                            <td>$162,700</td>
+                            <td>Tokyo</td>
+                            <td>5407</td>
+                            <td>a.satou@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Angelica Ramos</td>
+                            <td>Chief Executive Officer (CEO)</td>
+                            <td>$1,200,000</td>
+                            <td>London</td>
+                            <td>5497</td>
+                            <td>a.ramos@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>$86,000</td>
+                            <td>San Francisco</td>
+                            <td>1562</td>
+                            <td>a.cox@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Bradley Greer</td>
+                            <td>Software Engineer</td>
+                            <td>$132,000</td>
+                            <td>London</td>
+                            <td>2558</td>
+                            <td>b.greer@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Brenden Wagner</td>
+                            <td>Software Engineer</td>
+                            <td>$206,850</td>
+                            <td>San Francisco</td>
+                            <td>1314</td>
+                            <td>b.wagner@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Brielle Williamson</td>
+                            <td>Integration Specialist</td>
+                            <td>$372,000</td>
+                            <td>New York</td>
+                            <td>4804</td>
+                            <td>b.williamson@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Bruno Nash</td>
+                            <td>Sotware Engineer</td>
+                            <td>$163,500</td>
+                            <td>London</td>
+                            <td>6222</td>
+                            <td>b.nash@datatables.net</td>                    
+                        </tr>
+                        <tr>
+                            <td>Caesar Vance</td>
+                            <td>Pre-Sales Support</td>
+                            <td>$106,450</td>
+                            <td>New York</td>  
+                            <td>8330</td>
+                            <td>c.vance@datatables.net</td>
+                        </tr>
+                        <tr>
+                            <td>Clara Stevens</td>
+                            <td>Sales Assistant</td>
+                            <td>$145,600</td>
+                            <td>New York</td>
+                            <td>3990</td>
+                            <td>c.stevens@datatables.net</td>
+                        </tr>                
+                        <tr>
+                            <td>Cedric Kelly</td>
+                            <td>Senior JavaScript Developer</td>
+                            <td>$433,060</td>
+                            <td>Edinburgh</td>
+                            <td>6224</td>
+                            <td>c.kelly@datatables.net</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Salary</th>
+                            <th scope="col">Office</th>
+                            <th scope="col">Extn.</th>
+                            <th scope="col">Email</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 7</summary>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <th scope="col">Name</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Office</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Airi Satou</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>$162,700</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Angelica Ramos</td>
+                            <td>Chief Executive Officer (CEO)</td>
+                            <td>London</td>
+                            <td>$1,200,000</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco</td>
+                            <td>$86,000</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Bradley Greer</td>
+                            <td>Software Engineer</td>
+                            <td>London</td>
+                            <td>$132,000</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Brenden Wagner</td>
+                            <td>Software Engineer</td>
+                            <td>San Francisco</td>
+                            <td>$206,850</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Brielle Williamson</td>
+                            <td>Integration Specialist</td>
+                            <td>New York</td>
+                            <td>$372,000</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Bruno Nash</td>
+                            <td>Sotware Engineer</td>
+                            <td>London</td>
+                            <td>$163,500</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Caesar Vance</td>
+                            <td>Pre-Sales Support</td>
+                            <td>New York</td>
+                            <td>$106,450</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Clara Stevens</td>
+                            <td>Sales Assistant</td>
+                            <td>New York</td>
+                            <td>$145,600</td>
+                        </tr>                
+                        <tr>
+                            <td><img src="img/icon_add.png" alt="Icono de añadir nuevo elemento"></td>
+                            <td>Cedric Kelly</td>
+                            <td>Senior JavaScript Developer</td>
+                            <td>Edinburgh</td>
+                            <td>$433,060</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <th scope="col">Name</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Office</th>
+                            <th scope="col">Salary</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </details>
+            <hr>
+            <details>
+                <summary>Tabla 8</summary>
+                <hr>
+                <table border="1">
+                    <tr>
+                        <td colspan="2">
+                            <ol type="1" start="10">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    <ul>
+                                        <li>Integer ut mauris at ex sodales vehicula.</li>
+                                    </ul>                    
+                                </li>
+                                <li>Fusce blandit ante non ipsum lobortis, eget luctus dolor iaculis.</li>
+                            </ol>
+                        </td>
+                        <td colspan="2">
+                            <ol type="I" start="10">
+                                <li>Primer elemento de la lista</li>
+                                <li>Segundo elemento de lista</li>
+                                <li>Tercer elemento de la lista</li>
+                                <li>Cuarto elemento de la lista</li>    
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at elit vitae nulla tristique vulputate.</td>
+                        <td rowspan="2"><img src="img/white.png" alt="Fondo blanco" width="60"></td>
+                        <td><img src="img/imagen.jpg" alt="Imagen de una garganta reserva natural de agua" width="60"></td>
+                        <td rowspan="2">
+                            <table border="1">
+                                <tr>
+                                    <th scope="col">Producto</th>
+                                    <th scope="col"><mark>sku</mark></th>
+                                </tr>
+                                <tr>
+                                    <td>Producto 1</td>
+                                    <td>123</td>
+                                </tr>
+                                <tr>
+                                    <td>Producto 2</td>
+                                    <td>234</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol type="a">
+                                <li><a href="http://informatica.iesvalledeljerteplasencia.es/"><mark>iesvjp</mark></a></li>
+                                <li><a href="http://informatica.iesvalledeljerteplasencia.es/images/stories/ciclos/tripticoASIR/Triptico-ASIR.pdf">Tríptico ASIR en PDF</a></li>
+                                <li><a href="http://informatica.iesvalledeljerteplasencia.es/images/stories/ciclos/tripticpDAM/Triptico-DAM.pdf">Tríptico DAM en PDF</a></li>                                   
+                            </ol>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <ul>
+                                <li>Economía, Comercio e Innovación</li>
+                                <li>Administración Pública y Hacienda</li>
+                                <li>Fomento</li>
+                                <li>Industria, Energía y Medio Ambiente</li>
+                                <li>Agricultura y Desarrollo Rural</li>
+                                <li>Igualdad y Empleo</li>
+                                <li>Educación</li>
+                                <li>Sanidad y Dependencia</li>
+                                <li>Cultura y Turismo</li>
+                                <li>&lt;&lt;Jóvenes y Deporte&gt;&gt;</li>
+                            </ul>
+                        </td>
+                    </tr>            
+                </table>
+            </details>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio10.html</id>
+        <updated>2019-12-01T00:00:00.000-00:09</updated>
+        <title type="text">Ejercicio 10</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio10.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Barra de navegación</summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 10</h1>
+            <table border="1">
+                <tr align="center">
+                    <td width="25" height="30">1</td>
+                    <td width="25">2</td>
+                    <td width="25">3</td>
+                    <td width="25">4</td>
+                    <td width="25">5</td>
+                    <td width="25">6</td>
+                </tr>
+            </table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio11.html</id>
+        <updated>2019-12-01T00:00:00.000-00:10</updated>
+        <title type="text">Ejercicio 11</title>
+        <link href="http://lmsgi.iesvjp.es/~icuevass01/bloque2p4/ejercicio11.html" />
+        <author>
+            <name>Ignacio Cuevas Serrano</name>
+            <email>icuevass01@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary><![CDATA[Barra de navegación con <iframe>]]></summary>
+        <content type="html"><![CDATA[
+            <h1>Ejercicio 11</h1>
+            <table border="1">
+                <tr align="center">
+                    <td width="25" height="30"><a href="ejercicio01.html">1</a></td>
+                    <td width="25"><a href="ejercicio03.html">3</a></td>
+                    <td width="25"><a href="ejercicio04/ejercicio04.html">4</a></td>
+                    <td width="25"><a href="ejercicio05/ejercicio05.html">5</a></td>
+                    <td width="25"><a href="ejercicio06.html">6</a></td>
+                    <td width="25"><a href="ejercicio07/ejercicio07.html">7</a></td>
+                    <td width="25"><a href="ejercicio08/ejercicio08.html">8</a></td>
+                    <td width="25"><a href="ejercicio09/ejercicio09.html">9</a></td>
+                    <td width="25"><a href="ejercicio10.html">10</a></td>
+                </tr>
+            </table>
+            <hr>
+            <iframe src="index.html" name="iframe" style="width:100%; height:100vh;"></iframe>
+        ]]></content>
+    </entry>
+</feed>

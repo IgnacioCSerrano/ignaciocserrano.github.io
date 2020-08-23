@@ -1,0 +1,20 @@
+.galeria {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px 1px #3f3f3f;
+}
+
+.galeria > img {
+    animation: presentacion 30s ease-out infinite alternate;
+}
+
+@keyframes presentacion {
+    0% {transform: translate(-255px, -265px)}
+    20% {transform: translate(-30px, -345px)}
+    40% {transform: translate(-85px, -275px) rotate(180deg)}
+    60% {transform: translate(-375px, -135px) rotate(-90deg)}
+    80% {transform: translate(-325px, -375px) rotate(149deg)}
+    100% {transform: translate(-75px, -345px) rotate(-90deg)}
+}

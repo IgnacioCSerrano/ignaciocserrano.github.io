@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "ejerc13.dtd">
+
+<employees>
+    <employee>
+        <id>1</id>
+        <firstName>Tom</firstName>
+        <lastName>Cruise</lastName>
+        <photo>Foto 1</photo>
+    </employee>
+    <employee>
+        <id>1</id>
+        <firstName>Maria</firstName>
+        <lastName>Sharapova</lastName>
+        <photo>Foto 2</photo>
+    </employee>
+    <employee>
+        <id>1</id>
+        <firstName>James</firstName>
+        <lastName>Bond</lastName>
+        <photo>Foto 3</photo>
+    </employee>
+</employees>

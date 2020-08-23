@@ -1,0 +1,53 @@
+.rojo {
+    color: red;
+}
+
+.naranja {
+    color: orange;
+}
+
+
+#primerSpan {
+    color: green;
+}
+
+#segundoSpan {
+    color: blue;
+}
+
+.rojo.azul {
+    color: purple;
+}
+
+[title] {
+    color: grey;
+}
+
+[title="marrón"] {
+    color: brown;
+}
+
+[title="case insensitive" i] {
+    color: aqua;
+}
+
+[title~="palabra"] {
+    color: yellow;
+}
+
+[title^="emp"] {
+    color: pink;
+}
+
+[title$="aba"] {
+    color: lime;
+}
+
+[title*="tie"] {
+    color: crimson;
+}
+
+[lang|="en"] {
+    color: lightsalmon;
+}
+

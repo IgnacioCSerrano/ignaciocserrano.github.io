@@ -1,0 +1,33 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    user-select: none;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: #373fff;
+    border: 2px solid black;
+}
+
+li span {
+    display: block;
+    float: right;
+    font-weight: bolder;
+}
+
+li {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+    margin: 2px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box; /* only CSS means of getting the element to fit inside its parent */
+    font-size: 30px;
+    color: grey;
+}

@@ -1,0 +1,12 @@
+location;
+Location {href: "chrome://newtab/", ancestorOrigins: DOMStringList, origin: "chrome://newtab", protocol: "chrome:", host: "newtab", …}ancestorOrigins: DOMStringList {length: 0}origin: "chrome://newtab"protocol: "chrome:"host: "newtab"hostname: "newtab"port: ""pathname: "/"search: ""hash: ""fragmentDirective: FragmentDirective {}href: "chrome://newtab/"assign: ƒ assign()reload: ƒ reload()toString: ƒ toString()replace: ƒ replace()valueOf: ƒ valueOf()Symbol(Symbol.toPrimitive): undefined__proto__: Location
+location.hostname;
+"newtab"
+location.toString();
+"chrome://newtab/"
+location.href = "http://lmsgi.iesvjp.es/Ejercicios/imagen.html";
+"http://lmsgi.iesvjp.es/Ejercicios/imagen.html"
+Navigated to http://lmsgi.iesvjp.es/Ejercicios/imagen.html
+location.reload();
+undefined
+Navigated to http://lmsgi.iesvjp.es/Ejercicios/imagen.html

@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+}
+
+/*Cabecera*/
+
+div#caja_centrada_hor {
+    margin: auto;
+    width: 80%; 
+}
+
+header#logo {
+    background-image: url("../imagenes/parte2Arriba.png");
+    background-repeat: repeat-x;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+/*Menú*/
+
+div.menu2 {
+    margin-top: 30px;
+    position: relative;
+}
+
+div.menu2 > ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.menu2 > ul > li {
+    padding: 8px 0;
+    display: inline-block;
+    width: 200px;
+    list-style: none;
+    background-color: #c9c9a7;
+    cursor: pointer;
+    text-align: center;
+}
+
+div.menu2 > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+div.menu2 > ul > li > ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+div.menu2 > ul > li:hover {
+    background-color: #b3ab79;
+}
+
+div.menu2 > ul > li:hover > a {
+    color: white
+}
+
+div.menu2 > ul > li:hover > ul {
+    display: initial;
+    left: 0;
+}
+
+div.menu2 > ul > li > ul > li {
+    padding: 10px;
+    width: 75%;
+    background-color: #eeeeee;
+    border: 20px solid #b3ab79;
+    list-style: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    z-index: 10;
+}
+
+/*Cuerpo*/
+
+div#cuerpo {
+    width: 100%;
+}
+
+/*Sección izquierda*/
+
+section#primera_columna {
+    padding: 10px 0;
+    width: 25%;
+    height: 600px;
+    float: left;
+}
+
+div.menu_izquierda {
+    background-color: #135cae;
+    border-left: 6px solid #135cae;
+    border-right: 6px solid #135cae;
+    border-bottom: 6px solid #135cae;
+    border-radius: 10px;
+}
+
+div.menu_izquierda > h3 {
+    margin: 0;
+    padding: 5px 5px 2px;
+    color: white;
+    font-size: small;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 10px 5px 20px 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+ul.menu > li > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#animar {
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+    background-image: url("../imagenes/b1.jpg");
+    background-repeat: no-repeat;
+    cursor: not-allowed;
+}
+
+div#animar:hover {
+    background-image: url("../imagenes/animado.gif");
+    background-repeat: no-repeat;
+    height: 125px;
+}
+
+/*Sección derecha*/
+
+section#contenido {
+    width: 75%;
+    float: right;
+}
+
+div#curso_1 {
+    margin: 10px;
+    padding: 0 10px;
+    height: fit-content;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Pie*/
+
+div#pie_izq {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-size: small;
+    position: relative;
+}
+
+div#pie_der {
+    height: 60px;
+    background-image: url("../imagenes/mw_footer_b.png");
+    background-repeat: repeat-x;
+}
+
+div#ir_junta{
+    width: 200px;
+    height: 60px;
+    background-image: url("../imagenes/mw_footer_b_r.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+}
+
+div#ir_consejeria {
+    width: 100px;
+    height: 60px;
+    background-image: url("../imagenes/mw_footer_b_l.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+}
+
+div#ir_junta > a, div#ir_consejeria > a {
+    display: block;
+    height: 60px;
+}
+
+p#power_by {
+    position: absolute;
+    top: 8px;
+    right: 220px;
+}
+
+p#power_by > a {
+    color: grey;
+}
+
+
+

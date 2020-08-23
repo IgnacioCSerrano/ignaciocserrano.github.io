@@ -1,0 +1,53 @@
+li {
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: thin solid #3f3f3f;
+}
+
+div, p {
+    font-size: initial;
+    font-weight: initial;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.especificacion {
+    text-align: right;
+}
+
+.imagen_borde {
+    padding: 10px;
+    border: 15px solid transparent;
+    border-image: url("../img/border.png") 33% round;
+    width: fit-content;
+}
+
+.sombra {
+    padding: 10px;
+    border: 1px solid #3f3f3f;
+    box-shadow: 5px 10px #3f3f3f;
+    width: fit-content;
+}
+
+.redimension {
+    padding: 20px; 
+    border: 1px solid #3f3f3f;
+    width: fit-content;
+    resize: both;
+    overflow: auto;
+}
+
+.transicion {
+    padding: 20px; 
+    border: 1px solid #3f3f3f;
+    width: 500px;
+    text-align: center;
+    transition: width 2s ease-in-out;
+}
+
+.transicion:hover {
+    width: 1000px;
+}

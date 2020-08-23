@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo_cds SYSTEM "ejerc04.dtd">
+
+<!-- Crea un documento XML para publicar el catálogo de CDs de una tienda online de música. Los datos son: título, artista, precio y año. -->
+
+<catalogo_cds>
+    <cd>
+        <titulo>Título 1</titulo>
+        <artista>Artista 1</artista>
+        <precio>1</precio>
+        <anno>a1</anno>
+    </cd>
+    <cd>
+        <titulo>Título 2</titulo>
+        <artista>Artista 2</artista>
+        <precio>2</precio>
+        <anno>a2</anno>
+    </cd>
+    
+    <!--
+    <cd fecha="10-09-2019"></cd>
+    
+    <cd>
+        <fecha>
+            <dia>10</dia>
+            <mes>09</mes>
+            <anno>2019</anno>
+        </fecha>
+    </cd>
+    
+    <cd titulo="Titulo1" artista="Artista1" precio="1" anno="a1" />
+    <cd titulo="Titulo2" artista="Artista2" precio="2" anno="a2" />
+    -->  
+    
+</catalogo_cds>

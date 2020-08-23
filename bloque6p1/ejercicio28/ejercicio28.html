@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <title>Ejercicio 28</title>
+        <script>
+            var edad = parseInt(prompt("Escriba su edad:"));
+            console.log(edad);
+            function comprobarEdad(edad) {
+                if (edad < 18 || edad > 90) {
+                    alert("Edad no comprendida entre 18 y 90");
+                } else if (edad >= 18 && edad <= 90) {
+                    alert("Edad comprendida entre 18 y 90");
+                } else {
+                    alert("Error: No es un número");
+                }
+            };
+//            comprobarEdad(edad);
+            let comprobarEdadArrow = edad => {
+                if (edad < 18 || edad > 90) {
+                    alert("Edad no comprendida entre 18 y 90");
+                } else if (edad >= 18 && edad <= 90) {
+                    alert("Edad comprendida entre 18 y 90");
+                } else {
+                    alert("Error: No es un número");
+                }
+            };
+            comprobarEdadArrow(edad);
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 28</h1>
+    </body>
+</html>

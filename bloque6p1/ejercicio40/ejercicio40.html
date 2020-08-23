@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 40</title>
+        <meta name="author" content="Ignacio Cuevas Serrano">
+        <script src="../lib/libreria.js"></script>
+        <script>
+            let base, exponente;
+            base = prompt("Introduzca la base:");
+            if (base === "" || base === null || isNaN(base)) {
+                alert("Error: la base tiene que ser un número");
+            } else {
+                exponente = prompt("Introduzca el exponente:");
+                if (exponente === "" || exponente === null || !esInt(exponente)) {
+                    console.log(esInt(exponente));
+                    alert("Error: el exponente tiene que ser un número natural mayor o igual a cero");
+                } else {
+                    alert(`El resultado de elevar ${base} a ${exponente} es: ${potencia(base, exponente)}`);
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <h1>Ejercicio 40</h1>
+    </body>
+</html>

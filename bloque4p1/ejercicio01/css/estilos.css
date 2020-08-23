@@ -1,0 +1,33 @@
+#parrafo1 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    font-variant: small-caps;
+    color: #666666;
+    background-image: url(../imagenes/pluma.gif);
+    background-repeat: repeat;
+    border: medium dotted #00FF00;
+    padding: 20px 20px 20px 20px;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-image: url(../imagenes/vineta.gif);
+}
+
+body {
+    color: #CA7C35
+}
+
+a:link {
+    text-transform: lowercase;
+}
+
+a:hover {
+    text-transform: uppercase;
+}

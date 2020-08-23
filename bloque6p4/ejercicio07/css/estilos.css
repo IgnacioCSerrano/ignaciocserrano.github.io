@@ -1,0 +1,22 @@
+p {
+    margin: 5px 0;
+    font-size: large;
+    width: fit-content;
+}
+
+p > span {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+i.fa-square, i.fa-check-square {
+    cursor: pointer;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.oculto {
+    display: none;
+}

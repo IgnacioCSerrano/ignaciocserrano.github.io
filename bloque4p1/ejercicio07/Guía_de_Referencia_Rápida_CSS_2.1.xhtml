@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta content="text/html; charset=UTF-8" />
+  <title>Guía de Referencia Rápida CSS 2.1</title>
+  
+    <!-- Metadatos del Dublin Core -->
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />	
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+  <meta name="DC.title" xml:lang="es" content="Guía de Referencia Rápida CSS 2.1" />
+  <meta name="DC.subject" content="W3C; CSS; CSS2; CSS21; CSS 2.1; Hojas; Estilo; Referencia; Guía; Rápida; Cascada; Style; Sheet; Cascading" />
+  <meta name="DC.description" xml:lang="es" content="Guía de referencia rápida para CSS 2.1 destinada principalmente para los desarrolladores/as que poseen conocimientos de las hojas de estilo." />
+  <meta name="DC.publisher" content="W3C Oficina Española" />
+
+  <meta name="DC.date" scheme="DCTERMS.W3CDTF" content="2006-01-19" />
+  <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+  <meta name="DC.creator" content="W3C Oficina Española" />
+  <meta name="DC.format" scheme="DCTERMS.IMT" content="application/xhtml+xml" />
+  <meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.w3c.es" />
+  <meta name="DC.language" scheme="DCTERMS.RFC1766" content="es" />
+  <meta name="DC.rights" content="http://www.w3.org/Consortium/Legal/" />
+  <!-- Fin de los metadatos del DC -->	
+  
+  <link href="https://www.w3c.es/Divulgacion/GuiasReferencia/CSS21/css/base.css" rel="stylesheet" type="text/css" />
+  <link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
+  <link href="css/aural.css" rel="stylesheet" media="aural" type="text/css" />  
+</head>
+
+<body>
+<h1><a href="http://www.w3c.es" title="Página principal de la Oficina Española del W3C">
+<img src="/img/eslogo-20030729" alt="Oficina espaola del W3C" width="279" height="52" /></a> Guía de Referencia
+<acronym title="Cascading Style Sheets" xml:lang="en">CSS</acronym> 2.1</h1>
+
+<div id="breadcrumbs">
+Estás en:
+    <ul>
+        <li><a href="/" title="Sitio Web de la Oficina Española del W3C">Oficina Española</a>
+            <ul>
+                <li>&#187; <a href="/Divulgacion" title="Información y documentos divulgativos">Documentos y Guías</a>
+                    <ul>
+                        <li>&#187; <a href="/Divulgacion/GuiasReferencia" title="Guías de Referencia">Guías de Referencia</a>
+                        <ul>
+                            <li>&#187; <span class="currentPage">CSS</span></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<p class="herramientas"><a href="#ayuda" title="Comentario acerca de la impresión de la guía">Ayuda a la impresión</a></p>
+
+<h2 id="contenidos">Contenidos</h2>
+<ul class="contenidos">
+  <li><a href="#selectores">Selectores</a></li>
+  <li><a href="#notacion">Notación</a></li>
+  <li><a href="#medios">Tipos de medios</a></li>
+  <li><a href="#sintaxis">Sintaxis</a></li>
+  <li><a href="#unidades">Unidades</a></li>
+  <li><a href="#modeloCajas">Modelo de cajas</a>
+    <ul>
+      <li><a href="#margenes">Márgenes</a></li>
+      <li><a href="#relleno">Relleno</a></li>
+      <li><a href="#bordes">Bordes</a></li>
+    </ul>
+  </li>
+  <li><a href="#formatoVisual">Modelo de formato visual</a></li>
+  <li><a href="#detallesVisual">Detalles del modelo de formato visual</a></li>
+  <li><a href="#efectosVisuales">Efectos visuales</a></li>
+  <li><a href="#contenidoGenerado">Contenido generado, numeración
+    automática y listas</a></li>
+  <li><a href="#colores">Colores y fondo</a></li>
+  <li><a href="#mediosPaginados">Medios paginados</a></li>
+  <li><a href="#fuentes">Fuentes</a></li>
+  <li><a href="#texto">Texto</a></li>
+  <li><a href="#tablas">Tablas</a></li>
+  <li><a href="#interfazUsuario">Interfaz de usuario</a></li>
+  <li><a href="#referencias">Referencias</a></li>
+</ul>
+
+<h2 id="selectores">Selectores</h2>
+
+<table class="selectores">
+  <caption>Listado de selectores</caption>
+  <thead>
+    <tr>
+      <th>Patrón</th>
+      <th>Aplicado a:</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>*</code></td>
+      <td>Cualquier elemento</td>
+      <td class="ejemplo"><acronym title="No disponible">N/D</acronym></td>
+    </tr>
+    <tr>
+      <td><code>e</code></td>
+      <td>Elemento <code>&lt;e&gt;</code></td>
+      <td class="ejemplo"><code>&lt;e&gt;</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>e f</code></td>
+      <td>Cualquier <code>&lt;f&gt;</code> que esté incluido en
+        <code>&lt;e&gt;</code></td>
+      <td class="ejemplo"><code>&lt;e&gt;...&lt;d&gt;...&lt;f/&gt;...&lt;/d&gt;...&lt;/e&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>e &gt; f</code></td>
+      <td>Cualquier <code>&lt;f&gt;</code> que es hijo de
+        <code>&lt;e&gt;</code></td>
+      <td class="ejemplo"><code>&lt;e&gt;...&lt;f&gt;...&lt;/f&gt;...&lt;/e&gt;</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>e:first-child</code></td>
+      <td><code>&lt;e&gt;</code> cuando es el primer hijo de su elemento
+      padre</td>
+      <td class="ejemplo"><code>&lt;f&gt;&lt;e&gt;&lt;/e&gt;...&lt;/f&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>e + f</code></td>
+      <td><code>&lt;f&gt;</code> si está precedido inmediatamente por un
+        <code>&lt;e&gt;</code></td>
+      <td class="ejemplo"><code>...&lt;/e&gt; &lt;f&gt;...&lt;f&gt;</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>e[miAtr]</code></td>
+      <td><code>&lt;e&gt;</code> si posee el atributo
+      <code>"miAtr"</code></td>
+      <td class="ejemplo"><code>&lt;e miAtr="xxx".../&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>e[miAtr="v"]</code></td>
+      <td><code>&lt;e&gt;</code> si posee el atributo <code>"miAtr"</code> y
+        este tiene el valor <code>"v"</code></td>
+      <td class="ejemplo"><code>&lt;e miAtr="v".../&gt;</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>e[miAtr~="v"]</code></td>
+      <td><code>&lt;e&gt;</code> si su atributo <code>"miAtr"</code> es una
+        lista de valores separados por espacios y uno es <code>"v"</code></td>
+      <td class="ejemplo"><code>&lt;e miAtr="x y z v".../&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>e[lang|="es"]</code></td>
+      <td><code>&lt;e&gt;</code> si su atributo <code>"lang"</code> es una
+        lista de valores separados por guiones y comienza con
+        <code>"es"</code></td>
+      <td class="ejemplo"><code>&lt;e lang="es-ES" .../&gt;</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>e.miClase</code></td>
+      <td><code>&lt;e&gt;</code> cuya clase es <code>"miClase"</code></td>
+      <td class="ejemplo"><code>&lt;e class="miClase".../&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>e#miId</code></td>
+      <td><code>&lt;e&gt;</code> cuyo identificador es <code>miId</code></td>
+      <td class="ejemplo"><code>&lt;e id="miId".../&gt;</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>a:link</code></td>
+      <td>Enlaces no visitados</td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr>
+      <td><code>a:visited</code></td>
+      <td>Enlaces visitados</td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr class="impar">
+      <td><code>e:active</code></td>
+      <td><code>&lt;e&gt;</code> cuando es activado (tiempo entre que se
+        pulsa un botón sobre él y se suelta)</td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr>
+      <td><code>e:hover</code></td>
+      <td><code>&lt;e&gt;</code> cuando se posiciona el cursor sobre él pero
+        no se activa</td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr class="impar">
+      <td><code>e:focus</code></td>
+      <td><code>&lt;e&gt;</code> cuando tiene el foco posicionado en él</td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr>
+      <td><code>e:lang(c)</code></td>
+      <td><code>&lt;e&gt;</code> si está marcado con el idioma
+        <code>c</code></td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr class="impar">
+      <td><code>e:first-line</code></td>
+      <td>Primera línea de <code>&lt;e&gt;</code></td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr>
+      <td><code>e:first-letter</code></td>
+      <td>Primera letra de <code>&lt;e&gt;</code></td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr class="impar">
+      <td id="before"><code>e:before</code></td>
+      <td>Aplica contenido antes de <code>&lt;e&gt;</code></td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr>
+      <td id="after"><code>e:after</code></td>
+      <td>Aplica contenido después del elemento <code>&lt;e&gt;</code></td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+    <tr class="impar">
+      <td><code>e , f</code></td>
+      <td>Aplica el mismo contenido a los elementos <code>&lt;e&gt;</code> y <code>&lt;f&gt;</code></td>
+      <td class="ejemplo">N/D</td>
+    </tr>
+  </tbody>
+</table>
+<!-- Tipos de medios y notación pueden ponerse en paralelo, ya que son pequeños -->
+
+<div id="notacion">
+<h2>Notación</h2>
+
+<table>
+  <caption>Notación</caption>
+  <thead>
+    <tr>
+      <th>Patrón</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>a b</code></td>
+      <td><code>a</code> seguido de <code>b</code></td>
+    </tr>
+    <tr>
+      <td><code>( a b )</code></td>
+      <td><code>a</code> y <code>b</code> agrupados</td>
+    </tr>
+    <tr class="impar">
+      <td><code>[ a | b ]</code></td>
+      <td><code>a</code> o <code>b</code></td>
+    </tr>
+    <tr>
+      <td><code>[ a || b ]</code></td>
+      <td><code>a</code> o <code>b</code> o ambos</td>
+    </tr>
+    <tr class="impar">
+      <td><code>a?</code></td>
+      <td><code>a</code> es opcional</td>
+    </tr>
+    <tr>
+      <td><code>a*</code></td>
+      <td>0 o varios <code>a</code></td>
+    </tr>
+    <tr class="impar">
+      <td><code>a+</code></td>
+      <td>1 o varios <code>a</code></td>
+    </tr>
+    <tr>
+      <td><code>a {n, m}</code></td>
+      <td><code>a</code> como mínimo n veces y como máximo m</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div id="medios">
+<h2>Tipos de Medios</h2>
+
+<table>
+  <caption>Tipos de medios o dispositivos soportados</caption>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Medio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>all</code></td>
+      <td>Todos los dispositivos</td>
+    </tr>
+    <tr>
+      <td><code>braille</code></td>
+      <td>Dispositivos táctiles braille</td>
+    </tr>
+    <tr class="impar">
+      <td><code>embossed</code></td>
+      <td>Impresoras braille</td>
+    </tr>
+    <tr>
+      <td><code>handheld</code></td>
+      <td>Dispositivos de mano (pantallas pequeñas, ancho de banda reducido,
+        etc.)</td>
+    </tr>
+    <tr class="impar">
+      <td><code>print</code></td>
+      <td>Para documentos paginados y mostrados en vista de impresión</td>
+    </tr>
+    <tr>
+      <td><code>projection</code></td>
+      <td>Dispositivos de proyección de presentaciones</td>
+    </tr>
+    <tr>
+      <td><code>screen</code></td>
+      <td>Pantallas a color de equipos informáticos</td>
+    </tr>
+    <tr class="impar">
+      <td><code>speech</code></td>
+      <td>Para sintetizadores de voz. Similar a "aural"</td>
+    </tr>
+    <tr>
+      <td><code>tty</code></td>
+      <td>Dispositivos de visualización con capacidades limitadas</td>
+    </tr>
+    <tr class="impar">
+      <td><code>tv</code></td>
+      <td>Televisores</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div id="sintaxis">
+<h2>Sintaxis</h2>
+<pre>  <code>@import "hoja.css" tipo-medio;
+
+  /* Comentarios */
+
+  @media tipo-medio {
+    selector { 
+      propiedad: valor-es;
+    }
+  }</code></pre>
+</div>
+
+<div id="unidades">
+<h2>Unidades</h2>
+
+<div id="longitudes">
+
+<table id="longitudesRelativas">
+  <caption>Longitudes relativas</caption>
+  <thead>
+    <tr>
+      <th>Unidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>px</code></td>
+      <td>Píxeles (relativo al dispositivo)</td>
+    </tr>
+    <tr>
+      <td><code>em</code></td>
+      <td>Tamaño de la fuente actual</td>
+    </tr>
+    <tr class="impar">
+      <td><code>ex</code></td>
+      <td>Alto del caracter 'x'</td>
+    </tr>
+  </tbody>
+</table>
+
+<table id="longitudesAbsolutas">
+  <caption>Longitudes absolutas</caption>
+  <thead>
+    <tr>
+      <th>Unidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>in</code></td>
+      <td>Pulgadas (1pulgada = 2.54 <abbr title="Centímetros">cm</abbr>)</td>
+    </tr>
+    <tr>
+      <td><code>cm</code></td>
+      <td>Centímetros</td>
+    </tr>
+    <tr class="impar">
+      <td><code>mm</code></td>
+      <td>Milímetros</td>
+    </tr>
+    <tr>
+      <td><code>pt</code></td>
+      <td>Puntos (1pt = 1/72pulgadas)</td>
+    </tr>
+    <tr class="impar">
+      <td><code>pc</code></td>
+      <td>Picas (1pica = 12 puntos)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<table id="porcentaje">
+  <caption>Porcentaje</caption>
+  <thead>
+    <tr>
+      <th>Unidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>%</code></td>
+      <td>Porcentaje</td>
+    </tr>
+    <tr>
+      <td><code>0</code></td>
+      <td>No requiere unidad</td>
+    </tr>
+  </tbody>
+</table>
+
+<table id="unidadesColores">
+  <caption>Representación de los colores</caption>
+  <thead>
+    <tr>
+      <th>Unidad</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>#RRGGBB</code></td>
+      <td>Color <acronym title="Red Green Blue" xml:lang="en">RGB</acronym>
+        (6 Valores hexadecimales)</td>
+    </tr>
+    <tr>
+      <td><code>#RGB</code></td>
+      <td>Notación simplificada (#RGB = #RRGGBB)</td>
+    </tr>
+    <tr class="impar">
+      <td><code>rgb(R,G,B)</code></td>
+      <td>Color RGB (3 valores de 0 a 255)</td>
+    </tr>
+    <tr>
+      <td><code>rgb(R%,G%,B%)</code></td>
+      <td>Color RGB (3 valores porcentuales)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="modeloCajas">Modelo de Cajas</h2>
+
+<p id="modeloCajasImagen"><img alt="Modelo de cajas" id="modelo-cajas"
+height="224" width="296" src="./img/box-model.png" /></p>
+
+<div id="margenesRelleno">
+<h3 id="margenes">Márgenes</h3>
+
+<table>
+  <caption>Propiedades de márgenes</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>margin-top</code><br />
+        <code>margin-right</code><br />
+        <code>margin-bottom</code><br />
+        <code>margin-left</code></td>
+      <td>Tamaño del margen superior, derecho, inferior e izquierdo</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; | <code>auto</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>margin</code></td>
+      <td>Ancho para varios márgenes individuales</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; | <code>auto</code> ]{1,4}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h3 id="relleno">Relleno</h3>
+
+<table>
+  <caption>Propiedades de relleno</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>padding-top</code><br />
+        <code>padding-right</code><br />
+        <code>padding-bottom</code><br />
+        <code>padding-left</code></td>
+      <td>Ancho del relleno superior, derecho, inferior e izquierdo</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>padding</code></td>
+      <td>Tamaños para varios rellenos individuales</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; ] {1,4}</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="bordes">Bordes</h3>
+
+<table class="propiedades">
+  <caption>Propiedades de los bordes</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td id="border-top-width"><code>border-top-width</code><br />
+        <code>border-right-width</code><br />
+        <code>border-bottom-width</code><br />
+        <code>border-left-width</code></td>
+      <td>Anchura del borde superior, derecho, inferior o izquierdo</td>
+      <td class="valores">[ <code>thin</code> |
+        <code><strong>medium</strong></code> | <code>thick</code> | &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td id="border-width"><code>border-width</code></td>
+      <td>Anchos de varios bordes individuales</td>
+      <td class="valores">[ <code>thin</code> | <code>medium</code> | <code>thick</code> |
+        &lt;<a href="#longitudesRelativas">longitud</a>&gt; ] {1,4}</td>
+    </tr>
+    <tr class="impar">
+      <td id="border-top-color"><code>border-top-color</code><br />
+        <code>border-right-color</code><br />
+        <code>border-bottom-color</code><br />
+        <code>border-left-color</code></td>
+      <td>Color del borde superior, derecho, inferior o
+        izquierdo</td>
+      <td class="valores">[ &lt;<a href="#unidadesColores">color</a>&gt; | <code>transparent</code> ]</td>
+    </tr>
+    <tr>
+      <td id="border-color"><code>border-color</code></td>
+      <td>Colores de varios bordes individuales</td>
+      <td class="valores">[ &lt;<a href="#unidadesColores">color</a>&gt; |
+        <code>transparent</code> ] {1,4}</td>
+    </tr>
+    <tr class="impar">
+      <td id="border-top-style"><code>border-top-style</code><br />
+        <code>border-right-style</code><br />
+        <code>border-bottom-style</code><br />
+        <code>border-left-style</code></td>
+      <td>Estilo del borde superior, derecho, inferior o izquierdo</td>
+      <td class="valores">[ <code><strong>none</strong></code> |
+        <code>hidden</code> | <code>dotted</code> | <code>dashed</code> |
+        <code>solid</code> | <code>double</code> | <code>groove</code> |
+        <code>ridge</code> | <code>inset</code> | <code>outset</code> ]</td>
+    </tr>
+    <tr>
+      <td id="border-style"><code>border-style</code></td>
+      <td>Estilos de varios bordes individuales</td>
+      <td class="valores">[ <code>none</code> | <code>hidden</code> |
+        <code>dotted</code> | <code>dashed</code> | <code>solid</code> |
+        <code>double</code> | <code>groove</code> | <code>ridge</code> |
+        <code>inset</code> | <code>outset</code> ] {1,4}</td>
+    </tr>
+    <tr class="impar">
+      <td><code>border-top</code><br />
+        <code>border-right</code><br />
+        <code>border-bottom</code><br />
+        <code>border-left</code></td>
+      <td>Ancho, estilo y el color para el borde superior, derecho, inferior
+        o izquierdo</td>
+      <td class="valores">[ &lt;<a
+        href="#border-top-width">border-top-width</a>&gt; || &lt;<a
+        href="#border-top-style">border-top-style</a>&gt; || &lt;<a
+        href="#border-top-color">border-top-color</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>border</code></td>
+      <td>Ancho, el estilo y el color para los 4 bordes</td>
+      <td class="valores">[ &lt;<a
+        href="#border-top-width">border-top-width</a>&gt; || &lt;<a
+        href="#border-top-style">border-top-style</a>&gt; || &lt;<a
+        href="#border-top-color">border-top-color</a>&gt; ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="formatoVisual">Modelo de formato visual</h2>
+
+<table>
+  <caption>Propiedades de formato visual</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>display</code></td>
+      <td>Comportamiento del contenedor</td>
+      <td class="valores">[ <code><strong>inline</strong></code> |
+        <code>block</code> | <code>list-item</code> | <code>run-in</code> |
+        <code>inline-block</code> | <code>table</code> |
+        <code>inline-table</code> | <code>table-row-group</code> |
+        <code>table-header-group</code> | <code>table-footer-group</code> |
+        <code>table-row</code> | <code>table-column-group</code> |
+        <code>table-column</code> | <code>table-cell</code> |
+        <code>table-caption</code> | <code>none</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>position</code></td>
+      <td>Esquema de posicionamiento</td>
+      <td class="valores">[ <code><strong>static</strong></code> |
+        <code>relative</code> | <code>absolute</code> | <code>fixed</code>
+      ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>top</code><br />
+        <code>right</code><br />
+        <code>bottom</code><br />
+        <code>left</code></td>
+      <td>Desplazamiento de la caja (respecto al límite superior, derecho, inferior o izquierdo del contenedor)</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; |
+        <code><strong>auto</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>float</code></td>
+      <td>Posicionamiento flotante</td>
+      <td class="valores">[ <code>left</code> | <code>right</code> |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>clear</code></td>
+      <td>Control de cajas adyacentes a los <code>float</code></td>
+      <td class="valores">[ <code><strong>none</strong></code> |
+        <code>left</code> | <code>right</code> | <code>both</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>z-index</code></td>
+      <td>Solapamiento de niveles de capas</td>
+      <td class="valores">[ <code><strong>auto</strong></code> |
+        &lt;entero_con_signo&gt; ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>direction</code></td>
+      <td>Sentido direccional de la escritura</td>
+      <td class="valores">[ <code><strong>ltr</strong></code> |
+        <code>rtl</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>unicode-bidi</code></td>
+      <td>Sentido direccional de la escritura</td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        <code>embed</code> | <code>bidi-override</code> ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="detallesVisual">Detalles del modelo de formato visual</h2>
+
+<table>
+  <caption>Propiedades de los detalles formato visual</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>width</code></td>
+      <td>Ancho</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; |
+        <code><strong>auto</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>min-width</code></td>
+      <td>Ancho mínimo</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>max-width</code></td>
+      <td>Ancho máximo</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>height</code></td>
+      <td>Alto</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; |
+        <code><strong>auto</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>min-height</code></td>
+      <td>Alto mínimo</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>max-height</code></td>
+      <td>Alto máximo</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="line-height"><code>line-height</code></td>
+      <td>Altura entre las bases del texto</td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        &lt;número&gt; | &lt;<a href="#longitudesRelativas">longitud</a>&gt;
+        | &lt;<a href="#porcentaje">porcentaje</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>vertical-align</code></td>
+      <td>Alineación vertical del texto</td>
+      <td class="valores">[ <code><strong>baseline</strong></code> |
+        <code>sub</code> | <code>super</code> | <code>top</code> |
+        <code>text-top</code> | <code>middle</code> | <code>bottom</code> |
+        <code>text-bottom</code> | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; | &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="efectosVisuales">Efectos visuales</h2>
+
+<table>
+  <caption>Propiedades para efectos visuales</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>overflow</code></td>
+      <td>Comportamiento del contenido si se desborda en la caja</td>
+      <td class="valores">[ <code><strong>visible</strong></code> |
+        <code>hidden</code> | <code>scroll</code> | <code>auto</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>clip</code></td>
+      <td>Especifica la región visible del elemento</td>
+      <td class="valores">[ <code>rect (</code>&lt;<a
+        href="#longitudesRelativas">longitud</a>&gt;, &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt;, &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt;, &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt;<code>)</code> |
+        <code><strong>auto</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>visibility</code></td>
+      <td>Visibilidad de las cajas</td>
+      <td class="valores">[ <code><strong>visible</strong></code> | <code>hidden</code> |
+        <code>collapse</code> ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="contenidoGenerado">Contenido generado, numeración automática y
+listas</h2>
+
+<table>
+  <caption>Propiedades para contenido generado, numeración automática y
+  listas</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>content</code></td>
+      <td>Agregador de contenido para <a href="#after" title="Descripción del pseudoelemento :after"><code>:after</code></a> y
+        <a href="#before" title="Descripción del pseudoelemento :before"><code>:before</code></a></td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        <code>none</code> | [ &lt;texto&gt; | &lt;uri&gt; | &lt;contador&gt;
+        | <code>attr(X)</code> | <code>open-quote</code> |
+        <code>close-quote</code> | <code>no-open-quote</code> |
+        <code>no-close-quote</code>]+ ]</td>
+    </tr>
+    <tr>
+      <td><code>quotes</code></td>
+      <td>Especifica las marcas para indicar las citas</td>
+      <td class="valores">[ [ &lt;texto&gt; &lt;texto&gt; ]+ |
+        <code>none</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>counter-reset</code></td>
+      <td>Inicializa un contador</td>
+      <td class="valores">[ [ &lt;identificador&gt; &lt;entero&gt;? ]+ |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>counter-increment</code></td>
+      <td>Incrementa un contador</td>
+      <td class="valores">[ [ &lt;identificador&gt; &lt;entero&gt;? ]+ |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="list-style-type"><code>list-style-type</code></td>
+      <td>Estilo aplicable a los marcadores visuales de las listas</td>
+      <td class="valores">[ <code><strong>disc</strong></code> |
+        <code>circle</code> | <code>square</code> | <code>decimal</code> |
+        <code>decimal-leading-zero</code> | <code>lower-roman</code> |
+        <code>upper-roman</code> | <code>lower-greek</code> |
+        <code>lower-latin</code> | <code>upper-latin</code> |
+        <code>armenian</code> | <code>georgian</code> |
+        <code>lower-alpha</code> | <code>upper-alpha</code> |
+        <code>none</code> ]</td>
+    </tr>
+    <tr id="list-style-image">
+      <td><code>list-style-image</code></td>
+      <td>Imagen aplicable a los elementos de las listas</td>
+      <td class="valores">[ <code>url("</code>http://...<code>")</code> |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="list-style-position"><code>list-style-position</code></td>
+      <td>Posición dentro de la lista de los elementos marcadores de las
+        listas</td>
+      <td class="valores">[ <code>inside</code> |
+        <code><strong>outside</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>list-style</code></td>
+      <td>Permite establecer el estilo de la lista, la imagen y/o la
+      posición</td>
+      <td class="valores">[ &lt;<a
+        href="#list-style-type">list-style-type</a>&gt; || &lt;<a
+        href="#list-style-position">list-style-position</a>&gt; || &lt;<a
+        href="#list-style-image">list-style-image</a>&gt; ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="colores">Colores y Fondo</h2>
+
+<table>
+  <caption>Propiedades para gestión de colores y fondo</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td id="color"><code>color</code></td>
+      <td>Color del primer plano<code></code></td>
+      <td class="valores">&lt;<a href="#unidadesColores">color</a>&gt;</td>
+    </tr>
+    <tr>
+      <td id="background-color"><code>background-color</code></td>
+      <td>Color de fondo</td>
+      <td class="valores">[ &lt;<a href="#unidadesColores">color</a>&gt; |
+        <code><strong>transparent</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="background-image"><code>background-image</code></td>
+      <td>Imagen de fondo</td>
+      <td class="valores">[ <code>url(</code>...<code>)</code> |
+        <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td id="background-repeat"><code>background-repeat</code></td>
+      <td>Repetición de la imagen de fondo</td>
+      <td class="valores">[ <code><strong>repeat</strong></code> |
+        <code>repeat-x</code> | <code>repeat-y</code> |
+        <code>no-repeat</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="background-attachment"><code>background-attachment</code></td>
+      <td>Desplazamiento de la imagen de fondo</td>
+      <td class="valores">[ <code><strong>scroll</strong></code> |
+        <code>fixed</code> ]</td>
+    </tr>
+    <tr>
+      <td id="background-position"><code>background-position</code></td>
+      <td>Posición de la imagen de fondo</td>
+      <td class="valores">[ [ &lt;<a href="#porcentaje">porcentaje</a>&gt; |
+        &lt;<a href="#longitudesRelativas">longitud</a>&gt; |
+        <code>left</code> | <code>center</code> | <code>right</code> ] [
+        &lt;<a href="#porcentaje">porcentaje</a>&gt; | &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | <code>top</code> |
+        <code>center</code> | <code>bottom</code>]? ] | [ [ <code>left</code>
+        | <code>center</code> | <code>right</code> ] || [ <code>top</code> |
+        <code>center</code> | <code>bottom</code> ] ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>background</code></td>
+      <td>Propiedades individuales relacionadas con el fondo</td>
+      <td class="valores">[ &lt;<a
+        href="#background-color">background-color</a>&gt; || &lt;<a
+        href="#background-image">background-image</a>&gt; || &lt;<a
+        href="#background-repeat">background-repeat</a>&gt; || &lt;<a
+        href="#background-attachment">background-attachment</a>&gt; || &lt;<a
+        href="#background-position">background-position</a>&gt; ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<div id="mediosPaginados">
+<h2>Medios paginados</h2>
+
+<table>
+  <caption>Propiedades para medios paginados</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>page-break-before</code></td>
+      <td>Gestionar saltos de página antes del elemento</td>
+      <td class="valores">[ <code><strong>auto</strong></code> |
+        <code>always</code> | <code>avoid</code> | <code>left</code> |
+        <code>right</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>page-break-after</code></td>
+      <td>Gestionar saltos de página posterior al elemento</td>
+      <td class="valores">[ <code><strong>auto</strong></code> |
+        <code>always</code> | <code>avoid</code> | <code>left</code> |
+        <code>right</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>page-break-inside</code></td>
+      <td>Evita los saltos de línea en el interior del elemento</td>
+      <td class="valores">[ <code>avoid</code> |
+        <code><strong>auto</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>orphans</code></td>
+      <td>Mínimo número de líneas de un párrafo que deben ser dejadas
+        como mínimo al final de una página</td>
+      <td>&lt;entero&gt;</td>
+    </tr>
+    <tr class="impar">
+      <td><code>widows</code></td>
+      <td>Mínimo número de líneas de un párrafo que deben ser dejadas
+        como mínimo al principio de una página</td>
+      <td>&lt;entero&gt;</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="fuentes">Fuentes</h2>
+
+<table>
+  <caption>Propiedades para gestión de fuentes tipográficas</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>font-family</code></td>
+      <td>Familias de fuentes</td>
+      <td class="valores">[ [ &lt;nombre-familia&gt; |
+        &lt;familia-genérica&gt; ] [, &lt;nombre-familia&gt; |
+        &lt;familia-genérica&gt; ]* ]</td>
+    </tr>
+    <tr>
+      <td id="font-style"><code>font-style</code></td>
+      <td>Estilo de la fuente</td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        <code>italic</code> | <code>oblique</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="font-variant"><code>font-variant</code></td>
+      <td>Convierte las minúsculas a mayúsculas pero mantienen un tamaño
+        inferior a las mayúsculas</td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        <code>small-caps</code> ]</td>
+    </tr>
+    <tr>
+      <td id="font-weight"><code>font-weight</code></td>
+      <td>Intensidad de la fuente</td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        <code>bold</code> | <code>bolder</code> | <code>lighter</code> |
+        <code>100</code> | <code>200</code> | <code>300</code> |
+        <code><strong>400</strong></code> | <code>500</code> |
+        <code>600</code> | <code>700</code> | <code>800</code> |
+        <code>900</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td id="font-size"><code>font-size</code></td>
+      <td>Tamaño de la fuente</td>
+      <td class="valores">[ [ <code>xx-small</code> | <code>x-small</code> |
+        <code>small</code> | <code><strong>medium</strong></code> |
+        <code>large</code> | <code>x-large</code> | <code>xx-large</code>] |
+        [<code>larger</code> | <code>smaller</code>] | &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td id="font"><code>font</code></td>
+      <td>Atajo para establecer el resto de propiedades sobre las fuentes a
+        la vez</td>
+      <td class="valores">[ [ [ &lt;<a href="#font-style">font-style</a>&gt;
+        || &lt;<a href="#font-variant">font-variant</a>&gt; || &lt;<a
+        href="#font-weight">font-weight</a>&gt; ]? &lt;<a
+        href="#font-size">font-size</a>&gt; [ / &lt;<a
+        href="#line-height">line-height</a>&gt; ]? &lt;<a
+        href="#font-family">font-family</a>&gt; ] | <code>caption</code> |
+        <code>icon</code> | <code>menu</code> | <code>message-box</code> |
+        <code>small-caption</code> | <code>status-bar</code> ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="texto">Texto</h2>
+
+<table>
+  <caption>Propiedades para el texto</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>text-indent</code></td>
+      <td>Desplazamiento de la primera línea del texto</td>
+      <td class="valores">[ &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; | &lt;<a
+        href="#porcentaje">porcentaje</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>text-align</code></td>
+      <td>Alineamiento del texto</td>
+      <td class="valores">[ <code><strong>left</strong></code> |
+        <code>right</code> | <code>center</code> | <code>justify</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>text-decoration</code></td>
+      <td>Efectos de subrayado, tachado, parpadeo</td>
+      <td class="valores">[ <code><strong>none</strong></code> |
+        [ <code>underline</code> || <code>overline</code> ||
+        <code>line-through</code> || <code>blink</code> ] ]</td>
+    </tr>
+    <tr>
+      <td><code>letter-spacing</code></td>
+      <td>Espacio entre caracteres</td>
+      <td class="valores">[ <code><strong>normal</strong></code> | &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>word-spacing</code></td>
+      <td>Espacio entre palabras</td>
+      <td class="valores">[ <code><strong>normal</strong></code> | &lt;<a
+        href="#longitudesRelativas">longitud</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>text-transform</code></td>
+      <td>Transformaciones del texto a mayúsculas/minúsculas</td>
+      <td class="valores">[ <code>capitalize</code> | <code>uppercase</code>
+        | <code>lowercase</code> | <code><strong>none</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>white-space</code></td>
+      <td>Comportamiento de los espacios dentro de los elementos</td>
+      <td class="valores">[ <code><strong>normal</strong></code> |
+        <code>pre</code> | <code>nowrap</code> | <code>pre-wrap</code> |
+        <code>pre-line</code> ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tablas">Tablas</h2>
+
+<table>
+  <caption>Propiedades para el texto</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>caption-side</code></td>
+      <td>Posición del título de respecto la tabla</td>
+      <td class="valores">[ <code><strong>top</strong></code> |
+        <code>bottom</code> ]</td>
+    </tr>
+    <tr>
+      <td><code>table-layout</code></td>
+      <td>Control del algoritmo usado para el formato de las celdas, filas y
+        columnas</td>
+      <td class="valores">[ <code><strong>auto</strong></code> |
+        <code>fixed</code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>border-collapse</code></td>
+      <td>Selección del modelo de los bordes</td>
+      <td class="valores">[ <code>collapse</code> |
+        <code><strong>separate</strong></code> ]</td>
+    </tr>
+    <tr>
+      <td><code>border-spacing</code></td>
+      <td>Espaciado entre los bordes de celdas adyacentes</td>
+      <td class="valores">&lt;<a href="#longitudesRelativas">longitud</a>&gt;
+        &lt;<a href="#longitudesRelativas">longitud</a>&gt;?</td>
+    </tr>
+    <tr class="impar">
+      <td><code>empty-cells</code></td>
+      <td>Visibilidad de los bordes de celdas sin contenido</td>
+      <td class="valores">[ <code><strong>show</strong></code> |
+        <code>hide</code> ]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="interfazUsuario">Interfaz de usuario</h2>
+
+<table>
+  <caption>Propiedades para el interfaz con el usuario</caption>
+  <thead>
+    <tr>
+      <th class="propiedad">Propiedad</th>
+      <th class="descripcion">Descripción</th>
+      <th class="valores">Valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="impar">
+      <td><code>cursor</code></td>
+      <td>Especifica el cursor</td>
+      <td class="valores">[ [<code>http://.../cursor.ico,</code>]*
+        [ <code><strong>auto</strong></code> | <code>crosshair</code> |
+        <code>default</code> | <code>pointer</code> | <code>move</code> |
+        <code>e-resize</code> | <code>ne-resize</code> |
+        <code>nw-resize</code> | <code>n-resize</code> |
+        <code>se-resize</code> | <code>sw-resize</code> |
+        <code>s-resize</code> | <code>w-resize</code> | <code>text</code> |
+        <code>wait</code> | <code>help</code> | <code>progress</code> ] ]</td>
+    </tr>
+    <tr>
+      <td id="outline-width"><code>outline-width</code></td>
+      <td>Ancho de la línea exterior</td>
+      <td class="valores">&lt;<a
+      href="#border-width">border-width</a>&gt;</td>
+    </tr>
+    <tr class="impar">
+      <td id="outline-style"><code>outline-style</code></td>
+      <td>Estilo de la línea exterior</td>
+      <td class="valores">&lt;<a
+      href="#border-style">border-style</a>&gt;</td>
+    </tr>
+    <tr>
+      <td id="outline-color"><code>outline-color</code></td>
+      <td>Color de la línea exterior</td>
+      <td class="valores">[ &lt;<a href="#unidadesColores">color</a>&gt; |
+        <code><strong>invert</strong></code> ]</td>
+    </tr>
+    <tr class="impar">
+      <td><code>outline</code></td>
+      <td>Propiedades individuales de la línea exterior.</td>
+      <td class="valores">[ &lt;<a
+        href="#outline-color">outline-color</a>&gt; || &lt;<a
+        href="#outline-style">outline-style</a>&gt; || &lt;<a
+        href="#outline-width">outline-width</a>&gt; ]</td>
+    </tr>
+    <tr>
+      <td><code>speak-header</code></td>
+      <td>(Aural) Indica si las cabeceras de la tabla se leen antes de cada
+        celda</td>
+      <td class="valores">[ <code><strong>once</strong></code> |
+        <code>always</code> ]</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<ul id="referencias">
+  <li><a href="http://www.w3.org/TR/CSS21" hreflang="en"
+    title="Acceso a la especificación de CSS oficial">Especificación de
+    CSS2.1</a></li>
+  <li><a href="http://www.w3c.es"
+    title="Página principal de la Oficina Española del W3C">Oficina
+    Española W3C</a></li>
+</ul>
+
+<div id="ayuda">
+	<h2>Ayuda a la impresión</h2>
+	<p>Para la impresión ajustada de la guía en un formato <acronym title="Deutsches Institut für Normung" xml:lang="de">DIN</acronym> A4 se recomienda el uso de un navegador que soporte las hojas de estilo CSS 2.
+	En las opciones de impresión puede habilitarse el fondo para que aparezcan los colores. Además, para conseguir una correcta estructura del documento en 4 páginas, 
+	deberían establecerse unos márgenes laterales (izquierdo y derecho) con el valor 0.</p>
+</div>
+
+<div id="piepagina">
+<hr />
+<a id="piepg" class="invisible">final de la p&aacute;gina</a>
+
+<address>
+  <a href="http://www.fundacionctic.org/"><img src="/img/ctic.png" alt="Fundaci&oacute;n CTIC"
+  width="103" height="32" /></a>&nbsp;<a href="http://validator.w3.org/check/referer" hreflang="en-us"><img
+  src="https://www.w3.org/Icons/valid-xhtml11" alt="&iexcl;XHTML v&aacute;lido 1.1!"
+  height="31" width="88" /></a>
+</address>
+
+<p class="small"><a href="mailto:webmaster@w3c.es">Webmaster</a> &middot; &Uacute;ltima modificaci&oacute;n:01/01/1970 01:00AM <br />
+</p>
+
+<p class="copyright"><a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright" hreflang="en-us"><br />
+Copyright</a> &copy; 1994-2019 <a href="http://www.w3.org/" hreflang="en-us"><acronym
+title="World Wide Web Consortium" xml:lang="en-us">W3C</acronym></a><sup>&reg;</sup> (<a
+href="http://www.lcs.mit.edu/" hreflang="en-us"><acronym
+title="Massachusetts Institute of Technology" xml:lang="en-us">MIT</acronym></a>, <a
+href="http://www.ercim.org" hreflang="en-us"><acronym
+title="European Research Consortium for Informatics and Mathematics" xml:lang="en-us">ERCIM</acronym></a>,
+<a href="http://www.keio.ac.jp/" hreflang="en-us">Keio</a>, <a href="http://ev.buaa.edu.cn/" hreflang="en">Beihang</a>), Todos los derechos reservados.
+Son aplicables las reglas de <a
+href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer" hreflang="en-us">responsabilidad</a>,
+<a
+href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks" hreflang="en-us">marcas registradas</a>,
+<a rel="Copyright"
+href="http://www.w3.org/Consortium/Legal/copyright-documents" hreflang="en-us">utilizaci&oacute;n de documentos</a> y <a rel="Copyright"
+href="http://www.w3.org/Consortium/Legal/copyright-software" hreflang="en-us">licencias de software</a>.
+Las interacciones con este sitio est&aacute;n de acuerdo con nuestra declaraci&oacute;n de privacidad de
+<a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public" hreflang="en-us">usuarios</a>
+y <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members" hreflang="en-us">miembros</a>.</p>
+</div>
+
+</body>
+</html>

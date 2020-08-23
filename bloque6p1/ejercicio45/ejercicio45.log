@@ -1,0 +1,16 @@
+function puedeAcceder(edad) {
+    if (edad >= 18) {
+        return true;
+    } else {
+        return confirm("¿Tienes permiso de tus padres?");
+    }
+};
+undefined
+function puedeAccederTernario(edad) {
+    return edad >= 18 ? true : confirm("¿Tienes permiso de tus padres?");
+};
+undefined
+let puedeAccederArrow = edad => {
+    return edad >= 18 || confirm("¿Tienes permiso de tus padres?");
+};
+undefined

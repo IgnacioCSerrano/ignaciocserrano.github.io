@@ -1,0 +1,64 @@
+h1 {
+    padding-bottom: 100px;
+}
+
+a {
+    padding: 100px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagen1 {	
+    background-image: url("../img/witcher1_b&w.png");
+}
+
+#imagen1:hover {	
+    background-image: url("../img/witcher1.png");
+}
+
+#imagen2 {	
+    background-image: url("../img/witcher2_b&w.png");
+}
+
+#imagen2:hover {	
+    background-image: url("../img/witcher2.png");
+}
+
+#imagen3 {	
+    background-image: url("../img/witcher3_b&w.jpg");
+}
+
+#imagen3:hover {	
+    background-image: url("../img/witcher3.jpg");
+}
+
+#imagen4 {	
+    background-image: url("../img/witcher4_b&w.png");
+}
+
+#imagen4:hover {	
+    background-image: url("../img/witcher4.png");
+}
+
+#imagen5 {	
+    background-image: url("../img/witcher5_b&w.png");
+}
+
+#imagen5:hover {	
+    background-image: url("../img/witcher5.png");
+}
+
+#imagen6 {	
+    background-image: url("../img/witcher6_b&w.jpg");
+}
+
+#imagen6:hover {	
+    background-image: url("../img/witcher6.jpg");
+}
+
+iframe {
+    margin-top: 20px;
+    width: 100%; 
+    height: calc(100vh - 234px) ;
+}

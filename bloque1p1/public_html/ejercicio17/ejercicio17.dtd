@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ejerc17.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE centro SYSTEM "ejerc17.dtd">
+
+    <centro>
+    ...
+    </centro>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT centro (grupo)*>
+<!ATTLIST centro
+    nombre CDATA #IMPLIED
+    direccionWeb CDATA #IMPLIED
+    cursoEscolar CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT grupo (modulos|horario)*>
+<!ATTLIST grupo
+    nivelEducativo CDATA #IMPLIED
+    familia CDATA #IMPLIED
+    abreviatura CDATA #IMPLIED
+    curso CDATA #IMPLIED
+    tutor CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT modulos (modulo)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT modulo (nombreModulo|profesor|horasTotales)*>
+<!ATTLIST modulo
+    abreviatura CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombreModulo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT profesor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT horasTotales (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT horario (primeraHora|segundaHora|terceraHora|cuartaHora|quintaHora|sextaHora)*>
+<!ATTLIST horario
+    recreo CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT primeraHora (lunes|martes|miercoles|jueves|viernes)*>
+<!ATTLIST primeraHora
+    duracion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT lunes (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT martes (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT miercoles (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT jueves (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT viernes (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT segundaHora (lunes|martes|miercoles|jueves|viernes)*>
+<!ATTLIST segundaHora
+    duracion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT terceraHora (lunes|martes|miercoles|jueves|viernes)*>
+<!ATTLIST terceraHora
+    duracion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cuartaHora (lunes|martes|miercoles|jueves|viernes)*>
+<!ATTLIST cuartaHora
+    duracion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT quintaHora (lunes|martes|miercoles|jueves|viernes)*>
+<!ATTLIST quintaHora
+    duracion CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sextaHora (lunes|martes|miercoles|jueves|viernes)*>
+<!ATTLIST sextaHora
+    duracion CDATA #IMPLIED
+  >

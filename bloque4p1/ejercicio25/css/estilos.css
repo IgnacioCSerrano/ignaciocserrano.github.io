@@ -1,0 +1,29 @@
+dl.resumen {
+    margin: 30px auto;
+    padding: 10px;
+    width: 50%;
+    font-family: sans-serif;
+    border: 1px solid crimson;
+    background-color: linen;
+}
+
+dl.resumen > dt {
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+dl.resumen > dt:not(:first-child) {
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+dl.resumen > dd {
+    margin-top: 5px;
+    color: darkslategray;
+    text-align: right;
+    font-style: italic;
+}
+
+dl.resumen > dd:not(:last-child) {
+    margin-bottom: 10px;
+}

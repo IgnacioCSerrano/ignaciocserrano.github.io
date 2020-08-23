@@ -1,0 +1,8 @@
+let i = 0;
+undefined
+while (i < 3) {
+    alert(`número: ${i}`);
+    i++;
+};
+
+2

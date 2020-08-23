@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+    padding: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: rgba(34, 139, 34, 0.25);
+    border-bottom: 1px solid rgb(34, 139, 34);
+}
+
+#wrapper {
+    margin: auto;
+    width: 50%;
+    font-size: x-large;
+    text-align: justify;
+}
+
+#up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: large;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}

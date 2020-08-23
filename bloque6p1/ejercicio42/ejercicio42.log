@@ -1,0 +1,10 @@
+var esMiembro = true;
+undefined
+var ftra = "La Cuota es de:  " + (esMiembro ? "2,00" : "10,00") +  " €";
+undefined
+esMiembro = false;
+false
+ftra
+"La Cuota es de:  2,00 €"
+ftra = `La Cuota es de:  ${esMiembro ? "2,00" : "10,00"} €`;
+"La Cuota es de:  10,00 €"

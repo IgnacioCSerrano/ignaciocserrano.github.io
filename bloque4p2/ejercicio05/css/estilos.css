@@ -1,0 +1,87 @@
+h1, h2 {
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    background-color: #595959;
+}
+
+.lista1 {
+    font-style: oblique;
+}
+
+.numeracion_georgiana {
+    list-style-type: georgian;
+}
+
+.numeracion_armenia {
+    list-style-type: armenian;
+}
+
+.numeracion_griega {
+    list-style-type: lower-greek;
+}
+
+.numeracion_romano_mayusculas {
+    list-style-type: upper-roman;
+}
+
+.lista2 {
+    padding: 15px;
+    margin: 10px;
+    font-style: oblique;
+    background-color: #CCFF99;
+    border: 3px solid darkred;
+    width: 160px;
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+.lista2 > li {
+    background-color: #CCFF66;
+    border: 3px inset #CCFF99;
+}
+
+.vineta2 {
+    list-style-type: disc;
+}
+
+.vineta3 {
+    list-style-type: square;
+}
+
+.vineta4 {
+    list-style-type: circle;
+    border: medium dashed #99FF33;
+}
+
+.menu {
+    font-style: oblique;
+    list-style: none;
+    padding: 0;
+}
+
+.menu > li {
+    border-width: 2px 0 0 2px;
+    border-style: solid none none solid;
+    border-top-color: #b9bbbe;
+    border-left-color: #b9bbbe;
+    margin-bottom: 10px;
+    background-image: url(../img/flecha_abajo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    list-style-type: upper-roman;
+}
+
+.lista6 {
+    font-style: italic;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+dd > ul {
+    background-color: #FF3300;
+    list-style-position: inside;
+    list-style-image: url(../img/vineta_cuadrada1.gif);
+    padding: 10px;
+    width: 400px;
+}

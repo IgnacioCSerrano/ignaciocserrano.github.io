@@ -1,0 +1,31 @@
+"use strict";
+
+var st = "l\xEDnea 1 de la cadena de texto \n          l\xEDnea 2 de la cadena de texto";
+var a = 5;
+var b = 10;
+var c = "Quince es ".concat(a + b, " y\n no ").concat(2 * a + b, ".");
+
+var miFuncion = function miFuncion() {};
+
+var saludo = function saludo(nombre, tratamiento) {
+  alert("Hola " + tratamiento + " " + nombre);
+};
+
+saludo('Miguel', "sr.");
+
+var cuadrado = function cuadrado(numero) {
+  return numero * numero;
+};
+
+var f1 = function f1(dato) {
+  console.log("Dato. " + dato);
+};
+
+var f2 = function f2(dato) {
+  return console.log("Dato: " + dato);
+};
+
+var f3 = function f3() {
+  return console.log("Hola");
+};
+undefined

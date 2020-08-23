@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <title>Hospederías Extremadura</title>
+        <link rel="icon" href="img/favicon.ico" type="image/ico" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+        <!-- PASO 3   -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <style>
+            /* PASO 1 
+            ---------------------------*/
+            /* Extra small devices (portrait phones, less than 576px) */
+            @media (max-width: 575.98px) { 
+                .tarjeta {
+                    width: 100%;
+                }    
+            }
+
+            /* Small devices (landscape phones, 576px and up) */
+            @media (min-width: 576px) and (max-width: 767.98px) { 
+                .tarjeta {
+                    width: calc(50% - 20px);
+                    margin-right: 20px;
+                }    
+            }
+
+            /* Medium devices (tablets, 768px and up) */
+            @media (min-width: 768px) and (max-width: 991.98px) { 
+                .tarjeta {
+                    width: calc(33.3333% - 20px);
+                    margin-right: 20px;
+                }    
+            }
+
+            /* Large devices (desktops, 992px and up) */
+            @media (min-width: 992px) and (max-width: 1199.98px) { 
+                .tarjeta {
+                    width: calc(25% - 20px);
+                    margin-right: 20px;
+                }    
+
+            }
+
+            /* Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) { 
+                .tarjeta {
+                    width: calc(20% - 20px);
+                    margin-right: 20px;
+                }    
+            }           
+
+            body {
+                background-color: #eee;
+                color: #3c4858;
+                font-family: 'Pontano Sans',Helvetica,Arial,sans-serif;
+                line-height: 1.5em;
+            }
+            .tarjeta {
+                box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+                margin-top: 50px;
+                border-radius: 6px;
+                background: #fff;
+                float: left;
+            }
+            /* PASO 2 
+            ---------------------------*/
+            .tarjeta {
+                font-size: 14px;     
+                text-align: center; 
+            }
+            .tarjeta:hover header {
+                transition: all 1s cubic-bezier(.34,1.61,.7,1);
+                transform: translate3d(0,-50px,0);
+            }
+
+            .tarjeta header {
+                position: relative;top: -30px; /* o margin-top: -30px;*/
+                z-index: 1;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            .tarjeta header img {
+                width: 100%;
+                border-radius: 6px;
+                box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+
+            }
+
+            /* PASO 3 
+            ---------------------------*/
+            .tarjeta .cuerpo {
+                position:relative;
+                margin-top: -70px;
+            }
+            .tarjeta .cuerpo h4 {
+                padding: 15px 0 5px;
+                margin: 0;
+            }
+            .tarjeta .cuerpo h4 a {
+                color: #3c4858;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 300;
+            }
+            .tarjeta .cuerpo .descripcion {
+                color: #999;
+                overflow: auto;
+                height: 120px;
+                padding: 10px;
+            }
+            .tarjeta footer {
+                border-top: 1px solid #eee;
+                margin: 20px 15px 0px;
+            }
+            .tarjeta footer .precio h4{
+                font-size: 1.125rem;
+                font-weight: 300;
+                line-height: 1.4em;   
+                color: #9a9a9a;
+            }
+
+            /* PASO 4 
+           ---------------------------*/
+            .tarjeta .cuerpo .iconos i{
+                margin-right: 20px;   
+            }
+            .tarjeta .cuerpo .iconos i:nth-child(1) {
+                color: green;
+            }
+            .tarjeta .cuerpo .iconos i:nth-child(2) {
+                color: red;
+            }
+
+            /* PASO 5 
+           ---------------------------*/
+            .tarjeta header:hover img {
+                animation: girar 6s forwards;
+            }
+            @keyframes girar {
+                0% {
+                    transform-origin: top left;
+                    animation-timing-function: ease-in-out;
+                }
+                20%, 60% {
+                    transform: rotate(80deg);
+                    transform-origin: top left;
+                    animation-timing-function: ease-in-out;
+                }
+                40%, 80% {
+                    transform: rotate(60deg);
+                    transform-origin: top left;
+                    animation-timing-function: ease-in-out;
+                    opacity: 1;
+                }
+                100% {
+                    transform: translate3d(0,700px,0);
+                    opacity: 0;
+                }
+            }
+            .clear {
+                clear: left;
+            }
+        </style>
+        <base target="hospederia"/>
+    </head>
+    <body>
+        <h1>Hospederías de Extremadura</h1>
+
+        <div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-mirador-de-llerena">
+                    <img class="img" src="img/llerena.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-mirador-de-llerena">Mirador de Llerena</a>
+                </h4>
+                <div class="descripcion">
+                    Hotel romántico de 4* situado al sur de la provincia de Badajoz. Edificado sobre una casa señorial novecentista, el encanto del edificio, su colorido y las exclusivas habitaciones seducen al viajero y convierten la estancia en una experiencia para el recuerdo.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-conventual-de-alcantara">
+                    <img class="img" src="img/alcantara.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-conventual-de-alcantara">Conventual de Alcántara</a>
+                </h4>
+                <div class="descripcion">
+                    Antiguo convento del S. XV convertido en hotel 4*, con una decoración moderna y respetuosa con el espíritu del edificio original.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-parque-de-monfrague">
+                    <img class="img" src="img/monfrague.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-parque-de-monfrague">Parque de Monfragüe</a>
+                </h4>
+                <div class="descripcion">
+                    Situado en plena dehesa extremeña, a las puertas del Parque Nacional de Monfragüe.  Desde 2017, el hotel cuenta con la certificación Starlight para observación astronómica.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-valle-del-ambroz">
+                    <img class="img" src="img/ambroz.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-valle-del-ambroz">Valle del Ambroz</a>
+                </h4>
+                <div class="descripcion">
+                    Hotel 4* edificado sobre un antiguo Convento de Trinitarios del siglo XVII, en la localidad de Hervás (Cáceres). La cuidadosa rehabilitación ha dotado al hotel de acogedoras habitaciones e instalaciones.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-puente-de-alconetar">
+                    <img class="img" src="img/alconetar.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-puente-de-alconetar">Puente de Alconétar</a>
+                </h4>
+                <div class="descripcion">
+                    Construida sobre el que fuera Palacio de los Condes Alba de Aliste en el siglo XV. La rehabilitación del edificio original como hotel 4* destaca en espacios como el restaurante y las habitaciones, que muestran el majestuoso encanto del monumento original.                </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-hurdes-reales">
+                    <img class="img" src="img/hurdes.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="https://www.hospederiasdeextremadura.es/es/hotel/hospederia-hurdes-reales">Hurdes Reales</a>
+                </h4>
+                <div class="descripcion">
+                    Hotel 4* ubicado sobre la antigua Factoría de Alfonso XIII, edificada en 1922.
+
+                    Las habitaciones con vistas a las montañas de Las Hurdes, el acogedor restaurante y el amplio salón de eventos son algunos de sus mayores atractivos. </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="#">
+                    <img class="img" src="img/gata.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="#pablo">Conventual Sierra de Gata</a>
+                </h4>
+                <div class="descripcion">
+                    Hotel con SPA situado en el antiguo convento franciscano de San Miguel, datado en el siglo XV. La rehabilitación del Hotel mezcla la modernidad con el respeto por el edificio original, con amplios espacios y habitaciones que lo convierten en un hotel 4* espléndido. </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <div class="tarjeta">
+            <header>
+                <a href="#">
+                    <img class="img" src="img/valle.jpg">
+                </a>
+            </header>
+            <div class="cuerpo">
+                <div class="iconos">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <h4>
+                    <a href="#pablo">Valle del Jerte</a>
+                </h4>
+                <div class="descripcion">
+                    Hotel 4* situado en un antiguo edificio dedicado a la curtición de pieles, que en el siglo XX fue convertido en molino de aceite aprovechando su cercanía al río Jerte. </div>
+            </div>
+            <footer>
+                <div class="precio">
+                    <h4>XX €/noche</h4>
+                </div>
+            </footer>
+        </div>
+        <br class="clear">
+        <p>Ejemplo basado en <a href="https://demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html#pablo">plantilla Bootstrap Cretive Tim</a></p>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

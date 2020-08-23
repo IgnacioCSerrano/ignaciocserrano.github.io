@@ -1,0 +1,13 @@
+let preguntar = (pregunta, cbSi, cbNo) => {
+  if (confirm(pregunta)) cbSi()
+  else cbNo();
+};
+
+undefined
+preguntar (
+  "¿Confirmas que eres mayor de edad?",
+  () => { alert("Perfecto!!! puedes comprar lo que quieras."); },
+  () => { alert("Lo siento, no puedes comprar determinados productos."); }
+);
+
+undefined
